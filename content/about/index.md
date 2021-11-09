@@ -107,16 +107,15 @@ label {
 
 <details>
 <summary title="Click to expand or close">Accessibility <span role="note">Accessibility issues?</span></summary>
-
 I take accessibility seriously, and have tried my best to make this site as accessible as I can. Images come with descriptive titles and focus states are clearly highlighted. Please refer to the table below if you want to feedback on specific aspects of accessibility.
 
 | Conditions                                | Common symptoms                                              |
 | ----------------------------------------- | ------------------------------------------------------------ |
-| Assistive technology (such as voice over) | If you are experiencing trouble viewing a particular part of this website, like video, audio and embedded ```iframes```, <a href="mailto:thomas.rettig.11@gmail.com" title="email link">contact me.</a> |
-| Colour-blind and/or sight-impaired        | If you are having colour contrast or font legibility issues, <a href="mailto:thomas.rettig.11@gmail.com" title="email link">contact me.</a> |
-| Caret browsing users                      | If an interactive element is unintendedly uninteractive, please <a href="mailto:thomas.rettig.11@gmail.com" title="email link">contact me.</a> |
+| Assistive technology (such as voice over) | Trouble viewing a particular part of this website, like video, audio and embedded ```iframes```. |
+| Colour-blind and/or sight-impaired        | Colour contrast or font legibility issues.
+| Caret browsing users                      | An interactive element is unintendedly uninteractive. |
 
-I am also aware that I am serving <a href="https://web.dev/variable-fonts/">variable fonts</a> on this website. As a result, ```font-weight``` on *bold* or _italic_ styling may be overriden by ```font-variation-settings```. I will try to find a workaround in the meantime.
+If what you are experiencing matches the above, please <a href="#form">contact me</a>.
 </details>
 
 <details>
@@ -132,13 +131,16 @@ Article headings are set in [Mānuka](https://klim.co.nz/retail-fonts/manuka/), 
 Users who have system-wide dark mode turned on would also notice the article title painted with a vibrant gradient.
 </details>
 
-<form name="contact" netlify>
+<form name="contact" id="form" netlify>
   ## Send me a short note
   <p>
     <label>Name <input type="text" name="name" /></label>
   </p>
   <p>
     <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your message <input type="text" name="message" /></label>
   </p>
   <p>
     <button type="submit">Send!</button>
