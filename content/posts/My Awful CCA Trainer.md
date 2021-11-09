@@ -3,16 +3,6 @@ title: An open letter to Mr Raphael
 draft: false
 date: 2021-11-08
 ---
-
-<style>
-	@media (prefers-color-scheme: dark) {
-		body{
-			background-repeat: no-repeat;
-			background-image: radial-gradient(50% 50% at top center,rgba(0,0,0,.66),#0C252F),url(https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/q_70/v1636375177/Artificial_Intelligence_Featured_Image_yj6pw8.avif);
-		}
-	}
-</style>
-
 _Note: Mr Raphael is my paid external <span title="Co-curriclar Activity">CCA</span> trainer who teaches programming._
 
 <hr>

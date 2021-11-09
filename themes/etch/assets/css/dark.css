@@ -62,17 +62,6 @@ main#content a
 
 main#content p {
     color: var(--dark-text-color);
-    font-variation-settings: "wght" 380, "opsz" 10;
-}
-
-main#content li
-{
-    font-variation-settings: "wght" 380, "opsz" 10;
-}
-
-main#content blockquote
-{
-    font-variation-settings: "wght" 380, "opsz" 10;
 }
 
 main#content code

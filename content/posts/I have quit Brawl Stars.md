@@ -4,20 +4,6 @@ date: 2021-11-06
 draft: false
 ---
 
-<style>
-	@media (prefers-color-scheme: dark) {
-		body{
-			background-repeat: no-repeat;
-			background-image: radial-gradient(50% 50% at top center,rgba(0,0,0,.66),#0C252F),url(https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636295609/brawl-stars-featured-image.avif);
-		}
-
-		main#content h1 {
-			background-image: none;
-			-webkit-text-fill-color: white;
-		}
-	}
-</style>
-
 
 I’ve quit Brawl Stars after 10 months of intensive playing. Not because I was _forced_ to, but because I _want_ to. So, here’s the problem: Brawl Stars is addictive. No, I do not mean that in a purely negative way. I mean that in an unethical, vicious way. Yes, it served me well. I enjoyed the playing; it was fun. It was a lived experience. The world around me was illuminated by the parallel universe of Brawl Stars. My friends, the online community; they felt the same way too.
 
