@@ -134,7 +134,7 @@ Users who have system-wide dark mode turned on would also notice the article tit
 <details>
   <summary title="Click to expand or close">Contact Form<span role="note">Leave a short note for me</span></summary>
 <form name="contact" id="form" netlify>
-  <section>
+  <section class="contact">
     <p>
       <label>Name <input type="text" name="name" /></label>
     </p>
@@ -142,7 +142,7 @@ Users who have system-wide dark mode turned on would also notice the article tit
       <label>Email <input type="email" name="email" /></label>
     </p>
     <p>
-      <label>Your message <input type="text" name="message" /></label>
+      <label>Your message <input type="text" name="message" style="height: 100px;" /></label>
     </p>
   </section>
   <p>

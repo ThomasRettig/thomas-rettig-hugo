@@ -408,7 +408,7 @@ main#content summary > span {
     font-variation-settings: "wght" 450, "opsz" 8;
 }
 
-[open] summary::before {
+main#content [open] summary::before {
     transform: rotate(32deg);
 }
 
