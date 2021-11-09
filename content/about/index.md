@@ -119,8 +119,7 @@ I take accessibility seriously, and have tried my best to make this site as acce
 I am also aware that I am serving <a href="https://web.dev/variable-fonts/">variable fonts</a> on this website. As a result, ```font-weight``` on *bold* or _italic_ styling may be overriden by ```font-variation-settings```. I will try to find a workaround in the meantime.
 </details>
 
-
-<details >
+<details>
   <summary title="Click to expand or close">Colophon<span role="note">A note on the type</span></summary>
 <p>The body text in this site is set in <smcp><a href="https://github.com/adobe-fonts/source-serif">Source Serif 4</a></smcp>, an open-source text typeface designed by Frank Grießhammer. It is a transitional serif face inspired by the types of <a href="https://en.wikipedia.org/wiki/Pierre_Simon_Fournier). In particular, I am using the caption optical size to optimise legibility">Pierre-Simon Fournier</a>.</p>
 
@@ -132,6 +131,19 @@ Article headings are set in [Mānuka](https://klim.co.nz/retail-fonts/manuka/), 
 
 Users who have system-wide dark mode turned on would also notice the article title painted with a vibrant gradient.
 </details>
+
+<form name="contact" netlify>
+  ## Send me a short note
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send!</button>
+  </p>
+</form>
 
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
