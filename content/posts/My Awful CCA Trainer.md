@@ -20,7 +20,7 @@ Thirdly, you barely teach. I have not learnt anything about Python since you cam
 For all these, reasons, I am a little disheartened with the quality of your teaching. The school is not paying you just to see your face on Zoom. The teachers-in-charge are not seeing you just to receive fake claims. And us, the students, are not meeting you every week just to learn nothing. I will be glad to follow-up on this and gain understanding from you. Look. I’m being nice and polite. I respect your coding abilities greatly, and I hope to attain the same proficiency as you one day. But for the time being, the only piece of Python code that I know of is:
 
 ```python
-print("Please go away.")
+print("Please go away. Seriously.")
 ```
 
 <smcp>Yours sincerely,</smcp><br>Thomas Rettig
