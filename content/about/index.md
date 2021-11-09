@@ -107,7 +107,7 @@ label {
 
 <details>
 <summary title="Click to expand or close">Accessibility <span role="note">Accessibility issues?</span></summary>
-I take accessibility seriously, and have tried my best to make this site as accessible as I can. Images come with descriptive titles and focus states are clearly highlighted. Please refer to the table below if you want to feedback on specific aspects of accessibility.
+<p>I take accessibility seriously, and have tried my best to make this site as accessible as I can. Images come with descriptive titles and focus states are clearly highlighted. Please refer to the table below if you want to feedback on specific aspects of accessibility.</p>
 
 | Conditions                                | Common symptoms                                              |
 | ----------------------------------------- | ------------------------------------------------------------ |
@@ -131,21 +131,25 @@ Article headings are set in [Mānuka](https://klim.co.nz/retail-fonts/manuka/), 
 Users who have system-wide dark mode turned on would also notice the article title painted with a vibrant gradient.
 </details>
 
+<details>
+  <summary title="Click to expand or close">Contact Form<span role="note">Leave a short note for me</span></summary>
 <form name="contact" id="form" netlify>
-  ## Send me a short note
-  <p>
-    <label>Name <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Email <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your message <input type="text" name="message" /></label>
-  </p>
+  <section>
+    <p>
+      <label>Name <input type="text" name="name" /></label>
+    </p>
+    <p>
+      <label>Email <input type="email" name="email" /></label>
+    </p>
+    <p>
+      <label>Your message <input type="text" name="message" /></label>
+    </p>
+  </section>
   <p>
     <button type="submit">Send!</button>
   </p>
 </form>
+</details>
 
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

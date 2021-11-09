@@ -408,7 +408,7 @@ main#content summary > span {
     font-variation-settings: "wght" 450, "opsz" 8;
 }
 
-[open] main#content summary::before {
+[open] summary::before {
     transform: rotate(32deg);
 }
 
@@ -435,4 +435,33 @@ footer#footer a:hover {
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 2px;
+}
+
+input[type="text"], input[type="email"] {
+    background: #eee;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-family: var(--body-font);
+    font-variation-settings: "opsz" 8;
+}
+
+form.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+form#form > label {
+    margin-bottom: 10px;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background: #eee;
+    font-family: var(--code-font);
+    cursor: pointer;
 }
