@@ -1,0 +1,27 @@
+baseURL = ''
+languageCode = 'en-US'
+title = 'th[o]m[a]s'
+theme = "etch"
+uglyurls = false
+
+pygmentsUseClasses = true  # use class names instead of directly inserting color codes
+pygmentsCodeFences = true  # enable GitHub style code snippets
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
+    weight = 20
+
+[params]
+  description = "The personal blog of Thomas Rettig."
+  copyright = "Copyright © 2021 Thomas Rettig."
+  dark = "auto"
+  highlight = true
+
+
+[markup.goldmark.renderer]
+  # Allows HTML in Markdown
+  unsafe = true
