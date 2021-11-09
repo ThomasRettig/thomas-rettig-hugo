@@ -83,7 +83,7 @@ label {
 
 <div class="about-copy">
   <section value="1" style="font-size: 35px;user-select:none;">
-    <p aria-label="Boy emoji, waving hand emoji, school building emoji, books emoji, and man technologist emoji">👦🏻👋🏻🏫📚👨🏻‍💻</p>
+    <p aria-label="Boy emoji, waving hand emoji, school building emoji, books emoji, and man technologist emoji"><span style="margin-right: -6px;">👦🏻</span>👋🏻🏫📚👨🏻‍💻</p>
   </section>
 
   <section value="2">
@@ -95,20 +95,18 @@ label {
   </section>
 
   <section class="visible" value="4">
-   <p>Hello! I am a Secondary One student in Singapore, studying in Catholic High School.</p>
-   <p>I love programming (more specifically, web development) and graphic design (more specifically, typography). Currently, I am learning <a href="https://gohugo.io/">Hugo</a>, <a href="https://nextjs.org/">Next.js</a>, and other front-end frameworks. I’m always on the lookout for cool <smcp>CSS</smcp> and <smcp>HTML</smcp> tricks. Contact me here for random <em>or</em> not-so-random messages — <a href="mailto:thomas.rettig.11@gmail.com">thomas.rettig.11@gmail.com</a></p>
+   <p>Hello! I’m Thomas and am a Secondary One student in Singapore, studying in Catholic High School. I love programming (more specifically, web development) and graphic design (more specifically, typography). Currently, I am learning <a href="https://gohugo.io/">Hugo</a>, <a href="https://nextjs.org/">Next.js</a>, and other front-end frameworks. I’m always on the lookout for cool <smcp>CSS</smcp> and <smcp>HTML</smcp> tricks. Contact me here for random <em>or</em> not-so-random messages — <a href="mailto:thomas.rettig.11@gmail.com">thomas.rettig.11@gmail.com</a></p>
   </section>
 
   <section value="5">
     <p>Hello! Thanks for sliding all the way to the end!</p>
-    <p>I am a Secondary One student in Singapore, studying in Catholic High School. I love programming (more specifically, web development) and graphic design (more specifically, typography). I do not have a favourite typeface. Currently, I am learning <a href="https://gohugo.io/">Hugo</a>, <a href="https://nextjs.org/">Next.js</a>, and other front-end frameworks. I’m always on the lookout for cool <smcp>CSS</smcp> and <smcp>HTML</smcp> tricks.</p>
+    <p>I’m Thomas, and am a Secondary One student in Singapore, studying in Catholic High School. I love programming (more specifically, web development) and graphic design (more specifically, typography). I do not have a favourite typeface. Currently, I am learning <a href="https://gohugo.io/">Hugo</a>, <a href="https://nextjs.org/">Next.js</a>, and other front-end frameworks. I’m always on the lookout for cool <smcp>CSS</smcp> and <smcp>HTML</smcp> tricks.</p>
     <p>In school, I am in the Music Elective Programme <smcp>(MEP)</smcp>, which I enjoy thoroughly. My co-curricular activity is <smcp>ION</smcp>, which is an infocomm technology society. It’s fun, but also has its <a href="../posts/my-awful-cca-trainer/">downsides</a>. Contact me here for random <em>or</em> not-so-random messages — <a href="mailto:thomas.rettig.11@gmail.com">thomas.rettig.11@gmail.com</a>. If you’re interested in reading some stuff that I wrote, check my <a href="..">blog</a>.</p>
   </section>
 </div>
 
-<hr>
-
-## Accessibility
+<details>
+<summary title="Click to expand or close">Accessibility <span role="note">Accessibility issues?</span></summary>
 
 I take accessibility seriously, and have tried my best to make this site as accessible as I can. Images come with descriptive titles and focus states are clearly highlighted. Please refer to the table below if you want to feedback on specific aspects of accessibility.
 
@@ -116,21 +114,24 @@ I take accessibility seriously, and have tried my best to make this site as acce
 | ----------------------------------------- | ------------------------------------------------------------ |
 | Assistive technology (such as voice over) | If you are experiencing trouble viewing a particular part of this website, like video, audio and embedded ```iframes```, <a href="mailto:thomas.rettig.11@gmail.com" title="email link">contact me.</a> |
 | Colour-blind and/or sight-impaired        | If you are having colour contrast or font legibility issues, <a href="mailto:thomas.rettig.11@gmail.com" title="email link">contact me.</a> |
-| Caret browsing users                      | If an nteractive element is unintendedly uninteractive, please <a href="mailto:thomas.rettig.11@gmail.com" title="email link">contact me.</a> |
+| Caret browsing users                      | If an interactive element is unintendedly uninteractive, please <a href="mailto:thomas.rettig.11@gmail.com" title="email link">contact me.</a> |
 
-<hr>
+I am also aware that I am serving <a href="https://web.dev/variable-fonts/">variable fonts</a> on this website. As a result, ```font-weight``` on *bold* or _italic_ styling may be overriden by ```font-variation-settings```. I will try to find a workaround in the meantime.
+</details>
 
-## Colophon
 
-The body text in this site is set in <smcp>[Source Serif 4](https://github.com/adobe-fonts/source-serif)</smcp>, an open-source text typeface designed by Frank Grießhammer published by Adobe Fonts. It is a transitional serif face inspired by the types of [Pierre-Simon Fournier](https://en.wikipedia.org/wiki/Pierre_Simon_Fournier). In particular, I am using the caption optical size to optimise legibility.
+<details >
+  <summary title="Click to expand or close">Colophon<span role="note">A note on the type</span></summary>
+<p>The body text in this site is set in <smcp><a href="https://github.com/adobe-fonts/source-serif">Source Serif 4</a></smcp>, an open-source text typeface designed by Frank Grießhammer. It is a transitional serif face inspired by the types of <a href="https://en.wikipedia.org/wiki/Pierre_Simon_Fournier). In particular, I am using the caption optical size to optimise legibility">Pierre-Simon Fournier</a>.</p>
 
-Type nerds may read the release notes [here](https://github.com/adobe-fonts/source-serif/releases/tag/4.004R), or check out [Adobe’s official blog post](https://blog.adobe.com/en/publish/2021/03/04/source-serif-gets-optical-sizes.html#gs.6de1ff). Support open-source! I am using self-hosted versions because Google Fonts has not (yet) upgraded their existing Source Serif Pro to the latest version.
+Type nerds may read the release notes [here](https://github.com/adobe-fonts/source-serif/releases/tag/4.004R), or check out [Adobe’s official blog post](https://blog.adobe.com/en/publish/2021/03/04/source-serif-gets-optical-sizes.html#gs.6de1ff). Support open-source!
 
-Article headings are set in <smcp>[Mānuka](https://klim.co.nz/retail-fonts/manuka/)</smcp>, designed by Klim Type Foundry. <smcp>Mānuka</smcp> a condensed display typeface with inspired by historical German wood type. Kris Sowersby, its principal designer, describes it beautifully:
+Article headings are set in [Mānuka](https://klim.co.nz/retail-fonts/manuka/), designed by Klim Type Foundry. Mānuka a condensed display typeface with inspired by historical German wood type. Kris Sowersby, its principal designer, describes it beautifully:
 
 <blockquote>“Mānuka is new growth from old wood. With deviant details pilfered from Teutonic timber type, Mānuka grafts a contemporary antipodean aesthetic onto 19th century German root-stock.”</blockquote><figcaption>—Kris Sowersby, <cite><a href="">Mānuka design notes</a></cite></figcaption>
 
 Users who have system-wide dark mode turned on would also notice the article title painted with a vibrant gradient.
+</details>
 
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

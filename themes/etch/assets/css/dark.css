@@ -55,9 +55,8 @@ main#content h1::selection
     -webkit-text-fill-color:#000;
 }
 
-main#content a
-{
-    color:#7cdeff;
+main#content a {
+    color:#b7edff;
 }
 
 main#content p {
@@ -88,6 +87,10 @@ main#content ul#posts small
 main#content ul#posts li a:hover
 {
     color:#21c7ff;
+}
+
+footer#footer a {
+    color: #b7edff;
 }
 
 main#content header#post-header div
