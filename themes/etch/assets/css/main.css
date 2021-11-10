@@ -47,7 +47,7 @@
 
 ::placeholder {
     color: white;
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 @keyframes animatedText{
@@ -475,4 +475,8 @@ button {
     background: #eee;
     font-family: var(--code-font);
     cursor: pointer;
+}
+
+button:hover {
+    background: #164153;
 }
