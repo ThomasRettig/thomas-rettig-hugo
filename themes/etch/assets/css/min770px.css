@@ -27,9 +27,9 @@
     }
 
     main#content header#post-header h1 {
-        font-size:5.5rem;
+        font-size:5rem;
         font-variation-settings: "wght" 900;
-        line-height:6rem;
+        line-height:5.5rem;
     }
 
     main#content hr

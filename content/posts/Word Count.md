@@ -19,7 +19,7 @@ What this basically means is that some languages have _longer_ words, while othe
 
 {{< figure src="https://qph.fs.quoracdn.net/main-qimg-9d5c124746722c4caaa1a2d06c13a362-lq" title="Comparison of an agglutinative language with a non-agglutinative language" caption="By a deleted account from [Reddit](https://www.reddit.com/r/languagelearning/comments/2hd4em/an_example_of_turkish_languages_agglutination/)." alt="Comparison of an agglutinative language with a non-agglutinative language" >}}
 
-Therefore, a single word in Turkish could make for an entire sentence in English, which is kinda inaccurate if we were to judge document length just by word count. Yes, in technical terms, word count _does_ equal to the byte size of a digital document, but from the aspect of “how much is this person really saying”, word count scores poorly.
+Therefore, a single word in Turkish could make for an entire sentence in English, which is kinda inaccurate if we were to judge document length just like that. Yes, in technical terms, word count _does_ equal to the byte size of a digital document, but from the aspect of “how much is this person really saying”, word count scores poorly.
 
 ## Existing solutions
 
@@ -83,10 +83,10 @@ An interesting point of research is linguist Joseph Greenberg’s work in measur
 
 </table>
 
-Solely from the agglutination index, there is a difference 0.37 between the agglutinative Swahili and the non-agglutinative English. So, what does that mean? I suppose it works like this: A text written in Swahili can fit in almost two times more content than a text written in English. So is word count really accurate? Is it really a universal marker of text length? Let’s not even get into Mandarin, which itself is perhaps one of the most agglutinative languages, which was, for whatever reason, seemingly omitted from the aforementioned study.
+Solely from the agglutination index, there is a difference 0.37 between the agglutinative Swahili and the non-agglutinative English. So, what does that mean? I suppose it works like this: A text written in Swahili can fit in almost two times more content than a text written in English. So is word count really accurate? Is it really a universal marker of text length? Let’s not even get into Mandarin, which itself is perhaps one of the most agglutinative languages in the world, which was, for whatever reason, seemingly omitted from the aforementioned study.
 
 ## Personal thoughts
 
 Based on the above, how then, do we measure document length more accurately? I have a theory. Based on the assumption that clause-binding words/phrases such as “therefore”, “so”, “hence”, “as a result” indicate a certain degree of logical advancement in content, we could instead count these words/phrases in a text such that a greater number would result in a higher “content length” value.
 
-Maybe, we could go even further. What if we could leverage an unsupervised [machine learning](https://en.wikipedia.org/wiki/Machine_learning) model to understand the “content length”? This is a super interesting idea, and could actually be useful. For the time being, while word count still has its place in school, I hope that more robust systems for measuring content length can be developed in the future.
+Maybe, we could go even further. What if we could leverage an unsupervised [machine learning](https://en.wikipedia.org/wiki/Machine_learning) model to understand the “content length”? This is a super interesting idea, and could actually be useful. For the time being, while word count still has its place in school, I hope that more robust systems for measuring content length can be developed in the future. 
