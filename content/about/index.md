@@ -115,7 +115,7 @@ label {
 | Colour-blind and/or sight-impaired        | Colour contrast or font legibility issues.
 | Caret browsing users                      | An interactive element is unintendedly uninteractive. |
 
-If what you are experiencing matches the above, please <a href="#form">contact me</a>.
+If what you are experiencing matches the above, please contact me in the “contact form” section below.
 </details>
 
 <details>

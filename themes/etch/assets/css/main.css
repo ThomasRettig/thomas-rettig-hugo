@@ -387,28 +387,36 @@ main#content iframe {
     content-visibility: auto;
 }
 
-main#content summary {
+main#content details {
+    margin-bottom: 10px;
+}
+
+summary {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
 }
 
-main#content summary::before {
+summary::before {
     content: '🍕';
     transform: rotate(-58deg);
     transition: 0.2s;
 }
 
 main#content summary > span {
-    margin-inline-start: auto; font-size: 70%;
+    font-size: 70%;
+}
+
+summary > span {
+    margin-inline-start: auto;
     font-weight: normal;
     opacity: 0.8;
     font-style: italic;
     font-variation-settings: "wght" 450, "opsz" 8;
 }
 
-main#content [open] summary::before {
+[open] summary::before {
     transform: rotate(32deg);
 }
 
@@ -417,9 +425,6 @@ footer#footer {
     font-variation-settings: "wght" 400, "opsz" 10;
     font-family: var(--body-font);
     margin-bottom: 40px;
-    content-visibility: auto;
-    display: flex;
-    gap: 1rem;
 }
 
 footer#footer a {
@@ -444,13 +449,6 @@ input[type="text"], input[type="email"] {
     border: none;
     font-family: var(--body-font);
     font-variation-settings: "opsz" 8;
-}
-
-form.contact {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
 }
 
 form#form > label {
