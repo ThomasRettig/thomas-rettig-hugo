@@ -83,7 +83,7 @@ draft: false
 
 <div class="about-copy">
   <section value="1" style="font-size: 35px;user-select:none;">
-    <p aria-label="Boy emoji, waving hand emoji, school building emoji, books emoji, and man technologist emoji"><span style="margin-right: -6px;">👦🏻</span>👋🏻🏫📚👨🏻‍💻</p>
+    <p aria-label="Boy emoji, waving hand emoji, school building emoji, books emoji, and man technologist emoji">👦🏻👋🏻🏫📚👨🏻‍💻</p>
   </section>
 
   <section value="2">

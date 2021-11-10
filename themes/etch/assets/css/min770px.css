@@ -26,10 +26,10 @@
         font-size:2rem;
     }
 
-    main#content header#post-header h1
-    {
-        font-size:7rem;
-        line-height:7rem;
+    main#content header#post-header h1 {
+        font-size:5.5rem;
+        font-variation-settings: "wght" 900;
+        line-height:6rem;
     }
 
     main#content hr
