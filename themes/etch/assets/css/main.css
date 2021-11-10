@@ -17,8 +17,8 @@
 }
 
 :root {
-    --body-font: 'Source Serif 4', 'Georgia', serif;
-    --accent-font: 'InterDisplay var', 'Impact', sans-serif;
+    --body-font: 'Source Serif 4', 'Source Serif', 'Georgia', serif;
+    --accent-font: 'InterDisplay var', 'Inter', sans-serif;
     --code-font: Consolas, monospace;
     --dark-text-color: #ddd;
     --selection-background: black;
@@ -54,10 +54,10 @@
 
 @keyframes slideIn {
   0% {
-    transform: translateY(-40%);
+    opacity: 0;
   }
   100% {
-    transform: translateY(0);
+    opacity: 1;
   }
 }
 
@@ -109,7 +109,6 @@ header#banner a:hover {
     text-decoration-thickness: 1.5px;
     text-decoration-color: #236c89;
     font-variation-settings: "wght" 700, "opsz" 8;
-    letter-spacing: -0.4px;
 }
 
 header#banner {
@@ -145,6 +144,7 @@ main#content a:hover {
     text-underline-offset: 2px;
 }
 
+main#content h1,
 main#content h2,
 main#content h3,
 main#content h4,
@@ -152,8 +152,16 @@ main#content h5,
 main#content h6 {
     margin-bottom: 15px;
     line-height: 1.15;
+}
+
+main#content h2,
+main#content h3,
+main#content h4,
+main#content h5,
+main#content h6 {
     font-family: var(--body-font);
 }
+
 
 main#content h3 {
     font-size: 19px;
