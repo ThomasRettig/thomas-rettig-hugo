@@ -73,6 +73,7 @@
 
 html {
     font-size: 62.5%;
+    -webkit-text-size-adjust: none;
 }
 
 body {
@@ -149,6 +150,7 @@ main#content a:hover {
 
 main#content h1 {
     animation: 0.2s ease-in 0s 1 slideIn;
+    letter-spacing: 0px;
 }
 
 main#content h1,
