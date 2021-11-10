@@ -83,11 +83,15 @@ smcp {
     letter-spacing: 1px;
 }
 
+b, strong {
+    font-variation-settings: "wght" 700, "opsz" 12;
+}
+
 header#banner {
     margin-bottom: 16px;
     margin-top: 40px;
     font-family: var(--body-font);
-    font-variation-settings: "wght" 500, "opsz" 12;;
+    font-variation-settings: "wght" 500, "opsz" 12;
 }
 
 header#banner a {

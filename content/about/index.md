@@ -121,7 +121,7 @@ If what you are experiencing matches the above, please contact me in the “cont
 
 <details>
   <summary title="Click to expand or close">Colophon<span role="note">A note on the type</span></summary>
-<p>The body text in this site is set in <smcp><a href="https://github.com/adobe-fonts/source-serif">Source Serif 4</a></smcp>, an open-source text typeface designed by Frank Grießhammer. It is a transitional serif face inspired by the types of <a href="https://en.wikipedia.org/wiki/Pierre_Simon_Fournier). In particular, I am using the caption optical size to optimise legibility">Pierre-Simon Fournier</a>.</p>
+<p>The body text in this site is set in <smcp><a href="https://github.com/adobe-fonts/source-serif" target="blank">Source Serif 4</a></smcp>, an open-source text typeface designed by Frank Grießhammer. It is a transitional serif face inspired by the types of <a href="https://en.wikipedia.org/wiki/Pierre_Simon_Fournier" target="blank">Pierre Simon Fournier</a>.</p>
 
 Type nerds may read the release notes [here](https://github.com/adobe-fonts/source-serif/releases/tag/4.004R), or check out [Adobe’s official blog post](https://blog.adobe.com/en/publish/2021/03/04/source-serif-gets-optical-sizes.html#gs.6de1ff). Support open-source!
 
@@ -129,29 +129,15 @@ Article headings are set in [Mānuka](https://klim.co.nz/retail-fonts/manuka/), 
 
 <blockquote>“Mānuka is new growth from old wood. With deviant details pilfered from Teutonic timber type, Mānuka grafts a contemporary antipodean aesthetic onto 19th century German root-stock.”</blockquote><figcaption>—Kris Sowersby, <cite><a href="">Mānuka design notes</a></cite></figcaption>
 
-Users who have system-wide dark mode turned on would also notice the article title painted with a vibrant gradient.
+Users who have system-wide dark mode turned on would also notice the ```<h1>``` article title painted with a vibrant gradient.
 </details>
 
 <details>
-  <summary title="Click to expand or close">Contact Form<span role="note">Leave a short note for me</span></summary>
-<form name="contact" id="form" netlify>
-  <section class="contact">
-    <p>
-      <label>Name <input type="text" name="name" /></label>
-    </p>
-    <p>
-      <label>Email <input type="email" name="email" /></label>
-    </p>
-    <p>
-      <label>Your message <input type="text" name="message" style="height: 100px;width: 80%;" /></label>
-    </p>
-  </section>
-  <p>
-    <button type="submit">Send!</button>
-  </p>
-</form>
+  <summary title="Click to expand or close">License<span role="note">Can I reproduce parts of this blog?</span></summary>
+  <p>Unless otherwise stated, all <em>source code</em> is licensed under <a href="https://www.gnu.org/licenses/agpl-3.0.en.html" target="blank">GNU AGPL version 3.0</a>. The <b>main thing you cannot do</b> is to publish your modified work under a different license.</p>
+  <h3>What about everything else?</h3>
+  <p>All other blog content is licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="blank">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a> license.</p>
 </details>
-
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script>

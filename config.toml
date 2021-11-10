@@ -11,8 +11,14 @@ pygmentsCodeFences = true  # enable GitHub style code snippets
   [[menu.main]]
     identifier = "about"
     name = "about"
-    title = "about"
+    title = "about me"
     url = "/about/"
+    weight = 20
+  [[menu.main]]
+    identifier = "contact"
+    name = "contact"
+    title = "contact me"
+    url = "/contact/"
     weight = 20
 
 [params]
