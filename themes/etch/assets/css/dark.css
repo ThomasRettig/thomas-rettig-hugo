@@ -106,6 +106,7 @@ main#content header#post-header div
 {
     color:var(--dark-text-color);
 }
+
 {{- if not (eq .Site.Params.dark "on") -}}
 }
 {{- end -}}

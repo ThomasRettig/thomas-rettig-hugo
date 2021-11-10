@@ -45,6 +45,11 @@
     outline: none;
 }
 
+::placeholder {
+    color: white;
+    opacity: 0.4;
+}
+
 @keyframes animatedText{
   to{
     background-position: 100%; 
