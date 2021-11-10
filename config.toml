@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = 'https://thms.netlify.app/'
 languageCode = 'en-US'
 title = 'th[o]m[a]s'
 theme = "etch"
