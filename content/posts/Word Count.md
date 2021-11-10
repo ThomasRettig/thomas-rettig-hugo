@@ -23,7 +23,7 @@ Therefore, a single word in Turkish could make for an entire sentence in English
 
 ## Existing solutions
 
-An interesting point of research is linguist Joseph Greenberg’s work in measuring the “agglutinativeness” of a language. In his [academic paper](https://www.jstor.org/stable/1264155?read-now=1&refreqid=excelsior%3A5f06e207ebd245aaf83c24e72c55976c), the degree of agglutinativeness is based on a ratio: The number of agglutinative junctures to the number of morph junctures. It’s a bit over my head, but the evidence is in the table below, extracted from Luschützky (2003):
+An interesting point of research is linguist Joseph Greenberg’s work in measuring the “agglutinativeness” of a language. In his [academic paper](https://www.jstor.org/stable/1264155?read-now=1&refreqid=excelsior%3A5f06e207ebd245aaf83c24e72c55976c), written in 1960 (though it’s still relevant), the degree of agglutinativeness is based on a ratio: The number of agglutinative junctures to the number of morph junctures. It’s a bit over my head, but the evidence is in the table below, extracted from Luschützky (2003):
 
 <table class="wikitable">
 
