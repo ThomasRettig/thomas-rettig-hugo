@@ -2,6 +2,7 @@
 title: Contact Me
 draft: false
 ---
+For longer messages, consider sending me an email instead. This form is mainly for brief messages.
 
 <form name="contact" id="form" netlify>
   <section class="contact">
@@ -12,7 +13,7 @@ draft: false
       <label>Email <small>(optional)</small><input type="email" name="email" placeholder="Your email address" /></label>
     </p>
     <p>
-      <label>Your message <textarea type="text" name="message" required /></textarea>
+      <label>Your message <textarea type="text" name="message" required placeholder="Your message" /></textarea>
     </p>
   </section>
   <p>
