@@ -15,17 +15,17 @@ So, here’s the thing. In linguistics, [agglutinative languages](https://en.wik
 
 <figcaption>—Oxford English Dictionary</figcaption>
 
-What this basically means is that some languages have _longer_ words, while others have _shorter_ words. A good example would be Turkish. Like the below image:
+What this basically means is that some languages have _longer_ words, while others have _shorter_ words. A good example would be Turkish. Like so:
 
 {{< figure src="https://qph.fs.quoracdn.net/main-qimg-9d5c124746722c4caaa1a2d06c13a362-lq" title="Comparison of an agglutinative language with a non-agglutinative language" caption="By a deleted account from [Reddit](https://www.reddit.com/r/languagelearning/comments/2hd4em/an_example_of_turkish_languages_agglutination/)." alt="Comparison of an agglutinative language with a non-agglutinative language" >}}
 
-Therefore, a single word in Turkish could make for an entire sentence in English, which is kinda inaccurate if we were to judge document length just like that. Yes, in technical terms, word count _does_ equal to the byte size of a digital document, but from the aspect of “how much is this person really saying”, word count scores poorly.
+A single word in Turkish could make for an entire sentence in English, because each word has, well, more “words” in it. Thus, I feel that it’s rather inaccurate to judge document length just like that. Yes, in technical terms, word count _does_ equal to the byte size of a digital document, but from the aspect of “how much is this person really saying”, word count scores poorly.
 
 ## Existing solutions
 
 An interesting point of research is linguist Joseph Greenberg’s work in measuring the “agglutinativeness” of a language. In his [academic paper](https://www.jstor.org/stable/1264155?read-now=1&refreqid=excelsior%3A5f06e207ebd245aaf83c24e72c55976c), written in 1960 (though it’s still relevant), the degree of agglutinativeness is based on a ratio: The number of agglutinative junctures to the number of morph junctures. It’s a bit over my head, but the evidence is in the table below, extracted from Luschützky (2003):
 
-<table class="wikitable">
+<table>
 
 <tbody>
 
@@ -89,4 +89,4 @@ Solely from the agglutination index, there is a difference 0.37 between the aggl
 
 Based on the above, how then, do we measure document length more accurately? I have a theory. Based on the assumption that clause-binding words/phrases such as “therefore”, “so”, “hence”, “as a result” indicate a certain degree of logical advancement in content, we could instead count these words/phrases in a text such that a greater number would result in a higher “content length” value.
 
-Maybe, we could go even further. What if we could leverage an unsupervised [machine learning](https://en.wikipedia.org/wiki/Machine_learning) model to understand the “content length”? This is a super interesting idea, and could actually be useful. For the time being, while word count still has its place in school, I hope that more robust systems for measuring content length can be developed in the future. 
+But wait—we can go even further! What if we could leverage an unsupervised [machine learning](https://en.wikipedia.org/wiki/Machine_learning) model to understand the “content length”? This is a super interesting idea, and could actually be useful. The bottom line: Word count varies from language to language, and while it has its conveniences and relevance, more robust systems for calculating document length need to be formed. 
