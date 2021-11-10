@@ -142,7 +142,7 @@ Users who have system-wide dark mode turned on would also notice the article tit
       <label>Email <input type="email" name="email" /></label>
     </p>
     <p>
-      <label>Your message <input type="text" name="message" style="height: 100px;" /></label>
+      <label>Your message <input type="text" name="message" style="height: 100px;width: 80%;" /></label>
     </p>
   </section>
   <p>

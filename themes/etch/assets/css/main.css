@@ -449,10 +449,12 @@ input[type="text"], input[type="email"] {
     border: none;
     font-family: var(--body-font);
     font-variation-settings: "opsz" 8;
+    display: block;
+    margin-top: 10px;
 }
 
 form#form > label {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 button {
