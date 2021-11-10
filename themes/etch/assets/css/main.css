@@ -87,6 +87,7 @@ body {
 smcp {
     font-variant: all-small-caps;
     letter-spacing: 1px;
+    font-size: inherit;
 }
 
 b, strong {
