@@ -12,7 +12,7 @@ draft: false
       <label>Email <small>(optional)</small><input type="email" name="email" placeholder="Your email address" /></label>
     </p>
     <p>
-      <label>Your message <input type="text" name="message" style="height: 100px;width: 80%;" required /></label>
+      <label>Your message <textarea type="text" name="message" required /></textarea>
     </p>
   </section>
   <p>

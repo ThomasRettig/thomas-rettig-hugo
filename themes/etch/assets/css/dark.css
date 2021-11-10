@@ -98,7 +98,7 @@ input {
 
 }
 
-button, input[type="text"], input[type="email"] {
+button, input[type="text"], input[type="email"], textarea {
     background: #113341;
 }
 

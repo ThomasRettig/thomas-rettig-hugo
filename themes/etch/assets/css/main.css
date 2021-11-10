@@ -443,7 +443,7 @@ footer#footer a:hover {
     text-underline-offset: 2px;
 }
 
-input[type="text"], input[type="email"] {
+input[type="text"], input[type="email"], textarea {
     background: #eee;
     padding: 10px;
     border-radius: 10px;
