@@ -43,6 +43,7 @@
     border-color: #0060df;
     box-shadow: 0 0 0 2px rgb(0 144 237 / 50%);
     outline: none;
+    border-radius: 2px;
 }
 
 ::placeholder {

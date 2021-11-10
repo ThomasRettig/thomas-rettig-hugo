@@ -3,74 +3,73 @@ title: "Hi, I’m Thomas."
 draft: false
 ---
 <style>
-.about-slider-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	margin: 4rem auto;
-	width: 100%;
-	font-family: var(--body-font);
-}
+  .about-slider-container {
+  	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: space-between;
+  	margin: 4rem auto;
+  	width: 100%;
+  	font-family: var(--body-font);
+  }
 
-.about-slider {
-	-webkit-appearance: none;
-    width: 100%;
-    height: 1px;
-    background: #ddd;
-    outline: none;
-}
+  .about-slider {
+  	-webkit-appearance: none;
+      width: 100%;
+      height: 1px;
+      background: #ddd;
+      outline: none;
+  }
 
-.about-slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    border-radius: 100%;
-    width: 16px;
-    height: 16px;
-    background: black;
-    cursor: grab;
-    transition: 0.2s;
-}
+  .about-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      border-radius: 100%;
+      width: 22px;
+      height: 22px;
+      background: black;
+      cursor: grab;
+      transition: 0.2s;
+  }
 
-.about-slider::-webkit-slider-thumb:hover {
-	width: 20px;
-	height: 20px;
-	border-radius: 100%;
-}
+  .about-slider::-webkit-slider-thumb:hover {
+  	width: 26px;
+  	height: 26px;
+  }
 
 
-.about-slider-container input {
-	margin-bottom: 1rem;
-	width: 100%
-}
+  .about-slider-container input {
+  	margin-bottom: 1rem;
+  	width: 100%;
+  }
 
-.about-copy section {
-	display: none
-}
+  .about-copy section {
+  	display: none;
+  }
 
-.about-copy section.visible {
-	display: block
-}
+  .about-copy section.visible {
+  	display: block;
+  }
 
-label {
-	user-select: none;
-	font-family: var(--code-font);
-}
+  label {
+  	user-select: none;
+  	font-family: var(--code-font);
+  }
 
-.background-box {
-	border-radius: 10px;
-	padding: 15px;
-	background: #ececec;
-}
+  .background-box {
+  	border-radius: 10px;
+  	padding: 15px;
+  	background: #ececec;
+  }
 
-@media (prefers-color-scheme: dark) {
-	.about-slider::-webkit-slider-thumb {
-		background: white;
-	}
+  @media (prefers-color-scheme: dark) {
+  	.about-slider::-webkit-slider-thumb {
+  		background: white;
+  	}
 
-	.background-box {
-		background: #113341;
-	}
-}
+  	.background-box {
+  		background: #113341;
+  	}
+  }
 
 </style>
 
