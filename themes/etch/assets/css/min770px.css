@@ -56,4 +56,30 @@
         font-size:18px;
         font-size:1.8rem;
     }
+
+    summary {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    summary::before {
+        content: '🍕';
+        transform: rotate(-58deg);
+        transition: 0.2s;
+    }
+
+    main#content summary > span {
+        font-size: 70%;
+    }
+
+    summary > span {
+        margin-inline-start: auto;
+        font-weight: normal;
+        opacity: 0.8;
+        font-style: italic;
+        font-variation-settings: "wght" 450, "opsz" 8;
+        display: block;
+    }
 }

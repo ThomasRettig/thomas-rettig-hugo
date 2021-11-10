@@ -51,6 +51,21 @@
   }
 }
 
+@keyframes slideIn {
+  0% {
+    transform: translateY(-40%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion) {
+    * {
+        animation: none;
+    }
+}
+
 html {
     font-size: 62.5%;
 }
@@ -127,6 +142,10 @@ main#content a:hover {
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 2px;
+}
+
+main#content h1 {
+    animation: 0.2s ease-in 0s 1 slideIn;
 }
 
 main#content h1,
@@ -391,33 +410,16 @@ main#content details {
     margin-bottom: 10px;
 }
 
-summary {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-}
-
 summary::before {
-    content: '🍕';
-    transform: rotate(-58deg);
-    transition: 0.2s;
-}
-
-main#content summary > span {
-    font-size: 70%;
-}
-
-summary > span {
-    margin-inline-start: auto;
-    font-weight: normal;
-    opacity: 0.8;
-    font-style: italic;
-    font-variation-settings: "wght" 450, "opsz" 8;
+    content: '';
 }
 
 [open] summary::before {
     transform: rotate(32deg);
+}
+
+summary > span {
+    display: none;
 }
 
 footer#footer {

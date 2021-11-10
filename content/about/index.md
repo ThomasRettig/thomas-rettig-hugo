@@ -28,6 +28,7 @@ draft: false
     height: 16px;
     background: black;
     cursor: grab;
+    transition: 0.2s;
 }
 
 .about-slider::-webkit-slider-thumb:hover {
