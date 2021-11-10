@@ -55,4 +55,3 @@ Brawl Stars suffers from a horrible <smcp>UX</smcp>.  From the time when brawler
 <hr>
 
 For all these reasons, I’m quitting Brawl Stars. I do not know if I’ll regret this decision in the near future. But as for now, it’s time for a break. A good *and* long break.
-
