@@ -5,7 +5,7 @@
             <div>
             {{- if isset .Params "date" -}}
                 {{ if eq .Lastmod .Date }}
-                <time>{{ .Date.Format "January 2, 2006" }}</time>
+                <time>{{ .Date.Format "January 2, 2006" }}</time> // Thomas Rettig
                 {{ else }}
                 Updated <time>{{ .Lastmod.Format "January 2, 2006" }}</time>
                 {{ end }}
