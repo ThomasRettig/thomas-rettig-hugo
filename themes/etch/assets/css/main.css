@@ -493,3 +493,15 @@ button {
     font-size: 18px;
     cursor: pointer;
 }
+
+select {
+    font-family: var(--body-font);
+    font-variation-settings: "opsz" 10;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    background: #113341;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+}

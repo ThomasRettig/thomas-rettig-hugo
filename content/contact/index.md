@@ -5,7 +5,12 @@ draft: false
 For longer messages, consider sending me an email instead. This form is mainly for brief messages.
 
 <form name="contact" id="form" netlify>
-  <section class="contact">
+    <p><label>Choose a subject:</label>
+      <select name="subject" required>
+        <option value="Website issue">Website issue</option>
+        <option value="Something else">Something else</option>
+      </select>
+    </p>
     <p>
       <label>What’s your name?<input type="text" name="name" placeholder="eg Donald Trump" required /></label>
     </p>

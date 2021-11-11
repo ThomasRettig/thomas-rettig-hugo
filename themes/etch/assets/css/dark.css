@@ -98,13 +98,7 @@ button, input[type="text"], input[type="email"], textarea {
 }
 
 button:hover {
-    background-image: var(--rainbow-gradient-short,#fff);
-    background-size: 180%;
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: animatedText 2s infinite alternate-reverse;
-    background-position: -100%;
+    opacity: 0.6;
 }
 
 main#content header#post-header div
