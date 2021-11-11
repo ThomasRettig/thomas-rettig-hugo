@@ -64,13 +64,25 @@
     }
 
     summary::before {
-        content: '🍕';
-        transform: rotate(-58deg);
+        content: '😗';
+        transform: rotate(-20deg);
         transition: 0.2s;
+        font-size: 90%;
+    }
+
+    details[open] > p, table, h3, a {
+        animation: 0.3s ease-in 0s 1 slideIn;;
+    }
+
+
+    [open] summary::before {
+        content: '😘';
+        transform: rotate(20deg);
     }
 
     main#content summary > span {
-        font-size: 70%;
+        font-size: 80%;
+        font-family: var(--body-font);
     }
 
     summary > span {
@@ -78,7 +90,6 @@
         font-weight: normal;
         opacity: 0.8;
         font-style: italic;
-        font-variation-settings: "wght" 450, "opsz" 8;
         display: block;
     }
 }

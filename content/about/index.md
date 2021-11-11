@@ -13,10 +13,10 @@ draft: false
   }
 
   .about-slider {
-  	-webkit-appearance: none;
+  	  -webkit-appearance: none;
       width: 100%;
-      height: 1px;
-      background: #ddd;
+      height: 2.5px;
+      background: var(--rainbow-gradient-short);
       outline: none;
   }
 
@@ -32,8 +32,8 @@ draft: false
   }
 
   .about-slider::-webkit-slider-thumb:hover {
-  	width: 28px;
-  	height: 28px;
+  	width: 30px;
+  	height: 30px;
   }
 
 
@@ -115,7 +115,7 @@ draft: false
 | Colour-blind and/or sight-impaired        | Colour contrast or font legibility issues.
 | Caret browsing users                      | An interactive element is unintendedly uninteractive. |
 
-If what you are experiencing matches the above, please contact me in the “contact form” section below.
+If what you are experiencing matches the above, please <a href="..\contact">contact me</a>.
 </details>
 
 <details>

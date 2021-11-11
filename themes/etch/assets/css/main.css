@@ -100,22 +100,15 @@ b, strong {
 header#banner {
     margin-bottom: 16px;
     margin-top: 40px;
-    font-family: var(--body-font);
+    font-family: var(--accent-font);
+    letter-spacing: 1px;
+    font-feature-settings: "ss01";
     font-variation-settings: "wght" 500, "opsz" 12;
 }
 
 header#banner a {
     color: #313a3d;
     text-decoration: none;
-    transition: 0.3s;
-}
-
-header#banner a:hover {
-    text-decoration: underline;
-    text-underline-offset: 1px;
-    text-decoration-thickness: 1.5px;
-    text-decoration-color: #236c89;
-    font-variation-settings: "wght" 700, "opsz" 8;
 }
 
 header#banner {
@@ -211,8 +204,9 @@ main#content hr {
 }
 
 main#content summary {
-    font-family: var(--body-font);
+    font-family: var(--accent-font);
     cursor: pointer;
+    font-feature-settings: "ss01";
     font-weight: 700;
     font-size: 24px;
 }
@@ -432,34 +426,14 @@ summary::before {
     content: '';
 }
 
-[open] summary::before {
-    transform: rotate(32deg);
-}
-
 summary > span {
     display: none;
 }
 
 footer#footer {
     font-size: 12px;
-    font-variation-settings: "wght" 400, "opsz" 10;
     font-family: var(--body-font);
-    margin-bottom: 40px;
-}
-
-footer#footer a {
-    text-decoration: none;
-    color: #007dfa;
-}
-
-footer#footer summary {
-    cursor: pointer;
-}
-
-footer#footer a:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 2px;
+    margin-bottom: 35px;
 }
 
 input[type="text"], input[type="email"], textarea {
