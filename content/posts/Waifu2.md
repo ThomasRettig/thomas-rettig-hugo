@@ -16,9 +16,11 @@ Isn’t that amazing? Just to note:
 - The second frame is processed with the ```3D Real-life - Enlarge only - Fast``` preset
 - The third frame is processed with the ```3D Real-life - Enlarge only - Highest Quality ``` preset
 
+Waifu2x also scores excellently with 2D images, such as this Tom and Jerry photo. The lines are crisp, contour is accurate, and there are hardly any visual artifacts present!
+
 {{< figure src="https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636615996/Waifu_Anime_Sample_nieukq.png" title="Sample Image—Anime" caption="A before-after comparison." >}}
 
-Waifu2x also scores excellently with 2D images, such as this Tom and Jerry photo. The lines are crisp, contour is accurate, and there is hardly any visual artifacts present. A side note though—Waifu2x does not score terribly well when it comes to us earthlings. After shoving a 150px×150px András Arató picture into the app, this is what I got:
+A side note though—Waifu2x does not score terribly well when it comes to us earthlings. After shoving a 150px×150px András Arató picture into the app (sorry), this is what I got:
 
 {{< figure src="https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636616856/Waifu_Face_Test_cbe8ij.png" title="Sample Image—Human" caption="A before-after comparison." >}}
 
