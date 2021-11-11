@@ -7,8 +7,6 @@ uglyurls = false
 pygmentsUseClasses = true  # use class names instead of directly inserting color codes
 pygmentsCodeFences = true  # enable GitHub style code snippets
 
-disqusShortname = 'thomasrettig'
-
 [menu]
   [[menu.main]]
     identifier = "about"
