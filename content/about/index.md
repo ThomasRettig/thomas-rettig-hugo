@@ -1,5 +1,5 @@
 ---
-title: "Hi, I’m Thomas."
+title: "About me"
 draft: false
 ---
 <style>
