@@ -342,6 +342,8 @@ main#content figure figcaption {
 
 main#content figure figcaption h4 {
     font-style: normal;
+    letter-spacing: 0.8px;
+    font-weight: normal;
     display: inline;
     margin: 0;
 }
