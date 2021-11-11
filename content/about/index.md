@@ -122,13 +122,7 @@ If what you are experiencing matches the above, please contact me in the “cont
   <summary title="Click to expand or close">Colophon<span role="note">A note on the type</span></summary>
 <p>The body text in this site is set in <smcp><a href="https://github.com/adobe-fonts/source-serif" target="blank">Source Serif 4</a></smcp>, an open-source text typeface designed by Frank Grießhammer. It is a transitional serif face inspired by the types of <a href="https://en.wikipedia.org/wiki/Pierre_Simon_Fournier" target="blank">Pierre Simon Fournier</a>.</p>
 
-Type nerds may read the release notes [here](https://github.com/adobe-fonts/source-serif/releases/tag/4.004R), or check out [Adobe’s official blog post](https://blog.adobe.com/en/publish/2021/03/04/source-serif-gets-optical-sizes.html#gs.6de1ff). Support open-source!
-
-Article headings are set in [Mānuka](https://klim.co.nz/retail-fonts/manuka/), designed by Klim Type Foundry. Mānuka a condensed display typeface with inspired by historical German wood type. Kris Sowersby, its principal designer, describes it beautifully:
-
-<blockquote>“Mānuka is new growth from old wood. With deviant details pilfered from Teutonic timber type, Mānuka grafts a contemporary antipodean aesthetic onto 19th century German root-stock.”</blockquote><figcaption>—Kris Sowersby, <cite><a href="">Mānuka design notes</a></cite></figcaption>
-
-Users who have system-wide dark mode turned on would also notice the ```<h1>``` article title painted with a vibrant gradient.
+Article headings are set in [NaN Jaune Maxi](https://www.nan.xyz/fonts/nan-jaune/).
 </details>
 
 <details>
