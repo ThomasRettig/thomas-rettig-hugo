@@ -138,6 +138,10 @@ header#banner nav ul li a {
     color: #454545;
 }
 
+main#content {
+    animation: 0.2s ease-in 0s 1 slideIn;
+}
+
 main#content a {
     color: #007dfa;
     text-decoration: none;
@@ -249,12 +253,11 @@ main#content ul#posts li a:hover small {
 
 /* single.html styles */
 main#content header#post-header h1 {
-    animation: 0.2s ease-in 0s 1 slideIn;
     font-family: var(--accent-font);
     font-weight: normal;
     font-size: 4.5rem;
     margin-top: 0;
-    line-height: 5rem;
+    line-height: 4.8rem;
 }
 
 main#content header#post-header > div {
