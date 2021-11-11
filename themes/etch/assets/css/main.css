@@ -133,10 +133,6 @@ header#banner nav ul li a {
     color: #454545;
 }
 
-main#content {
-    animation: 0.2s ease-in 0s 1 slideIn;
-}
-
 main#content a {
     color: #007dfa;
     text-decoration: none;
@@ -445,6 +441,7 @@ input[type="text"], input[type="email"], textarea {
     font-variation-settings: "opsz" 8;
     display: block;
     margin-top: 10px;
+    min-width: 80%;
 }
 
 form#form > label {
@@ -478,4 +475,5 @@ select {
     cursor: pointer;
     display: block;
     margin-top: 10px;
+    color: initial;
 }

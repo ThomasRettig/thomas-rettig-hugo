@@ -70,10 +70,6 @@
         font-size: 90%;
     }
 
-    details[open] > p, table, h3, a {
-        animation: 0.3s ease-in 0s 1 slideIn;;
-    }
-
 
     [open] summary::before {
         content: '😘';
