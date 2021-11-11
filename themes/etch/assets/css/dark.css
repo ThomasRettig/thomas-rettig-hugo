@@ -34,7 +34,6 @@ header#banner a:hover {
     background-position: -100%;
 }
 
-
 header#banner nav ul li a
 {
     color:var(--dark-text-color);
