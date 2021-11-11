@@ -69,11 +69,6 @@ main#content code
     border-radius:5px;
 }
 
-main#content hr
-{
-    background-image: linear-gradient(45deg, #0c252f, #1f5e77, #0c252f);
-}
-
 main#content #toc h4
 {
     color:var(--dark-text-color);
@@ -100,6 +95,16 @@ input {
 
 button, input[type="text"], input[type="email"], textarea {
     background: #113341;
+}
+
+button:hover {
+    background-image: var(--rainbow-gradient-short,#fff);
+    background-size: 180%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animatedText 2s infinite alternate-reverse;
+    background-position: -100%;
 }
 
 main#content header#post-header div

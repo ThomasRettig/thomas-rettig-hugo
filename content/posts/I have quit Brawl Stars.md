@@ -50,8 +50,6 @@ _Ugh._ Seriously? I could give a few dozen more examples from the community, inc
 
 ## Buggy UX
 
-Brawl Stars suffers from a horrible <smcp>UX</smcp>.  From the time when brawlers became “black” to the day when star powers could not be selected, Brawl Stars players—especially the experienced—would concede that the Brawl Stars user experience is terribly buggy. You can find daily posts on Reddit documenting various bugs. Sure, some bugs are fun, but once there are two many, the experience is entirely unpleasurable. It’s hard for me to judge the developers. I doubt they have manpower issues as with any burgeoning, billion-dollar gaming behemoth. I, too, doubt that the developers are lousy. What I suspect, rather, is that Brawl Stars is pushing their developers to implement new features so much, that the game itself cannot keep up.
-
-<hr>
+Brawl Stars suffers from a horrible <smcp>UX</smcp>.  From the time when brawlers became “black” to the day when Star Powers could not be selected, Brawl Stars players—especially the experienced—would concede that the Brawl Stars user experience is terribly buggy. You can find daily posts on Reddit documenting various bugs. Sure, some bugs are fun, but once there are two many, the experience is entirely unpleasurable. It’s hard for me to judge the developers. I doubt they have manpower issues as with any burgeoning, billion-dollar gaming behemoth. I, too, doubt that the developers are lousy. What I suspect, rather, is that Brawl Stars is pushing their developers to implement new features so much, that the game itself cannot keep up.
 
 For all these reasons, I’m quitting Brawl Stars. I do not know if I’ll regret this decision in the near future. But as for now, it’s time for a break. A good *and* long break.

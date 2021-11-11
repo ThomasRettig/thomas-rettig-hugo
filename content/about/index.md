@@ -27,13 +27,13 @@ draft: false
       width: 22px;
       height: 22px;
       background: black;
-      cursor: grab;
+      cursor: ew-resize;
       transition: 0.2s;
   }
 
   .about-slider::-webkit-slider-thumb:hover {
-  	width: 26px;
-  	height: 26px;
+  	width: 28px;
+  	height: 28px;
   }
 
 
@@ -76,7 +76,7 @@ draft: false
 <p class="background-box">Use the slider below to determine how much you would like to know about me.</p>
 
 <div class="about-slider-container">
-  <input type="range" min="1" max="5" value="3" step="1" class="about-slider" id="aboutRange" role="slider">
+  <input type="range" min="1" max="5" value="3" step="1" class="about-slider" id="aboutRange" role="slider" title="Slide horizontally!">
   <label class="about-min">Less</label>
   <label class="about-max">More</label>
 </div>
@@ -87,7 +87,7 @@ draft: false
   </section>
 
   <section value="2">
-    <p>Hi! I am a Secondary One student in Singapore. I love programming and graphic design. I am currently learning about web development. I have an email address: <a href="mailto:thomas.rettig.11@gmail.com">thomas.rettig.11@gmail.com</a></p>
+    <p>Hi! I am a Secondary One student in Singapore. I love programming and graphic design. I am currently learning about web development. I have an email address: <a href="mailto:thomas.rettig.11@gmail.com" title="email link">thomas.rettig.11@gmail.com</a></p>
   </section>
 
   <section value="3">
@@ -95,13 +95,13 @@ draft: false
   </section>
 
   <section class="visible" value="4">
-   <p>Hello! I’m Thomas and am a Secondary One student in Singapore, studying in Catholic High School. I love programming (more specifically, web development) and graphic design (more specifically, typography). Currently, I am learning <a href="https://gohugo.io/">Hugo</a>, <a href="https://nextjs.org/">Next.js</a>, and other front-end frameworks. I’m always on the lookout for cool <smcp>CSS</smcp> and <smcp>HTML</smcp> tricks. Contact me here for random <em>or</em> not-so-random messages — <a href="mailto:thomas.rettig.11@gmail.com">thomas.rettig.11@gmail.com</a></p>
+   <p>Hello! I’m Thomas and am a Secondary One student in Singapore, studying in Catholic High School. I love programming (more specifically, web development) and graphic design (more specifically, typography). Currently, I am learning <a href="https://gohugo.io/">Hugo</a>, <a href="https://nextjs.org/">Next.js</a>, and other front-end frameworks. I’m always on the lookout for cool <smcp>CSS</smcp> and <smcp>HTML</smcp> tricks. Contact me here for random <em>or</em> not-so-random messages — <a href="mailto:thomas.rettig.11@gmail.com" title="email link">thomas.rettig.11@gmail.com</a></p>
   </section>
 
   <section value="5">
     <p>Hello! Thanks for sliding all the way to the end!</p>
     <p>I’m Thomas, and am a Secondary One student in Singapore, studying in Catholic High School. I love programming (more specifically, web development) and graphic design (more specifically, typography). I do not have a favourite typeface. Currently, I am learning <a href="https://gohugo.io/">Hugo</a>, <a href="https://nextjs.org/">Next.js</a>, and other front-end frameworks. I’m always on the lookout for cool <smcp>CSS</smcp> and <smcp>HTML</smcp> tricks.</p>
-    <p>In school, I am in the Music Elective Programme <smcp>(MEP)</smcp>, which I enjoy thoroughly. My co-curricular activity is <smcp>ION</smcp>, which is an infocomm technology society. It’s fun, but also has its <a href="../posts/my-awful-cca-trainer/">downsides</a>. Contact me here for random <em>or</em> not-so-random messages — <a href="mailto:thomas.rettig.11@gmail.com">thomas.rettig.11@gmail.com</a>. If you’re interested in reading some stuff that I wrote, check my <a href="..">blog</a>.</p>
+    <p>In school, I am in the Music Elective Programme <smcp>(MEP)</smcp>, which I enjoy thoroughly. My co-curricular activity is <smcp>ION</smcp>, which is an infocomm technology society. It’s fun, but also has its <a href="../posts/my-awful-cca-trainer/">downsides</a>. Contact me here for random <em>or</em> not-so-random messages — <a href="mailto:thomas.rettig.11@gmail.com" title="email link">thomas.rettig.11@gmail.com</a>. If you’re interested in reading some stuff that I wrote, check my <a href="..">blog</a>.</p>
   </section>
 </div>
 
@@ -120,9 +120,9 @@ If what you are experiencing matches the above, please contact me in the “cont
 
 <details>
   <summary title="Click to expand or close">Colophon<span role="note">A note on the type</span></summary>
-<p>The body text in this site is set in <smcp><a href="https://github.com/adobe-fonts/source-serif" target="blank">Source Serif 4</a></smcp>, an open-source text typeface designed by Frank Grießhammer. It is a transitional serif face inspired by the types of <a href="https://en.wikipedia.org/wiki/Pierre_Simon_Fournier" target="blank">Pierre Simon Fournier</a>.</p>
+<p>The body text in this site is set in <smcp><a href="https://github.com/adobe-fonts/source-serif" target="blank">Source Serif 4</a></smcp>. Inspired by the types of <a href="https://en.wikipedia.org/wiki/Pierre_Simon_Fournier" target="blank">Pierre Simon Fournier</a>, it is designed by Frank Grießhammer of Adobe.</p>
 
-Article headings are set in [NaN Jaune Maxi](https://www.nan.xyz/fonts/nan-jaune/).
+Article headings are set in [NaN Jaune Maxi](https://www.nan.xyz/fonts/nan-jaune/), a lively sans-serif by Jérémy Landes of [Studio Triple](https://studiotriple.fr/). Visit the [excellent microsite](http://www.sanssheriff.wtf/) to learn more!
 </details>
 
 <details>

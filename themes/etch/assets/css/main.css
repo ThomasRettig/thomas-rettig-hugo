@@ -23,7 +23,7 @@
 
 :root {
     --body-font: 'Source Serif 4', 'Georgia', serif;
-    --accent-font: 'NaN Jaune Maxi', sans-serif;
+    --accent-font: 'NaN Jaune Maxi', Segoe UI, sans-serif;
     --code-font: Consolas, monospace;
     --dark-text-color: #ddd;
     --selection-background: black;
@@ -49,6 +49,7 @@
 ::placeholder {
     color: white;
     opacity: 0.5;
+    font-size: initial;
 }
 
 @keyframes animatedText{
@@ -69,6 +70,7 @@
 @media (prefers-reduced-motion) {
     * {
         animation: none;
+        transition: 0.2s;
     }
 }
 
@@ -206,8 +208,6 @@ main#content dfn {
 main#content hr {
     height: 2px;
     border: 0;
-    background-image: linear-gradient(45deg,#ffffff,#74b7fa,#ffffff);
-    border-radius: 40%;
 }
 
 main#content summary {
@@ -477,15 +477,19 @@ form#form > label {
     margin-bottom: 15px;
 }
 
-button {
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    background: #eee;
-    font-family: var(--code-font);
-    cursor: pointer;
+label {
+    cursor: text;
 }
 
-button:hover {
-    background: #164153;
+button {
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    background: #eee;
+    font-family: var(--accent-font);
+    font-feature-settings: "ss01", "ss02";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+    cursor: pointer;
 }
