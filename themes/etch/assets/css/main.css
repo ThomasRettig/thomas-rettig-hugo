@@ -23,8 +23,8 @@
 }
 
 :root {
-    --body-font: 'Helvetica Now', 'Georgia', serif;
-    --accent-font: 'NaN Jaune Maxi', Comic Sans, sans-serif;
+    --body-font: 'Helvetica Now', system-ui, 'Helvetica', 'Arial', serif;
+    --accent-font: 'NaN Jaune Maxi', sans-serif;
     --code-font: Consolas, monospace;
     --dark-text-color: #ddd;
     --selection-background: #363636;
@@ -87,6 +87,7 @@ body {
     padding: 0 16px;
     line-height: 1.6;
 }
+
 /*
 smcp {
     font-variant: all-small-caps;
@@ -94,6 +95,7 @@ smcp {
     font-size: inherit;
 }
 */
+
 b, strong {
     font-variation-settings: "wght" 700, "opsz" 12;
 }
@@ -238,7 +240,7 @@ main#content ul#posts small {
     font-variation-settings: "wght" 400, "opsz" 8;
     font-variant: oldstyle-nums;
     color: #767676;
-    margin-left: 5px;
+    display: block;
     opacity: 0.75;
 }
 
@@ -443,6 +445,13 @@ footer#footer {
     font-family: var(--body-font);
     font-feature-settings: "ss08";
     margin-bottom: 35px;
+}
+
+footer#footer .footer-img {
+    width: 14px;
+    height: auto;
+    display: block;
+    margin-top: 5px;
 }
 
 input[type="text"], input[type="email"], textarea {

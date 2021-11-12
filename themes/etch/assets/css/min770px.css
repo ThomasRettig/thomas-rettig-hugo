@@ -10,6 +10,11 @@
         font-size:2rem;
     }
 
+    main#content ul#posts small {
+        margin-left: 5px;
+        display: revert;
+    }
+
     main#content figure
     {
         margin-left:-3.8%;
