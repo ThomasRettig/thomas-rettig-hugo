@@ -14,10 +14,9 @@ Here’s an example from their [Github repo](https://saic-mdal.github.io/lama-pr
 
 {{< figure src="https://raw.githubusercontent.com/senya-ashukha/senya-ashukha.github.io/master/projects/lama_21/ezgif-4-0db51df695a8.gif" title="Sample Image—Nature" caption="A before-after comparison." >}}
 
-That was spooky, wasn’t it? I was a bit sceptical, so I also tried it out myself:
+That was spooky, wasn’t it? I was a bit sceptical, so I tried it out myself just for good measure:
 
-{{< figure src="https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636698649/capitol_reef_with_bronco_car_uot7xn.jpg" title="Before" >}}
+{{< figure src="https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636704470/cleanup-test.webp" title="Before and after comparison" >}}
 
-{{< figure src="https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636698776/capitol_reef_with_bronco_car_cleanup_vhhrkq.jpg" title="After" >}}
+Rad! Not to mention, [Cleanup.pictures](https://cleanup.pictures/) has a really nice *how-did-they-snag-that-url* domain, just like [remove.bg](https://remove.bg/) and [clipdrop.co](https://clipdrop.co/).
 
-Rad! Not to mention, [Cleanup.pictures](https://cleanup.pictures/) has a really nice how-did-they-snag-that-url domain, just like [remove.bg](https://remove.bg/) and [clipdrop.co](https://clipdrop.co/).
