@@ -22,7 +22,7 @@ can produce something like this:
 
 This is pretty obvious, but it just goes to show that... <smcp>CSS</smcp> _can_ in fact print ```Hello World```. Of course, <smcp>CSS</smcp> But the larger argument that Chris makes, is that, while CSS might not be the first candidate for Turing completeness, it does in fact contain some programming concepts inside.
 
-## <smcp>CSS</smcp> _is_ a programming language!
+## CSS is a programming language!
 
 His main points:
 

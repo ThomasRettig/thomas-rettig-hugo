@@ -2,11 +2,11 @@
 title: Contact Me
 draft: false
 ---
-For longer messages, consider sending me an email instead. This form is mainly for brief messages.
+For longer messages, consider sending me an email instead. This form is mainly for brief messages 🙃
 
 <form name="contact" id="form" netlify>
     <p><label>Choose a subject:</label>
-      <select name="subject" required>
+      <select name="subject" title="click to view dropdown" required>
         <option value="Website issue">Website issue</option>
         <option value="Something else">Something else</option>
       </select>

@@ -105,6 +105,10 @@ main#content header#post-header div
     color:var(--dark-text-color);
 }
 
+select {
+    background: #113341;
+}
+
 {{- if not (eq .Site.Params.dark "on") -}}
 }
 {{- end -}}

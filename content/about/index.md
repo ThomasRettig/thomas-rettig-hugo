@@ -14,9 +14,9 @@ draft: false
 
   .about-slider {
   	  -webkit-appearance: none;
+      background: #ddd;
       width: 100%;
       height: 2.5px;
-      background: var(--rainbow-gradient-short);
       outline: none;
   }
 
@@ -65,6 +65,10 @@ draft: false
   	.about-slider::-webkit-slider-thumb {
   		background: white;
   	}
+
+    .about-slider {
+      background: var(--rainbow-gradient-short);
+    }
 
   	.background-box {
   		background: #113341;
