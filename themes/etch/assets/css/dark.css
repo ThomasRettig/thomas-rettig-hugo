@@ -19,19 +19,9 @@ body
     color: var(--dark-text-color);
 }
 
-header#banner a
-{
+header#banner a {
     color:#e0e0e0;
-}
-
-header#banner a:hover {
-    background-image: var(--rainbow-gradient-short,#fff);
-    background-size: 150%;
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: animatedText 2s infinite alternate-reverse;
-    background-position: -100%;
+    font-weight: bold;
 }
 
 header#banner nav ul li a
