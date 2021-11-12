@@ -23,7 +23,7 @@
 }
 
 :root {
-    --body-font: 'Helvetica Now', system-ui, 'Helvetica', 'Arial', serif;
+    --body-font: 'Helvetica Now', 'Arial Nova', 'Arial', system-ui, 'Helvetica', 'Arial', serif;
     --accent-font: 'NaN Jaune Maxi', sans-serif;
     --code-font: Consolas, monospace;
     --dark-text-color: #ddd;
@@ -237,8 +237,6 @@ main#content ul#posts li {
 
 main#content ul#posts small {
     font-size: 0.9em;
-    font-variation-settings: "wght" 400, "opsz" 8;
-    font-variant: oldstyle-nums;
     color: #767676;
     display: block;
     opacity: 0.75;
