@@ -77,7 +77,7 @@
     }
 
     main#content summary > span {
-        font-size: 80%;
+        font-size: 70%;
         font-family: var(--body-font);
     }
 
@@ -85,7 +85,6 @@
         margin-inline-start: auto;
         font-weight: normal;
         opacity: 0.8;
-        font-style: italic;
         display: block;
     }
 }

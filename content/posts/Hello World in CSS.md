@@ -39,6 +39,3 @@ Chris asserts that the bigger picture is about pay. His concern: If <smcp>CSS</s
 ## Direct link
 
 [https://css-tricks.com/is-css-a-programming-language/](https://css-tricks.com/is-css-a-programming-language/)
-
-
-
