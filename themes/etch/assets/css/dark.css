@@ -78,11 +78,11 @@ input {
 
 }
 
-button, input[type="text"], input[type="email"], textarea {
+button[type="submit"], input[type="text"], input[type="email"], textarea {
     background: #113341;
 }
 
-button:hover {
+button[type="submit"]:hover {
     opacity: 0.6;
 }
 

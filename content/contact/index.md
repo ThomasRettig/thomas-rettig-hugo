@@ -22,6 +22,6 @@ For longer messages, consider sending me an email instead. This form is mainly f
     </p>
   </section>
   <p>
-    <button type="submit"><span>S</span><span>e</span><span>n</span><span>d</span><span>!</span></button>
+    <button type="submit">Submit</button>
   </p>
 </form>

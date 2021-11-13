@@ -1,5 +1,5 @@
 ---
-title: Cleanup.pictures
+title: Online spot healing — better than I thought
 draft: false
 date: 2021-11-12
 ---
@@ -27,3 +27,25 @@ That said, just like Waifu2x-Extension-GUI, the photo/video upscaling software I
 
 Note: The website is created by [Cyril Diagne](https://twitter.com/cyrildiagne), and is a direct implementation of this [scientific paper](https://arxiv.org/pdf/2109.07161.pdf).
 
+
+<button class="share">Share article</button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+	    const shareButton = document.querySelector('button')
+	    const title = window.document.title
+	    const url = window.document.location.href
+	
+	shareButton.addEventListener('click', event => {
+
+	if (navigator.share) {
+	    navigator.share({
+	        title: `${title}`,
+	        url: `${url}`,
+	    })
+	    } else {
+	            overlay.classList.add('show-share')
+	            shareModal.classList.add('show-share')
+	    }
+	    
+	});
+</script>
