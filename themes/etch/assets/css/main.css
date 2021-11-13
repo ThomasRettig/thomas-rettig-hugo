@@ -23,7 +23,7 @@
 }
 
 :root {
-    --body-font: 'Helvetica Now', 'Arial Nova', 'Arial', system-ui, 'Helvetica', 'Arial', serif;
+    --body-font: 'Helvetica Now', 'Inter', 'Arial Nova', 'Arial', system-ui, 'Helvetica', 'Arial', serif;
     --accent-font: 'NaN Jaune Maxi', sans-serif;
     --code-font: Consolas, monospace;
     --dark-text-color: #ddd;
@@ -95,10 +95,6 @@ smcp {
     font-size: inherit;
 }
 */
-
-b, strong {
-    font-variation-settings: "wght" 700, "opsz" 12;
-}
 
 header#banner {
     margin-bottom: 16px;
@@ -182,7 +178,6 @@ main#content h3 {
 
 main#content li {
     font-family: var(--body-font);
-    font-variation-settings: "wght" 400, "opsz" 12;
     font-feature-settings: "ss08";
 }
 
@@ -198,7 +193,6 @@ main#content h6 + p {
 main#content p {
     font-family: var(--body-font);
     font-feature-settings: "ss08";
-    font-variation-settings: "wght" 400, "opsz" 12;
     color: #394548;
     margin: 16px 0;
 }
