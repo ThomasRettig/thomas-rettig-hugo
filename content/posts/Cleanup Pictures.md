@@ -26,26 +26,3 @@ I’m sure the technology still has many flaws, especially in very specific use 
 That said, just like Waifu2x-Extension-GUI, the photo/video upscaling software I [recently reviewed](../waifu2), I really look forward to using this in the future. Photobombers, beware! It would also be super interesting to have some sort of “who-heals-the-best” software competition. Not to mention, [Cleanup.pictures](https://cleanup.pictures/) has a really nice how-did-they-snag-that-url domain, just like [remove.bg](https://remove.bg/) and [clipdrop.co](https://clipdrop.co/). Top find of the week!
 
 Note: The website is created by [Cyril Diagne](https://twitter.com/cyrildiagne), and is a direct implementation of this [scientific paper](https://arxiv.org/pdf/2109.07161.pdf).
-
-
-<button class="share">Share article</button>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-	    const shareButton = document.querySelector('button')
-	    const title = window.document.title
-	    const url = window.document.location.href
-	
-	shareButton.addEventListener('click', event => {
-
-	if (navigator.share) {
-	    navigator.share({
-	        title: `${title}`,
-	        url: `${url}`,
-	    })
-	    } else {
-	            overlay.classList.add('show-share')
-	            shareModal.classList.add('show-share')
-	    }
-	    
-	});
-</script>

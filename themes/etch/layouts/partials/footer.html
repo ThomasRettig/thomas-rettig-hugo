@@ -1,3 +1,22 @@
 <footer id="footer">
     {{ .Site.Params.copyright }}
 </footer>
+<script>
+        const shareButton = document.querySelector('share')
+        const title = window.document.title
+        const url = window.document.location.href
+    
+    shareButton.addEventListener('click', event => {
+
+    if (navigator.share) {
+        navigator.share({
+            title: `${title}`,
+            url: `${url}`,
+        })
+        } else {
+                overlay.classList.add('show-share')
+                shareModal.classList.add('show-share')
+        }
+        
+    });
+</script>

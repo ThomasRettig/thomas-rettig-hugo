@@ -95,3 +95,9 @@
         display: revert;
     }
 }
+
+@media (max-width: 500px) {
+    main#content header#post-header>div {
+        flex-direction: column;
+    }
+}
