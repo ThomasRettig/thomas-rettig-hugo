@@ -3,6 +3,7 @@
 </footer>
 <script>
         const shareButton = document.querySelector('share')
+        const shareByline = ' by Thomas Rettig'
         const title = window.document.title
         const url = window.document.location.href
     
@@ -10,7 +11,7 @@
 
     if (navigator.share) {
         navigator.share({
-            title: `${title}`,
+            title: `“${title}”` + `${shareByline}`,
             url: `${url}`,
         })
         } else {

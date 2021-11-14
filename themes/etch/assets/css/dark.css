@@ -92,7 +92,6 @@ button:hover {
 
 input[type=text]:focus, input[type=email]:focus, textarea:focus {
     background: #1a4f65;
-    font-size: initial;
 }
 
 select {
