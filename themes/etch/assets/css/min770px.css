@@ -92,6 +92,7 @@
         content: '➡️';
         margin-left: -32px;
         visibility: hidden;
+        font-size: 90%;
     }
 
     main#content ul#posts li:hover::before {
