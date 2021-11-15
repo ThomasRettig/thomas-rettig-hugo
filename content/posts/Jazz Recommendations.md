@@ -19,7 +19,7 @@ Favourite track—New York State of Mind. Brad Mehldau’s interpretation of Bil
 
 https://open.spotify.com/album/1rInq2apaCIU3Rr47GXBeT
 
-Favourite track—September. Iiro’s playing is refreshingly crisp and resonant, both on musical and emotional levels. “September” speaks most strongly to me. The lullaby-like lilt of its introduction is heart-warming and memorable, and is masterfully contrasted with a fast, spirited left-hand ostinato section, before finally abruptly turning back to the lullaby-like melody. The track also features percussive elements that give it an extra crunch. Iiro’s accompanying commentary is equally: “Fins are very attached to nature, and in September, nature seems to be dying. The leaves turn yellow and drop.” 
+Favourite track—September. Iiro’s playing is refreshingly crisp and resonant, both on musical and emotional levels. “September” speaks most strongly to me. The lullaby-like lilt of its introduction is heart-warming and memorable, and is masterfully contrasted with a fast, spirited left-hand ostinato section, before finally abruptly turning back to the lullaby-like melody. The track also features percussive elements that give it an extra crunch. Iiro’s accompanying commentary provides some insight to the piece: “Finns are very attached to nature, and in September, nature seems to be dying. The leaves turn yellow and drop.” To me, the middle section of the piece references the leaves dropping.
 
 ## Cory Wong and the Metropole Orkest
 {{< figure src="/cory-wong-metropole-orkest-album-cover.jpg" title="Cory Wong and the Metropole Orkest (Live in Amsterdam) // Cory Wong and the Metropole Orkest" >}}
