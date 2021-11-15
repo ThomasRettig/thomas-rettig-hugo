@@ -130,14 +130,15 @@ header#banner nav ul li a {
 }
 
 main#content a {
-    color: #007dfa;
-    text-decoration: none;
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 2px;
+    text-decoration-color: #64797e;
 }
 
 main#content a:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 2px;
+    color: #64797e;
 }
 
 main#content h1,
@@ -238,10 +239,6 @@ main#content ul#posts small {
 
 main#content ul#posts li a {
     text-decoration: none;
-}
-
-main#content ul#posts li a:hover {
-    color: #369aff;
 }
 
 main#content ul#posts li a:hover small {
@@ -430,7 +427,7 @@ main#content share {
 }
 
 main#content share:hover{
-    color: white;
+    color: #64797e;
 }
 
 summary::before {

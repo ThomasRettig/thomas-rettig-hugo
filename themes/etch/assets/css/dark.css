@@ -48,8 +48,8 @@ main#content h1::selection
     -webkit-text-fill-color:#000;
 }
 
-main#content a {
-    color:#b7edff;
+main#content a:hover {
+    color: #b1b8c9;
 }
 
 main#content p {
@@ -96,6 +96,10 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 
 select {
     background: #113341;
+}
+
+main#content share:hover {
+    color: white;
 }
 
 {{- if not (eq .Site.Params.dark "on") -}}

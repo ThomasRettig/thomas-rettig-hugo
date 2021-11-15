@@ -87,6 +87,16 @@
         opacity: 0.8;
         display: block;
     }
+
+    main#content ul#posts li::before {
+        content: '➡️';
+        margin-left: -32px;
+        visibility: hidden;
+    }
+
+    main#content ul#posts li:hover::before {
+        visibility: visible;
+    }
 }
 
 @media (min-width: 500px) {
@@ -99,5 +109,25 @@
 @media (max-width: 500px) {
     main#content header#post-header>div {
         flex-direction: column;
+    }
+
+    header#banner {
+        font-size: 1.9rem;
+        letter-spacing: 0.4px;
+    }
+}
+
+@media print {
+    header#banner nav {
+        visibility: hidden;
+    }
+
+    main#content share {
+        display: none;
+    }
+
+    footer#footer::after {
+        content: 'Thanks for printing this article out! :)';
+        display: block;
     }
 }
