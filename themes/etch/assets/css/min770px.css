@@ -90,7 +90,7 @@
 
     main#content ul#posts li::before {
         content: '➡️';
-        margin-left: -32px;
+        margin-left: -29px;
         visibility: hidden;
         font-size: 90%;
     }
