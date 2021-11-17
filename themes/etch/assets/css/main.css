@@ -3,27 +3,43 @@
     font-style: normal;
     font-weight: 800;
     font-display: swap;
-    src: url('/NaNJaune-Maxi-Extrabold.woff2') format('woff2')
+    src: url('/fonts/NaNJaune-Maxi-Extrabold.woff2') format('woff2')
 }
 
 @font-face {
-    font-family: 'Helvetica Now';
+    font-family: 'Beatrice';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('/HelveticaNow-Roman.ttf') format('truetype');
+    src: url('/fonts/Beatrice-Regular.otf') format('opentype');
 }
 
 @font-face {
-    font-family: 'Helvetica Now';
+    font-family: 'Beatrice';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/fonts/Beatrice-Regular-Italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Beatrice';
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url('/HelveticaNow-Roman-Bold.ttf') format('truetype');
+    src: url('/fonts/Beatrice-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Beatrice';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url('/fonts/Beatrice-Bold-Italic.otf') format('opentype');
 }
 
 :root {
-    --body-font: 'Helvetica Now', 'Inter', 'Arial Nova', 'Arial', system-ui, 'Helvetica', 'Arial', serif;
+    --body-font: 'Beatrice', 'Helvetica', 'Arial', system-ui, sans-serif;
     --accent-font: 'NaN Jaune Maxi', sans-serif;
     --code-font: Consolas, monospace;
     --dark-text-color: #ddd;
@@ -53,25 +69,10 @@
     font-size: initial;
 }
 
-@keyframes animatedText{
-  to{
-    background-position: 100%; 
-  }
-}
-
-@keyframes slideIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 @media (prefers-reduced-motion) {
     * {
         animation: none;
-        transition: 0.2s;
+        transition: 0;
     }
 }
 
@@ -168,18 +169,12 @@ main#content h4,
 main#content h5,
 main#content h6 {
     line-height: 1.15;
-    font-feature-settings: "ss01";
 }
 
 
 main#content h3 {
     font-size: 19px;
     font-size: 1.9rem;
-}
-
-main#content li {
-    font-family: var(--body-font);
-    font-feature-settings: "ss08";
 }
 
 main#content h1 + p,
@@ -192,10 +187,13 @@ main#content h6 + p {
 }
 
 main#content p {
-    font-family: var(--body-font);
-    font-feature-settings: "ss08";
     color: #394548;
     margin: 16px 0;
+}
+
+main#content li, main#content p, main#content blockquote {
+    font-family: var(--body-font);
+    font-feature-settings: "ss02", "onum";
 }
 
 main#content dfn {
@@ -203,7 +201,7 @@ main#content dfn {
 }
 
 main#content hr {
-    height: 0px;
+    height: 0;
     border: 0;
     margin: 0;
 }
@@ -348,8 +346,6 @@ main#content figure figcaption p {
 }
 
 main#content blockquote {
-    font-family: var(--body-font);
-    font-feature-settings: "ss01", "ss02";
     letter-spacing: -0.5px;
     font-size: 115%;
     margin-top: 10px;
@@ -489,7 +485,6 @@ button[type="submit"] {
 
 select {
     font-family: var(--body-font);
-    font-feature-settings: "ss08";
     font-size: initial;
     border: none;
     padding: 8px;

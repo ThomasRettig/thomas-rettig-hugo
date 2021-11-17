@@ -1,10 +1,8 @@
 ---
-title: An open letter to Mr Raphael
+title: An open letter to a teacher
 draft: false
 date: 2021-11-08
 ---
-_Note: Mr Raphael is my paid external <span title="Co-curriclar Activity">CCA</span> trainer who teaches programming._
-
 <hr>
 
 <smcp>Dear Mr Raphael,</smcp>

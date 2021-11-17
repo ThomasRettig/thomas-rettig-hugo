@@ -11,7 +11,6 @@ This is probably the coolest thing I’ve learnt this week. I stumbled across th
 
 <figcaption>—Poor guy on Reddit</figcaption>
 
-Turns out this very strange phenomenon called semantic satiation. What’s interesting is that I think I used to encounter this more often at a younger age, rather than now. I suppose that’s a good thing—I don’t want to get confused after staring at a word for long periods of time.
+Turns out this very strange phenomenon called semantic satiation. What’s interesting is that I think I used to encounter this more often at a younger age, rather than now. I suppose that’s a good thing—I don’t want to get confused after staring at a word for long periods of time. Or perhaps I am just making up silly shit.
 
-Poor type designers too.
-
+Either way, poor type designers. Their eyes must be permanently depressed with seeing 6s and 9s to the point that they change from numbers to something a little more inappropriate… Yikes!
