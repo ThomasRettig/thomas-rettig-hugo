@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html><head>
+    <html lang="en">
+    <meta charset="utf-8">
+    <meta name="author" content="Thomas Rettig">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The personal blog of Thomas Rettig.">
+    
+    <link rel="shortcut icon" href="https://thms.netlify.app/favicon.ico">
+    <link rel="alternate" type="application/rss+xml" href="https://thms.netlify.app/posts/index.xml" title="th[o]m[a]s">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>Posts</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body><header id="banner">
+    <a title="homepage" href="https://thms.netlify.app/">th[o]m[a]s</a>
+    <nav>
+        <ul>
+            <li>
+                <a href="/about/" title="about me">about</a>
+            </li><li>
+                <a href="/contact/" title="contact me">contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content"><p>Hi! Some things I written recently:</p>
+<ul id="posts" >
+    <li>
+    <a href="https://thms.netlify.app/posts/hoeflerco-dirty-tricks/">
+        Hoefler&amp;Co’s “downfall”
+        <small><time>Nov 16, 2021</time></small>
+    </a>
+</li>
+
+    <li>
+    <a href="https://thms.netlify.app/posts/semantic-satiation/">
+        Semantic Satiation
+        <small><time>Nov 16, 2021</time></small>
+    </a>
+</li>
+
+    <li>
+    <a href="https://thms.netlify.app/posts/jazz-recommendations/">
+        Favourite albums of the month
+        <small><time>Nov 15, 2021</time></small>
+    </a>
+</li>
+
+    <li>
+    <a href="https://thms.netlify.app/posts/cleanup-pictures/">
+        Online spot healing — better than I thought
+        <small><time>Nov 12, 2021</time></small>
+    </a>
+</li>
+
+    <li>
+    <a href="https://thms.netlify.app/posts/waifu2/">
+        The genius of Waifu2x
+        <small><time>Nov 11, 2021</time></small>
+    </a>
+</li>
+
+    <li>
+    <a href="https://thms.netlify.app/posts/word-count/">
+        Is word count really accurate?
+        <small><time>Nov 10, 2021</time></small>
+    </a>
+</li>
+
+    <li>
+    <a href="https://thms.netlify.app/posts/my-awful-cca-trainer/">
+        An open letter to a teacher
+        <small><time>Nov 8, 2021</time></small>
+    </a>
+</li>
+
+    <li>
+    <a href="https://thms.netlify.app/posts/my-tuition-class-is-a-ponzi-scheme/">
+        My tuition class is a Ponzi scheme
+        <small><time>Nov 7, 2021</time></small>
+    </a>
+</li>
+
+    <li>
+    <a href="https://thms.netlify.app/posts/i-have-quit-brawl-stars/">
+        Why I’ve quit Brawl Stars
+        <small><time>Nov 6, 2021</time></small>
+    </a>
+</li>
+
+    <li>
+    <a href="https://thms.netlify.app/posts/hello-world-in-css/">
+        “Hello world” in CSS?
+        <small><time>Nov 6, 2021</time></small>
+    </a>
+</li>
+
+</ul>
+        <hr>
+        </main><footer id="footer">
+    Copyright © 2021 Thomas
+</footer>
+<script>
+        const shareButton = document.querySelector('share')
+        const shareByline = ' by Thomas Rettig'
+        const title = window.document.title
+        const url = window.document.location.href
+    
+    shareButton.addEventListener('click', event => {
+
+    if (navigator.share) {
+        navigator.share({
+            title: `“${title}”` + `${shareByline}`,
+            url: `${url}`,
+        })
+        } else {
+                overlay.classList.add('show-share')
+                shareModal.classList.add('show-share')
+        }
+        
+    });
+</script></body>
+</html>

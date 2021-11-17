@@ -1,10 +1,365 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>http://example.org/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on th[o]m[a]s</title>
+    <link>https://thms.netlify.app/tags/</link>
+    <description>Recent content in Tags on th[o]m[a]s</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    
+	<atom:link href="https://thms.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>Hoefler&amp;Co’s “downfall”</title>
+      <link>https://thms.netlify.app/posts/hoeflerco-dirty-tricks/</link>
+      <pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thms.netlify.app/posts/hoeflerco-dirty-tricks/</guid>
+      <description>&lt;p&gt;It is hard to say this is exactly a downfall, but &lt;a href=&#34;https://en.wikipedia.org/wiki/Hoefler_%26_Co.&#34;&gt;Hoefler&amp;amp;Co&lt;/a&gt; has seen a decrease in reputation; first after the &lt;a href=&#34;https://www.scribd.com/document/200243509/Tobias-Frere-Jones-v-Jonathan-Hoefler&#34;&gt;Hoefler vs Frere-Jones&lt;/a&gt; lawsuit, and second after H&amp;amp;Co’s recent acquisition by Monotype which is said to have &lt;a href=&#34;https://qz.com/2068310/what-monotypes-purchase-of-hoeflerco-means-to-font-designers/&#34;&gt;shaken the design industry&lt;/a&gt;. This is not an accurate analysis of H&amp;amp;Co’s history. It is also partially opiniated.&lt;/p&gt;
+&lt;h2 id=&#34;the-lawsuit&#34;&gt;The lawsuit&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.theverge.com/2014/1/17/5318206/hoefler-and-frere-jones-lawsuit&#34;&gt;lawsuit&lt;/a&gt; was a pretty big PR disaster for Hoefler&amp;amp;Co. It is rumoured on forums that the lawsuit ended with a settlement whereby Hoefler gave a fraction of his money to Frere-Jones as compensation. Two theories on why he did so (if ever):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Hoefler did not want anymore damage hit the brand.&lt;/li&gt;
+&lt;li&gt;Hoefler knew he was not going to win the legal battle if he brought it up to court.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Of course, it is hard to jump to such conclusions without also knowing Frere-Jones perspective on the matter.&lt;/p&gt;
+&lt;h2 id=&#34;web-licensing-strategya-mistake&#34;&gt;Web licensing strategy—a mistake&lt;/h2&gt;
+&lt;p&gt;Yes, H&amp;amp;Co’s ScreenSmart fonts (abbreviated as SSm) do look better. But they’re also a neat little marketing manoeuvre.&lt;/p&gt;
+&lt;p&gt;They lead clueless companies into purchasing both the SSm and non-SSm versions on the basis that “if I’m gonna print something, I simply can’t be using a screen font”, and “if I’m gonna be designing my website, no, I simply have to use the optimised version.” Something along that line. This effectively creates a FOMO effect on the buyers. And chances are, those who do buy the Ssm and non-Ssm versions are large organisations, thus generating further profit for H&amp;amp;Co.&lt;/p&gt;
+&lt;p&gt;One could even argue that there is little value in buying Ssm fonts since a) the visual difference is tiny b) you have to pay the same amount of money if you were to buy the two versions.&lt;/p&gt;
+&lt;p&gt;There is also talk about how the ScreenSmart strategy of H&amp;amp;Co has somewhat led to them losing popularity amongst designers. For one, while ScreenSmart fonts could potentially be attractive to large companies, it simply is too big of a money gamble for smaller organisations or individuals. But then again, perhaps H&amp;amp;Co just runs in different circles than smaller foundries.&lt;/p&gt;
+&lt;h2 id=&#34;in-the-wrong-era&#34;&gt;In the wrong era&lt;/h2&gt;
+&lt;p&gt;H&amp;amp;Co was founded in 1989, during the dawn of dekstop publishing. As one of the few digital type foundries, H&amp;amp;Co was regarded as reasonably reputable source by designers in a landscape with extreme scarcity for quality fonts; the consensus from giants such as &lt;a href=&#34;https://en.wikipedia.org/wiki/Mergenthaler_Linotype_Company&#34;&gt;Linotype&lt;/a&gt;, for example, was to make their assets digital as soon as possible in order to get into the digital font market, which also meant that the fonts were not as well-made as they could have been.&lt;/p&gt;
+&lt;p&gt;This made H&amp;amp;Co synonymous, almost exclusively so, with desktop publishing and printed matter. So when &lt;code&gt;@font-face&lt;/code&gt; was introduced into the CSS spec in 2008 (&lt;a href=&#34;https://www.typotheque.com/articles/brief_history_of_webfonts&#34;&gt;article here&lt;/a&gt;), H&amp;amp;Co almost found itself out of the competition with newer foundries offering more attractive pricing. H&amp;amp;Co had the choice to democratise its fonts to the web, but instead kept its exorbitant pricing scheme, which might have resulted in H&amp;amp;Co falling out of the competition right at a potential pinnacle of growth.&lt;/p&gt;
+&lt;h2 id=&#34;smoke-and-mirrors&#34;&gt;“Smoke and mirrors”&lt;/h2&gt;
+&lt;p&gt;Luc Devroye opines in his &lt;a href=&#34;http://luc.devroye.org/fonts-73731.html&#34;&gt;Carleen Borsella page&lt;/a&gt; that “[t]he motto at H&amp;amp;FJ [now known as Hoefler&amp;amp;Co] has always been smoke and mirrors&amp;quot;, and that “they do not list any designers with their typefaces.” Which could turn out to be partially true. Designers are not credited on their work, which is of course are smart marketing ploy to impress on people that H&amp;amp;Co is a single studio.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Semantic Satiation</title>
+      <link>https://thms.netlify.app/posts/semantic-satiation/</link>
+      <pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thms.netlify.app/posts/semantic-satiation/</guid>
+      <description>&lt;p&gt;This is probably the coolest thing I’ve learnt this week. I stumbled across this through a &lt;a href=&#34;https://www.reddit.com/r/graphic_design/&#34;&gt;Reddit post&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;Is it just me or sometimes when you are looking at the same word/words for a long time does it ever occur to you that “hey this word doesn’t look like it should be spelled like that”, but you know 100% that it’s correct?
+&lt;/blockquote&gt;
+&lt;figcaption&gt;—Poor guy on Reddit&lt;/figcaption&gt;
+&lt;p&gt;Turns out this very strange phenomenon called semantic satiation. What’s interesting is that I think I used to encounter this more often at a younger age, rather than now. I suppose that’s a good thing—I don’t want to get confused after staring at a word for long periods of time. Or perhaps I am just making up silly shit.&lt;/p&gt;
+&lt;p&gt;Either way, poor type designers. Their eyes must be permanently depressed with seeing 6s and 9s to the point that they change from numbers to something a little more inappropriate… Yikes!&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Favourite albums of the month</title>
+      <link>https://thms.netlify.app/posts/jazz-recommendations/</link>
+      <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thms.netlify.app/posts/jazz-recommendations/</guid>
+      <description>&lt;p&gt;Here’s a brief top-three list of what I’ve been listening to lately:&lt;/p&gt;
+&lt;h2 id=&#34;suite-april-2020&#34;&gt;Suite: April 2020&lt;/h2&gt;
+&lt;figure&gt;&lt;img src=&#34;https://thms.netlify.app/suite-april-2020-album-cover.jpg&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Suite: April 2020 // Brad Mehldau&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://open.spotify.com/album/5e2pKFBkbxJ4s5gmgc78e4&#34;&gt;https://open.spotify.com/album/5e2pKFBkbxJ4s5gmgc78e4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;According to &lt;a href=&#34;https://www.bradmehldau.com/suite-april-2020&#34;&gt;Brad Mehldau&lt;/a&gt;, Suite: April 2020 is “a musical snapshot of life the last month in the world in which we’ve all found ourselves [in the Covid-19 pandemic]”. This contemporary jazz album has a remarkable nuance, and is possibly my favourite album from the pianist. It communicates the agony and air of uncertainty that has very much become the zeitgeist of the very era we’ve found ourselves in.&lt;/p&gt;
+&lt;p&gt;Favourite track—New York State of Mind. Brad Mehldau’s interpretation of Billy Joel’s classic is thoughtful and irresistibly fresh. I can’t help but play this over and over again.&lt;/p&gt;
+&lt;h2 id=&#34;my-finnish-calendar&#34;&gt;My Finnish Calendar&lt;/h2&gt;
+&lt;figure&gt;&lt;img src=&#34;https://thms.netlify.app/my-finnish-calendar-album-cover.jpg&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;My Finnish Calendar // Iiro Rantala&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://open.spotify.com/album/1rInq2apaCIU3Rr47GXBeT&#34;&gt;https://open.spotify.com/album/1rInq2apaCIU3Rr47GXBeT&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Favourite track—September. Iiro’s playing is refreshingly crisp and resonant, both on musical and emotional levels. “September” speaks most strongly to me. The lullaby-like lilt of the song is heart-warming, memorable, and romantic, and is masterfully contrasted with a fast, spirited left-hand ostinato section. The track also features percussive elements that give it an extra crunch. Iiro’s accompanying commentary provides some insight to the piece: “Finns are very attached to nature, and in September, nature seems to be dying. The leaves turn yellow and drop.” To me, the middle section of the piece references the leaves dropping.&lt;/p&gt;
+&lt;h2 id=&#34;cory-wong-and-the-metropole-orkest&#34;&gt;Cory Wong and the Metropole Orkest&lt;/h2&gt;
+&lt;figure&gt;&lt;img src=&#34;https://thms.netlify.app/cory-wong-metropole-orkest-album-cover.jpg&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Cory Wong and the Metropole Orkest (Live in Amsterdam) // Cory Wong and the Metropole Orkest&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://open.spotify.com/album/75myrjLzKkLEPtaL6Nr2za&#34;&gt;https://open.spotify.com/album/75myrjLzKkLEPtaL6Nr2za&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Favourite track—Underground. I love to see how Cody’s interpretation of the song has (subtly) changed since the song’s initial release way back in 2012. The orchestration, particularly the screeching sounds of the violins and the graceful strumming of the harp, only add to the atmosphere. Cody’s powerful vocals propel the song and draw me into one of the most magnificent climaxes I have heard. The lyrics are both poignant and strangely surreal.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Online spot healing — better than I thought</title>
+      <link>https://thms.netlify.app/posts/cleanup-pictures/</link>
+      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thms.netlify.app/posts/cleanup-pictures/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://cleanup.pictures/&#34;&gt;Cleanup.pictures&lt;/a&gt; does exactly what it does: It cleans up pictures. You draw over areas of an image and it automagically removes that part. Yes, it’s like Photoshop’s spot healing brush tool, except that it’s a website and it’s free. And unlike primitive spot healing tools which rely on surroundings to “import” textures, Cleanup.pictures uses artificial intelligence. The science is complex; AFAIK, its network architecture uses Fourier convolutions. But of course, I don’t really know what that is, and no one really cares about that.&lt;/p&gt;
+&lt;p&gt;Here’s a before-after example from their &lt;a href=&#34;https://saic-mdal.github.io/lama-project/&#34;&gt;Github repo&lt;/a&gt;:&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://raw.githubusercontent.com/senya-ashukha/senya-ashukha.github.io/master/projects/lama_21/ezgif-4-0db51df695a8.gif&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;That was spooky, wasn’t it? I was a bit sceptical, so I tried it out myself just for good measure:&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636704470/cleanup-test.webp&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Before and after comparison&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Amazing. It also finished processing faster than I thought, considering how&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cleanup.pictures/&#34;&gt;Cleanup.pictures&lt;/a&gt; is a web app&lt;/li&gt;
+&lt;li&gt;I was using a high-resolution image&lt;/li&gt;
+&lt;li&gt;I had selected a big area to heal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Admittedly, &lt;a href=&#34;https://cleanup.pictures/&#34;&gt;Cleanup.pictures&lt;/a&gt; is a trifle slower than Photoshop and &lt;a href=&#34;https://en.wikipedia.org/wiki/Snapseed&#34;&gt;Snapseed&lt;/a&gt;, but considering how this is based on a highly developed neural network, I am not too terribly bothered—accuracy is more important than speed. Another downside is that the website partially resizes my image to speed up processing on their servers. I suppose if I built the entire thing from the Github server I could ditch the resizing part, but I don’t run a supercomputer and my humble PC could possibly crash.&lt;/p&gt;
+&lt;p&gt;I’m sure the technology still has many flaws, especially in very specific use cases. So, while my experience trying out the app could be positive, it may not be for everyone else, in particular those who rely on it on a daily basis.&lt;/p&gt;
+&lt;p&gt;That said, just like Waifu2x-Extension-GUI, the photo/video upscaling software I &lt;a href=&#34;../waifu2&#34;&gt;recently reviewed&lt;/a&gt;, I really look forward to using this in the future. Photobombers, beware! It would also be super interesting to have some sort of “who-heals-the-best” software competition. Not to mention, &lt;a href=&#34;https://cleanup.pictures/&#34;&gt;Cleanup.pictures&lt;/a&gt; has a really nice how-did-they-snag-that-url domain, just like &lt;a href=&#34;https://remove.bg/&#34;&gt;remove.bg&lt;/a&gt; and &lt;a href=&#34;https://clipdrop.co/&#34;&gt;clipdrop.co&lt;/a&gt;. Top find of the week!&lt;/p&gt;
+&lt;p&gt;Note: The website is created by &lt;a href=&#34;https://twitter.com/cyrildiagne&#34;&gt;Cyril Diagne&lt;/a&gt;, and is a direct implementation of this &lt;a href=&#34;https://arxiv.org/pdf/2109.07161.pdf&#34;&gt;scientific paper&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>The genius of Waifu2x</title>
+      <link>https://thms.netlify.app/posts/waifu2/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thms.netlify.app/posts/waifu2/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/beerslider/dist/BeerSlider.css&#34;&gt;
+&lt;p&gt;Yes, it’s an ungainly name. It has a gigantic file size of 3.5GB. It’s &lt;a href=&#34;https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636614022/Waifu_Screenshot_q3o3xe.jpg&#34;&gt;user interface&lt;/a&gt; is a big mess. But &lt;a href=&#34;https://github.com/AaronFeng753/Waifu2x-Extension-GUI&#34;&gt;Waifu2x&lt;/a&gt;, developed by Aaron Feng, is just genius—it uses artificial intelligence to “upscale” images. This idea isn’t the first of its kind, but it is easily the very best. And, it’s open-source! Take a look:&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636615025/Waifu_Tree_Sample_gnjh3a.png&#34;
+         alt=&#34;A before-after comparison.&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Sample Image—Nature&lt;/h4&gt;&lt;p&gt;A before-after comparison.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Isn’t that amazing? Just to note:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The first frame is the original unprocessed version&lt;/li&gt;
+&lt;li&gt;The second frame is processed with the &lt;code&gt;3D Real-life - Enlarge only - Fast&lt;/code&gt; preset&lt;/li&gt;
+&lt;li&gt;The third frame is processed with the &lt;code&gt;3D Real-life - Enlarge only - Highest Quality &lt;/code&gt; preset&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Waifu2x also scores excellently with 2D images, such as this Tom and Jerry photo. The lines are crisp, contour is accurate, and there are hardly any visual artifacts present!&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636615996/Waifu_Anime_Sample_nieukq.png&#34;
+         alt=&#34;A before-after comparison.&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Sample Image—Anime&lt;/h4&gt;&lt;p&gt;A before-after comparison.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;A side note though—Waifu2x does &lt;em&gt;not&lt;/em&gt; score terribly well when it comes to us earthlings. After shoving a 150px×150px Hide the Pain Harold picture into the app (sorry), this is what I got:&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636616856/Waifu_Face_Test_cbe8ij.png&#34;
+         alt=&#34;A before-after comparison.&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Sample Image—Human&lt;/h4&gt;&lt;p&gt;A before-after comparison.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;A bit unflattering, right? (Not that he was in the first place.) Just look at those eyes! Surprisingly, the “fast” preset (second frame) looks better than the “highest quality” preset (third frame). My hunch is that the presets were trained based on different datasets which led to such a big difference in output. However, there is still too much denoising present in both images. In fact, I would even argue that the original image looks even better despite being scaled up 5 times.&lt;/p&gt;
+&lt;p&gt;Either way, Waifu2x still manages to impress. It’s main advantages are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It’s offline (you get to ditch the upload process on online websites)&lt;/li&gt;
+&lt;li&gt;It’s open-source&lt;/li&gt;
+&lt;li&gt;It has advanced customisation options&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I’ve just discovered it, and can’t wait to try it out in real-world settings. I haven’t even touched on its video upscaling abilities yet! In the future, I imagine a day when artificial intelligence gets so advanced that such upscaling software could be built into video conferencing apps on our everyday devices (though it will probably kill the entire webcam industry). Waifu2x is also built in &lt;a href=&#34;https://en.wikipedia.org/wiki/C%2B%2B&#34;&gt;C++&lt;/a&gt;, so it would be interesting to see if similar software could be written in a different language. Maybe even a web app that upscales without server uploading with &lt;a href=&#34;https://www.rust-lang.org/&#34;&gt;Rust&lt;/a&gt; and &lt;smcp&gt;&lt;a href=&#34;https://webassembly.org/&#34;&gt;WASM&lt;/a&gt;&lt;/smcp&gt;?&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Is word count really accurate?</title>
+      <link>https://thms.netlify.app/posts/word-count/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thms.netlify.app/posts/word-count/</guid>
+      <description>&lt;p&gt;Recently, I’ve asked myself this question: &lt;em&gt;Is there a better way to calculate essay length than word count?&lt;/em&gt; Just wonderin’. While word count might work fine for a single-page documents, word count becomes less accurate for hundred-page documents, like, um, a PhD thesis.&lt;/p&gt;
+&lt;h2 id=&#34;the-problem&#34;&gt;The problem&lt;/h2&gt;
+&lt;p&gt;So, here’s the thing. In linguistics, &lt;a href=&#34;https://en.wikipedia.org/wiki/Agglutinative_language&#34;&gt;agglutinative languages&lt;/a&gt; exist. In other words:&lt;/p&gt;
+&lt;blockquote&gt;(of a language, e.g. Hungarian, Turkish, Korean, and Swahili) tending to express concepts in complex words consisting of many elements, rather than by inflection or by using isolated elements.
+&lt;/blockquote&gt;
+&lt;figcaption&gt;—Oxford English Dictionary&lt;/figcaption&gt;
+&lt;p&gt;What this basically means is that some languages have &lt;em&gt;longer&lt;/em&gt; words, while others have &lt;em&gt;shorter&lt;/em&gt; words. A good example would be Turkish. Like so:&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636555029/agglutinative-language-upscaled.webp&#34;
+         alt=&#34;Comparison of an agglutinative language with a non-agglutinative language&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Comparison of an agglutinative language with a non-agglutinative language&lt;/h4&gt;&lt;p&gt;&lt;br&gt;Note: This is an upscaled version generated by &lt;a href=&#34;https://github.com/AaronFeng753/Waifu2x-Extension-GUI&#34;&gt;Waifu2x&lt;/a&gt;&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;A single word in Turkish could make for an entire sentence in English, because each word has, well, more “words” in it. Thus, I feel that it’s rather inaccurate to judge document length just like that. Yes, in technical terms, word count &lt;em&gt;does&lt;/em&gt; equal to the byte size of a digital document, but from the aspect of “how much is this person really saying”, word count scores poorly.&lt;/p&gt;
+&lt;h2 id=&#34;existing-solutions&#34;&gt;Existing solutions&lt;/h2&gt;
+&lt;p&gt;An interesting point of research is linguist Joseph Greenberg’s work in measuring the “agglutinativeness” of a language. In his &lt;a href=&#34;https://www.jstor.org/stable/1264155?read-now=1&amp;amp;refreqid=excelsior%3A5f06e207ebd245aaf83c24e72c55976c&#34;&gt;academic paper&lt;/a&gt;, written in 1960 (though it’s still relevant), the degree of agglutinativeness is based on a ratio: The number of agglutinative junctures to the number of morph junctures. It’s a bit over my head, but the evidence is in the table below, extracted from Luschützky (2003):&lt;/p&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;th&gt;Agglutination&lt;/th&gt;
+&lt;th&gt;Synthesis&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;Swahili&lt;/th&gt;
+&lt;td&gt;0.67&lt;/td&gt;
+&lt;td&gt;2.56&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;Turkish&lt;/th&gt;
+&lt;td&gt;0.60&lt;/td&gt;
+&lt;td&gt;2.33&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;Yakut&lt;/th&gt;
+&lt;td&gt;0.51&lt;/td&gt;
+&lt;td&gt;2.17&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;English&lt;/th&gt;
+&lt;td&gt;0.30&lt;/td&gt;
+&lt;td&gt;1.67&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Solely from the agglutination index, there is a difference 0.37 between the agglutinative Swahili and the non-agglutinative English. So, what does that mean? I suppose it works like this: A text written in Swahili can fit in almost two times more content than a text written in English. So is word count really accurate? Is it really a universal marker of text length? Let’s not even get into Mandarin, which itself is perhaps one of the most agglutinative languages in the world, which was, for whatever reason, seemingly omitted from the aforementioned study.&lt;/p&gt;
+&lt;h2 id=&#34;personal-thoughts&#34;&gt;Personal thoughts&lt;/h2&gt;
+&lt;p&gt;Based on the above, how then, do we measure document length more accurately? I have a theory. Based on the assumption that clause-binding words/phrases such as “therefore”, “so”, “hence”, “as a result” indicate a certain degree of logical advancement in content, we could instead count these words/phrases in a text such that a greater number would result in a higher “content length” value.&lt;/p&gt;
+&lt;p&gt;But wait—we can go even further! What if we could leverage an unsupervised &lt;a href=&#34;https://en.wikipedia.org/wiki/Machine_learning&#34;&gt;machine learning&lt;/a&gt; model to understand the “content length”? This is a super interesting idea, and could actually be useful. The bottom line: Word count varies from language to language, and while it has its conveniences and relevance, more robust systems for calculating document length need to be formed.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>An open letter to a teacher</title>
+      <link>https://thms.netlify.app/posts/my-awful-cca-trainer/</link>
+      <pubDate>Mon, 08 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thms.netlify.app/posts/my-awful-cca-trainer/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;&lt;smcp&gt;Dear Mr Raphael,&lt;/smcp&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;What’s up?&lt;/em&gt; Last week was our last &lt;smcp title=&#34;Co-curricular Activity&#34;&gt;CCA&lt;/smcp&gt; session of the year, and it was a pretty awful one. Why? Because of you. On the flipside, it’s going to be a long time since we next meet in January next year. As you probably know, I’m not very happy with the way you’re teaching. Let me take recount on what you’ve done in the past few months solely in terms of your teaching.&lt;/p&gt;
+&lt;p&gt;Firstly, you have an affinity towards lying to our teachers-in-charge that we are making progress in our work when we are struggling and need help. I feel bad for Mr David and Ms Lan. They should not be getting lip-service, more so if its contents are untruthful. You are a professional who was hired to teach us programming. Yet, this is the state which we are in. Perhaps you need to be more alert and less laid back. This is the bare responsibility of a trainer. We know, that in university this kind of teaching is largely acceptable. That’s also how you were taught in university. But, we are a group of 13-year-old Secondary One students. Simply leaving us alone to do work is particularly perplexing. 90% of us have zero experience in Python. It is your job, as a trainer, to teach us, even the very basics.&lt;/p&gt;
+&lt;p&gt;Secondly, you give us vague unhelpful answers. It is hard to say if you are not fluent in the lesson material or that you are simply nonchalant about teaching us. I doubt it is the former. From your &lt;a href=&#34;https://www.linkedin.com/in/raphael-roshan-joseph/&#34;&gt;professional LinkedIn page&lt;/a&gt;, it appears that you are studying data science in &lt;smcp title=&#34;National University of Singapore&#34;&gt;NUS&lt;/smcp&gt;, and machine learning is your speciality. So why is it that you are so vague and unkind in your answers? It isn’t that we are not asking questions; rather, &lt;em&gt;you&lt;/em&gt; are not answering our questions. I’ve asked you some questions before. Conversely, you’re only reaction back then was, “why is your screen so dark?” I have a particularly distaste for such remarks. I never asked you to comment on my computer display’s brightness. If you want to get really technical, that’s also because my screen was facing downwards. But, talking to a trainer, I respect you, which is why I did not open my mouth.&lt;/p&gt;
+&lt;p&gt;Thirdly, you barely teach. I have not learnt anything about Python since you came. I feel that this is extremely unfortunate. At the start of the course, I was excited to learn about the language, but now my enthusiasm has withered. If you could just be a little bit more enthusiastic in your teaching, and if you actually &lt;em&gt;taught&lt;/em&gt;, I doubt I would be feeling the same way four months down the road.&lt;/p&gt;
+&lt;p&gt;For all these, reasons, I am a little disheartened with the quality of your teaching. The school is not paying you just to see your face on Zoom. The teachers-in-charge are not seeing you just to receive fake claims. And us, the students, are not meeting you every week just to learn nothing. I will be glad to follow-up on this and gain understanding from you. Look. I’m being nice and polite. I respect your coding abilities greatly, and I hope to attain the same proficiency as you one day. But for the time being, the only piece of Python code that I know of is:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Please go away. Seriously.&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;smcp&gt;Yours sincerely,&lt;/smcp&gt;&lt;br&gt;Thomas Rettig&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>My tuition class is a Ponzi scheme</title>
+      <link>https://thms.netlify.app/posts/my-tuition-class-is-a-ponzi-scheme/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thms.netlify.app/posts/my-tuition-class-is-a-ponzi-scheme/</guid>
+      <description>&lt;p&gt;&lt;smcp&gt;My mother loves&lt;/smcp&gt; the parents’ group chat. She’s started up a group tuition for classmates in the same level as mine. Suffice to say, it’s been fairly successful. She&amp;rsquo;s been able to recruit three investors from our level—two from my class, and one from another.&lt;/p&gt;
+&lt;p&gt;It’s hard to say if this scheme will last. We just started our first lesson last week. The highlight, of course, is that we get to eat together during the precious 15-minute break wedged between our science and mathematics classes. My friends seem to be enjoying the lessons. They could, also, be lying. You never know. But we are just starting out.&lt;/p&gt;
+&lt;p&gt;We shall see.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Why I’ve quit Brawl Stars</title>
+      <link>https://thms.netlify.app/posts/i-have-quit-brawl-stars/</link>
+      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thms.netlify.app/posts/i-have-quit-brawl-stars/</guid>
+      <description>&lt;p&gt;I’ve quit Brawl Stars after 10 months of intensive playing. Not because I was &lt;em&gt;forced&lt;/em&gt; to, but because I &lt;em&gt;want&lt;/em&gt; to. So, here’s the problem: Brawl Stars is addictive. No, I do not mean that in a purely negative way. I mean that in an unethical, vicious way. Yes, it served me well. I enjoyed the playing; it was fun. It was a lived experience. The world around me was illuminated by the parallel universe of Brawl Stars. My friends, the online community; they felt the same way too.&lt;/p&gt;
+&lt;p&gt;But, time leads to change. Though I’ve subconsciously known Brawl Stars’, and perhaps more appropriately, Supercell’s, dirty tricks, I’m giving up now. I’m letting go of the hours accumulated playing the game. The sweat, but also the joy. Because, sometimes, all I need is peace. A little quiet, for self-reflection.&lt;/p&gt;
+&lt;p&gt;So, back to problem with Brawl Stars, and why I’ve quit.&lt;/p&gt;
+&lt;p&gt;Firstly, I don’t want to be trolled by a mega-million corporation. The cartoonish art of the game stands in stark contrast with Brawl Stars’ motives. And, to be really honest, there’s nothing inherently wrong with that. Games &lt;em&gt;are&lt;/em&gt; like this: Behind a glimmering surface, true intentions show. Euphemistically, in the gaming world, this is known as &lt;em&gt;retention&lt;/em&gt;. Truthfully, this is known as &lt;em&gt;manipulation&lt;/em&gt;. And this manipulation manifests itself, in the most supreme way—we drown amidst a continuous flashing of colours and cacophony of sound. We lose our buoyancy. We hand over ourselves to the developers.&lt;/p&gt;
+&lt;p&gt;In this case, I handed myself over to supercell.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;For the most part, Brawl Stars is &lt;em&gt;not&lt;/em&gt; an e-sport. It will never be. Why, and why does this matter? The problem is that Brawl Stars does not reward skill. In games, even the trivial ones, such as Chrome Dino, skill is rewarded. And continuous skill leads to delight, in the greatest sense; delight that is a &lt;a href=&#34;https://frankchimero.com/blog/2010/big-ideas/#:~:text=to%20delight%20someone%20is%20to%20give%20a%20small%20lesson%20in%20how%20to%20see%20the%20world%20as%20something%20good&#34;&gt;small lesson in seeing the world as something good&lt;/a&gt;. How about Brawl Stars?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Terrible matchmaking&lt;/li&gt;
+&lt;li&gt;Toxic behaviour (like teaming, emotes)&lt;/li&gt;
+&lt;li&gt;Buggy &lt;smcp&gt;UX&lt;/smcp&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;terrible-matchmaking&#34;&gt;Terrible matchmaking&lt;/h2&gt;
+&lt;p&gt;Why &lt;em&gt;terrible matchmaking&lt;/em&gt;? Brawl Stars’ matchmaking philosophy is this: “Bah, don’t bother about the person’s power level, experience, just make sure the brawler is within the trophy range.” To me, that is absolutely ridiculous. Sometimes, Brawl Stars doesn’t even honour the last part with &lt;em&gt;underdog&lt;/em&gt;, their smart, but unfortunately ineffective strategy at matchmaking. Perhaps that’s understandable. But what about total trophy level? Brawl Stars loves this metric during matchmaking. However, there are two flaws. To illustrate the first flaw, here’s an unlikely—but nonetheless compelling—hypothesis. Imagine two players: Both are at a 1000 trophy level. But here’s the catch:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;smcp&gt;Player A&lt;/smcp&gt; has 20 brawlers, each at 50 trophies. 20×50🏆=100🏆&lt;/li&gt;
+&lt;li&gt;&lt;smcp&gt;Player B&lt;/smcp&gt; has 2 brawlers, each at 500 trophies. 2×500🏆=1000🏆&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See the difference? Then we have another flaw: Total trophy count does not necessarily reflect the player’s skill. You could have played 1000 matches to gain a 100 trophies, or you could have achieved the same with just 10 matches, with 10 consecutive Rank 1 Solo Showdown wins.&lt;/p&gt;
+&lt;h2 id=&#34;toxic-behaviour&#34;&gt;Toxic behaviour&lt;/h2&gt;
+&lt;p&gt;I feel that I’ve grown out the age group of Brawl Stars. A game should be universal, not just in location, but also in age. The problem really isn’t that Brawl Stars is preventing me from playing—it’s the players, the community—which is preventing me from doing so. Take a look at a small sampling of so-called toxic pins in the game:&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636295852/brawl-stars-toxic-pins.webp&#34;
+         alt=&#34;Toxic Pins&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Toxic Pins&lt;/h4&gt;&lt;p&gt;by u/Spicy_chickenugget&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Now, imagine seeing this in every game you play. Isn’t that humiliating? Seeing this once or twice is fine, but that constant abuse and their associated connotations. It’s annoying at best, and abusive at worst. This also happens in the chat:&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636296094/brawl-stars-toxic-chat.webp&#34;
+         alt=&#34;Toxic Chat&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Toxic Chat&lt;/h4&gt;&lt;p&gt;by u/&amp;ndash;TechHead&amp;ndash;&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Oh, and this:&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636296097/brawl-stars-inappropriate-map.webp&#34;
+         alt=&#34;Toxic Chat&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Inappropriate Maps&lt;/h4&gt;&lt;p&gt;by u/TheForestSaphire&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;Ugh.&lt;/em&gt; Seriously? I could give a few dozen more examples from the community, including my own, but that’s enough evidence. Think: How would a first-time player react to something like this? In my opnion, I feel like I simply don’t belong to the community; I don’t want to voluntarily suffer from a bunch of 9-year-olds. I know Brawl Stars isn’t the only one suffering from this problem. League of Legends has also suffered something similar. Yes, the Brawl Stars developers can implement strict censorship software, but it can only go so far. There are many loopholes in the game, particularly in inappropriate mapmaker content. There’s virtually no way you can detect inappropriate words in a map. It’s like a &lt;em&gt;bot&lt;/em&gt; trying to solve a &lt;smcp&gt;Captcha&lt;/smcp&gt; test. At the end of the day, it depends on the community. Sure, the community is passionate and vibrant on platforms (namely &lt;a href=&#34;https://reddit.com/r/brawlstars&#34;&gt;Reddit&lt;/a&gt;), but the bad eggs ruin the experience. I’m not here to be victimised, I just want to play.&lt;/p&gt;
+&lt;h2 id=&#34;buggy-ux&#34;&gt;Buggy UX&lt;/h2&gt;
+&lt;p&gt;Brawl Stars suffers from a horrible &lt;smcp&gt;UX&lt;/smcp&gt;.  From the time when brawlers became “black” to the day when Star Powers could not be selected, Brawl Stars players—especially the experienced—would concede that the Brawl Stars user experience is terribly buggy. You can find daily posts on Reddit documenting various bugs. Sure, some bugs are fun, but once there are two many, the experience is entirely unpleasurable. It’s hard for me to judge the developers. I doubt they have manpower issues as with any burgeoning, billion-dollar gaming behemoth. I, too, doubt that the developers are lousy. What I suspect, rather, is that Brawl Stars is pushing their developers to implement new features so much, that the game itself cannot keep up.&lt;/p&gt;
+&lt;p&gt;For all these reasons, I’m quitting Brawl Stars. I do not know if I’ll regret this decision in the near future. But as for now, it’s time for a break. A good &lt;em&gt;and&lt;/em&gt; long break.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>“Hello world” in CSS?</title>
+      <link>https://thms.netlify.app/posts/hello-world-in-css/</link>
+      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thms.netlify.app/posts/hello-world-in-css/</guid>
+      <description>&lt;p&gt;Yes, you can! Thanks to this &lt;a href=&#34;https://css-tricks.com/is-css-a-programming-language/&#34;&gt;insightful article&lt;/a&gt; by Chris Coyier over at CSS-Tricks—athough this is more of an edge case. Here’s what he says:&lt;/p&gt;
+&lt;p&gt;&lt;smcp&gt;CSS&lt;/smcp&gt; can’t do that! Um, well, unless you write &lt;code&gt;body::after { content: &amp;quot;Hello, World!&amp;quot;; }&lt;/code&gt; in &lt;code&gt;style.css&lt;/code&gt; file and open a web page that loads that &lt;smcp&gt;CSS&lt;/smcp&gt; file. So &lt;smcp&gt;CSS&lt;/smcp&gt; does execute, in its own special way. It’s a domain-specific language (&lt;smcp&gt;DSL&lt;/smcp&gt;) rather than a general-purpose language (&lt;smcp&gt;GPL&lt;/smcp&gt;). In that browser context, the way &lt;smcp&gt;CSS&lt;/smcp&gt; is told to run (&lt;code&gt;&amp;lt;link&amp;gt;&lt;/code&gt;, usually) isn’t even that different from how JavaScript is told to run (&lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt;, usually).&lt;/p&gt;
+&lt;p&gt;So, to sum up:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;after&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;content&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;can produce something like this:&lt;/p&gt;
+&lt;iframe height=&#34;300&#34; style=&#34;width: 100%;&#34; scrolling=&#34;no&#34; title=&#34;CSS Hello World&#34; src=&#34;https://codepen.io/ThomasRettig/embed/QWMmEGQ?default-tab=css%2Cresult&amp;editable=true&#34; frameborder=&#34;no&#34; loading=&#34;lazy&#34; allowtransparency=&#34;true&#34; allowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;This is pretty obvious, but it just goes to show that&amp;hellip; &lt;smcp&gt;CSS&lt;/smcp&gt; &lt;em&gt;can&lt;/em&gt; in fact print &lt;code&gt;Hello World&lt;/code&gt;. Of course, &lt;smcp&gt;CSS&lt;/smcp&gt; But the larger argument that Chris makes, is that, while CSS might not be the first candidate for Turing completeness, it does in fact contain some programming concepts inside.&lt;/p&gt;
+&lt;h2 id=&#34;css-is-a-programming-language&#34;&gt;CSS is a programming language!&lt;/h2&gt;
+&lt;p&gt;His main points:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;smcp&gt;CSS&lt;/smcp&gt; selectors are simply &lt;code&gt;if&lt;/code&gt; statements running over loops of matches&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;calc()&lt;/code&gt; is a direct implementation of math (&lt;a href=&#34;https://medium.com/buildit/hardcore-css-calc-bdfb0162993c&#34;&gt;check this!&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Media queries are switches&lt;/li&gt;
+&lt;li&gt;Custom properties are a place to store states&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:checked&lt;/code&gt; is a boolean&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And, my own contribution: Aren’t &lt;code&gt;!important&lt;/code&gt; and &lt;code&gt;@supports&lt;/code&gt; both proof that &lt;smcp&gt;CSS&lt;/smcp&gt; is a programming language, in its own, albeit special, way?&lt;/p&gt;
+&lt;p&gt;Chris asserts that the bigger picture is about pay. His concern: If &lt;smcp&gt;CSS&lt;/smcp&gt; is not regarded as a true programming language, would &lt;smcp&gt;CSS&lt;/smcp&gt; specialists get lower pay than their counterparts?&lt;/p&gt;
+&lt;h2 id=&#34;direct-link&#34;&gt;Direct link&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://css-tricks.com/is-css-a-programming-language/&#34;&gt;https://css-tricks.com/is-css-a-programming-language/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    
+    
+    
+    
+    
   </channel>
 </rss>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html><head>
+    <html lang="en">
+    <meta charset="utf-8">
+    <meta name="author" content="Thomas Rettig">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The personal blog of Thomas Rettig.">
+    
+    <link rel="shortcut icon" href="https://thms.netlify.app/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>Favourite albums of the month</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body><header id="banner">
+    <a title="homepage" href="https://thms.netlify.app/">th[o]m[a]s</a>
+    <nav>
+        <ul>
+            <li>
+                <a href="/about/" title="about me">about</a>
+            </li><li>
+                <a href="/contact/" title="contact me">contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Favourite albums of the month</h1>
+            <div>
+                <share title="Share this article" class="share">Share this article</share><time>November 15, 2021</time>
+                </div>
+    </header><p>Here’s a brief top-three list of what I’ve been listening to lately:</p>
+<h2 id="suite-april-2020">Suite: April 2020</h2>
+<figure><img src="/suite-april-2020-album-cover.jpg"/><figcaption>
+            <h4>Suite: April 2020 // Brad Mehldau</h4>
+        </figcaption>
+</figure>
+
+<p><a href="https://open.spotify.com/album/5e2pKFBkbxJ4s5gmgc78e4">https://open.spotify.com/album/5e2pKFBkbxJ4s5gmgc78e4</a></p>
+<p>According to <a href="https://www.bradmehldau.com/suite-april-2020">Brad Mehldau</a>, Suite: April 2020 is “a musical snapshot of life the last month in the world in which we’ve all found ourselves [in the Covid-19 pandemic]”. This contemporary jazz album has a remarkable nuance, and is possibly my favourite album from the pianist. It communicates the agony and air of uncertainty that has very much become the zeitgeist of the very era we’ve found ourselves in.</p>
+<p>Favourite track—New York State of Mind. Brad Mehldau’s interpretation of Billy Joel’s classic is thoughtful and irresistibly fresh. I can’t help but play this over and over again.</p>
+<h2 id="my-finnish-calendar">My Finnish Calendar</h2>
+<figure><img src="/my-finnish-calendar-album-cover.jpg"/><figcaption>
+            <h4>My Finnish Calendar // Iiro Rantala</h4>
+        </figcaption>
+</figure>
+
+<p><a href="https://open.spotify.com/album/1rInq2apaCIU3Rr47GXBeT">https://open.spotify.com/album/1rInq2apaCIU3Rr47GXBeT</a></p>
+<p>Favourite track—September. Iiro’s playing is refreshingly crisp and resonant, both on musical and emotional levels. “September” speaks most strongly to me. The lullaby-like lilt of the song is heart-warming, memorable, and romantic, and is masterfully contrasted with a fast, spirited left-hand ostinato section. The track also features percussive elements that give it an extra crunch. Iiro’s accompanying commentary provides some insight to the piece: “Finns are very attached to nature, and in September, nature seems to be dying. The leaves turn yellow and drop.” To me, the middle section of the piece references the leaves dropping.</p>
+<h2 id="cory-wong-and-the-metropole-orkest">Cory Wong and the Metropole Orkest</h2>
+<figure><img src="/cory-wong-metropole-orkest-album-cover.jpg"/><figcaption>
+            <h4>Cory Wong and the Metropole Orkest (Live in Amsterdam) // Cory Wong and the Metropole Orkest</h4>
+        </figcaption>
+</figure>
+
+<p><a href="https://open.spotify.com/album/75myrjLzKkLEPtaL6Nr2za">https://open.spotify.com/album/75myrjLzKkLEPtaL6Nr2za</a></p>
+<p>Favourite track—Underground. I love to see how Cody’s interpretation of the song has (subtly) changed since the song’s initial release way back in 2012. The orchestration, particularly the screeching sounds of the violins and the graceful strumming of the harp, only add to the atmosphere. Cody’s powerful vocals propel the song and draw me into one of the most magnificent climaxes I have heard. The lyrics are both poignant and strangely surreal.</p>
+</article>
+
+        <hr>
+        </main><footer id="footer">
+    Copyright © 2021 Thomas
+</footer>
+<script>
+        const shareButton = document.querySelector('share')
+        const shareByline = ' by Thomas Rettig'
+        const title = window.document.title
+        const url = window.document.location.href
+    
+    shareButton.addEventListener('click', event => {
+
+    if (navigator.share) {
+        navigator.share({
+            title: `“${title}”` + `${shareByline}`,
+            url: `${url}`,
+        })
+        } else {
+                overlay.classList.add('show-share')
+                shareModal.classList.add('show-share')
+        }
+        
+    });
+</script></body>
+</html>

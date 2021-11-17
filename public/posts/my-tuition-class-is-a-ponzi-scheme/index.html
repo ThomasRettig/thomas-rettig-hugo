@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html><head>
+    <html lang="en">
+    <meta charset="utf-8">
+    <meta name="author" content="Thomas Rettig">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The personal blog of Thomas Rettig.">
+    
+    <link rel="shortcut icon" href="https://thms.netlify.app/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>My tuition class is a Ponzi scheme</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body><header id="banner">
+    <a title="homepage" href="https://thms.netlify.app/">th[o]m[a]s</a>
+    <nav>
+        <ul>
+            <li>
+                <a href="/about/" title="about me">about</a>
+            </li><li>
+                <a href="/contact/" title="contact me">contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>My tuition class is a Ponzi scheme</h1>
+            <div>
+                <share title="Share this article" class="share">Share this article</share><time>November 7, 2021</time>
+                </div>
+    </header><p><smcp>My mother loves</smcp> the parents’ group chat. She’s started up a group tuition for classmates in the same level as mine. Suffice to say, it’s been fairly successful. She&rsquo;s been able to recruit three investors from our level—two from my class, and one from another.</p>
+<p>It’s hard to say if this scheme will last. We just started our first lesson last week. The highlight, of course, is that we get to eat together during the precious 15-minute break wedged between our science and mathematics classes. My friends seem to be enjoying the lessons. They could, also, be lying. You never know. But we are just starting out.</p>
+<p>We shall see.</p>
+</article>
+
+        <hr>
+        </main><footer id="footer">
+    Copyright © 2021 Thomas
+</footer>
+<script>
+        const shareButton = document.querySelector('share')
+        const shareByline = ' by Thomas Rettig'
+        const title = window.document.title
+        const url = window.document.location.href
+    
+    shareButton.addEventListener('click', event => {
+
+    if (navigator.share) {
+        navigator.share({
+            title: `“${title}”` + `${shareByline}`,
+            url: `${url}`,
+        })
+        } else {
+                overlay.classList.add('show-share')
+                shareModal.classList.add('show-share')
+        }
+        
+    });
+</script></body>
+</html>

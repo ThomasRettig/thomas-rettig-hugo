@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html><head>
+    <html lang="en">
+    <meta charset="utf-8">
+    <meta name="author" content="Thomas Rettig">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The personal blog of Thomas Rettig.">
+    
+    <link rel="shortcut icon" href="https://thms.netlify.app/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>An open letter to a teacher</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body><header id="banner">
+    <a title="homepage" href="https://thms.netlify.app/">th[o]m[a]s</a>
+    <nav>
+        <ul>
+            <li>
+                <a href="/about/" title="about me">about</a>
+            </li><li>
+                <a href="/contact/" title="contact me">contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>An open letter to a teacher</h1>
+            <div>
+                <share title="Share this article" class="share">Share this article</share><time>November 8, 2021</time>
+                </div>
+    </header><hr>
+<p><smcp>Dear Mr Raphael,</smcp></p>
+<p><em>What’s up?</em> Last week was our last <smcp title="Co-curricular Activity">CCA</smcp> session of the year, and it was a pretty awful one. Why? Because of you. On the flipside, it’s going to be a long time since we next meet in January next year. As you probably know, I’m not very happy with the way you’re teaching. Let me take recount on what you’ve done in the past few months solely in terms of your teaching.</p>
+<p>Firstly, you have an affinity towards lying to our teachers-in-charge that we are making progress in our work when we are struggling and need help. I feel bad for Mr David and Ms Lan. They should not be getting lip-service, more so if its contents are untruthful. You are a professional who was hired to teach us programming. Yet, this is the state which we are in. Perhaps you need to be more alert and less laid back. This is the bare responsibility of a trainer. We know, that in university this kind of teaching is largely acceptable. That’s also how you were taught in university. But, we are a group of 13-year-old Secondary One students. Simply leaving us alone to do work is particularly perplexing. 90% of us have zero experience in Python. It is your job, as a trainer, to teach us, even the very basics.</p>
+<p>Secondly, you give us vague unhelpful answers. It is hard to say if you are not fluent in the lesson material or that you are simply nonchalant about teaching us. I doubt it is the former. From your <a href="https://www.linkedin.com/in/raphael-roshan-joseph/">professional LinkedIn page</a>, it appears that you are studying data science in <smcp title="National University of Singapore">NUS</smcp>, and machine learning is your speciality. So why is it that you are so vague and unkind in your answers? It isn’t that we are not asking questions; rather, <em>you</em> are not answering our questions. I’ve asked you some questions before. Conversely, you’re only reaction back then was, “why is your screen so dark?” I have a particularly distaste for such remarks. I never asked you to comment on my computer display’s brightness. If you want to get really technical, that’s also because my screen was facing downwards. But, talking to a trainer, I respect you, which is why I did not open my mouth.</p>
+<p>Thirdly, you barely teach. I have not learnt anything about Python since you came. I feel that this is extremely unfortunate. At the start of the course, I was excited to learn about the language, but now my enthusiasm has withered. If you could just be a little bit more enthusiastic in your teaching, and if you actually <em>taught</em>, I doubt I would be feeling the same way four months down the road.</p>
+<p>For all these, reasons, I am a little disheartened with the quality of your teaching. The school is not paying you just to see your face on Zoom. The teachers-in-charge are not seeing you just to receive fake claims. And us, the students, are not meeting you every week just to learn nothing. I will be glad to follow-up on this and gain understanding from you. Look. I’m being nice and polite. I respect your coding abilities greatly, and I hope to attain the same proficiency as you one day. But for the time being, the only piece of Python code that I know of is:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Please go away. Seriously.&#34;</span><span class="p">)</span>
+</code></pre></div><p><smcp>Yours sincerely,</smcp><br>Thomas Rettig</p>
+</article>
+
+        <hr>
+        </main><footer id="footer">
+    Copyright © 2021 Thomas
+</footer>
+<script>
+        const shareButton = document.querySelector('share')
+        const shareByline = ' by Thomas Rettig'
+        const title = window.document.title
+        const url = window.document.location.href
+    
+    shareButton.addEventListener('click', event => {
+
+    if (navigator.share) {
+        navigator.share({
+            title: `“${title}”` + `${shareByline}`,
+            url: `${url}`,
+        })
+        } else {
+                overlay.classList.add('show-share')
+                shareModal.classList.add('show-share')
+        }
+        
+    });
+</script></body>
+</html>

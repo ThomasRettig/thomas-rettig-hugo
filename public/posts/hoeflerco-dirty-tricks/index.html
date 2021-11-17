@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html><head>
+    <html lang="en">
+    <meta charset="utf-8">
+    <meta name="author" content="Thomas Rettig">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The personal blog of Thomas Rettig.">
+    
+    <link rel="shortcut icon" href="https://thms.netlify.app/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>Hoefler&amp;Co’s “downfall”</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body><header id="banner">
+    <a title="homepage" href="https://thms.netlify.app/">th[o]m[a]s</a>
+    <nav>
+        <ul>
+            <li>
+                <a href="/about/" title="about me">about</a>
+            </li><li>
+                <a href="/contact/" title="contact me">contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Hoefler&amp;Co’s “downfall”</h1>
+            <div>
+                <share title="Share this article" class="share">Share this article</share><time>November 16, 2021</time>
+                </div>
+    </header><p>It is hard to say this is exactly a downfall, but <a href="https://en.wikipedia.org/wiki/Hoefler_%26_Co.">Hoefler&amp;Co</a> has seen a decrease in reputation; first after the <a href="https://www.scribd.com/document/200243509/Tobias-Frere-Jones-v-Jonathan-Hoefler">Hoefler vs Frere-Jones</a> lawsuit, and second after H&amp;Co’s recent acquisition by Monotype which is said to have <a href="https://qz.com/2068310/what-monotypes-purchase-of-hoeflerco-means-to-font-designers/">shaken the design industry</a>. This is not an accurate analysis of H&amp;Co’s history. It is also partially opiniated.</p>
+<h2 id="the-lawsuit">The lawsuit</h2>
+<p>The <a href="https://www.theverge.com/2014/1/17/5318206/hoefler-and-frere-jones-lawsuit">lawsuit</a> was a pretty big PR disaster for Hoefler&amp;Co. It is rumoured on forums that the lawsuit ended with a settlement whereby Hoefler gave a fraction of his money to Frere-Jones as compensation. Two theories on why he did so (if ever):</p>
+<ol>
+<li>Hoefler did not want anymore damage hit the brand.</li>
+<li>Hoefler knew he was not going to win the legal battle if he brought it up to court.</li>
+</ol>
+<p>Of course, it is hard to jump to such conclusions without also knowing Frere-Jones perspective on the matter.</p>
+<h2 id="web-licensing-strategya-mistake">Web licensing strategy—a mistake</h2>
+<p>Yes, H&amp;Co’s ScreenSmart fonts (abbreviated as SSm) do look better. But they’re also a neat little marketing manoeuvre.</p>
+<p>They lead clueless companies into purchasing both the SSm and non-SSm versions on the basis that “if I’m gonna print something, I simply can’t be using a screen font”, and “if I’m gonna be designing my website, no, I simply have to use the optimised version.” Something along that line. This effectively creates a FOMO effect on the buyers. And chances are, those who do buy the Ssm and non-Ssm versions are large organisations, thus generating further profit for H&amp;Co.</p>
+<p>One could even argue that there is little value in buying Ssm fonts since a) the visual difference is tiny b) you have to pay the same amount of money if you were to buy the two versions.</p>
+<p>There is also talk about how the ScreenSmart strategy of H&amp;Co has somewhat led to them losing popularity amongst designers. For one, while ScreenSmart fonts could potentially be attractive to large companies, it simply is too big of a money gamble for smaller organisations or individuals. But then again, perhaps H&amp;Co just runs in different circles than smaller foundries.</p>
+<h2 id="in-the-wrong-era">In the wrong era</h2>
+<p>H&amp;Co was founded in 1989, during the dawn of dekstop publishing. As one of the few digital type foundries, H&amp;Co was regarded as reasonably reputable source by designers in a landscape with extreme scarcity for quality fonts; the consensus from giants such as <a href="https://en.wikipedia.org/wiki/Mergenthaler_Linotype_Company">Linotype</a>, for example, was to make their assets digital as soon as possible in order to get into the digital font market, which also meant that the fonts were not as well-made as they could have been.</p>
+<p>This made H&amp;Co synonymous, almost exclusively so, with desktop publishing and printed matter. So when <code>@font-face</code> was introduced into the CSS spec in 2008 (<a href="https://www.typotheque.com/articles/brief_history_of_webfonts">article here</a>), H&amp;Co almost found itself out of the competition with newer foundries offering more attractive pricing. H&amp;Co had the choice to democratise its fonts to the web, but instead kept its exorbitant pricing scheme, which might have resulted in H&amp;Co falling out of the competition right at a potential pinnacle of growth.</p>
+<h2 id="smoke-and-mirrors">“Smoke and mirrors”</h2>
+<p>Luc Devroye opines in his <a href="http://luc.devroye.org/fonts-73731.html">Carleen Borsella page</a> that “[t]he motto at H&amp;FJ [now known as Hoefler&amp;Co] has always been smoke and mirrors&quot;, and that “they do not list any designers with their typefaces.” Which could turn out to be partially true. Designers are not credited on their work, which is of course are smart marketing ploy to impress on people that H&amp;Co is a single studio.</p>
+</article>
+
+        <hr>
+        </main><footer id="footer">
+    Copyright © 2021 Thomas
+</footer>
+<script>
+        const shareButton = document.querySelector('share')
+        const shareByline = ' by Thomas Rettig'
+        const title = window.document.title
+        const url = window.document.location.href
+    
+    shareButton.addEventListener('click', event => {
+
+    if (navigator.share) {
+        navigator.share({
+            title: `“${title}”` + `${shareByline}`,
+            url: `${url}`,
+        })
+        } else {
+                overlay.classList.add('show-share')
+                shareModal.classList.add('show-share')
+        }
+        
+    });
+</script></body>
+</html>

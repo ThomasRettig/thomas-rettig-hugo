@@ -2,17 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/posts/my-first-post/</loc>
-    <lastmod>2021-10-02T11:32:37+08:00</lastmod>
+    <loc>https://thms.netlify.app/posts/hoeflerco-dirty-tricks/</loc>
+    <lastmod>2021-11-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
-    <lastmod>2021-10-02T11:32:37+08:00</lastmod>
+    <loc>https://thms.netlify.app/posts/</loc>
+    <lastmod>2021-11-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
-    <lastmod>2021-10-02T11:32:37+08:00</lastmod>
+    <loc>https://thms.netlify.app/posts/semantic-satiation/</loc>
+    <lastmod>2021-11-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://thms.netlify.app/</loc>
+    <lastmod>2021-11-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://thms.netlify.app/posts/jazz-recommendations/</loc>
+    <lastmod>2021-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thms.netlify.app/posts/cleanup-pictures/</loc>
+    <lastmod>2021-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thms.netlify.app/posts/waifu2/</loc>
+    <lastmod>2021-11-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thms.netlify.app/posts/word-count/</loc>
+    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thms.netlify.app/posts/my-awful-cca-trainer/</loc>
+    <lastmod>2021-11-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thms.netlify.app/posts/my-tuition-class-is-a-ponzi-scheme/</loc>
+    <lastmod>2021-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thms.netlify.app/posts/i-have-quit-brawl-stars/</loc>
+    <lastmod>2021-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thms.netlify.app/posts/hello-world-in-css/</loc>
+    <lastmod>2021-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thms.netlify.app/about/</loc>
+  </url><url>
+    <loc>https://thms.netlify.app/categories/</loc>
+  </url><url>
+    <loc>https://thms.netlify.app/contact/</loc>
+  </url><url>
+    <loc>https://thms.netlify.app/secret/</loc>
+  </url><url>
+    <loc>https://thms.netlify.app/tags/</loc>
   </url>
 </urlset>

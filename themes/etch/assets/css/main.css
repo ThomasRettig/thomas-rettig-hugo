@@ -237,6 +237,7 @@ main#content ul#posts small {
 
 main#content ul#posts li a {
     text-decoration: none;
+    font-feature-settings: "ss02", "pnum";
 }
 
 main#content ul#posts li a:hover small {
@@ -436,8 +437,10 @@ summary > span {
 footer#footer {
     font-size: 12px;
     font-family: var(--body-font);
-    font-feature-settings: "ss08";
+    font-feature-settings: "tnum";
+    letter-spacing: 0.4px;
     margin-bottom: 35px;
+
 }
 
 footer#footer .footer-img {

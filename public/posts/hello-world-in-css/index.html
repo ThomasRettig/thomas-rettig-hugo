@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html><head>
+    <html lang="en">
+    <meta charset="utf-8">
+    <meta name="author" content="Thomas Rettig">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The personal blog of Thomas Rettig.">
+    
+    <link rel="shortcut icon" href="https://thms.netlify.app/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>“Hello world” in CSS?</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body><header id="banner">
+    <a title="homepage" href="https://thms.netlify.app/">th[o]m[a]s</a>
+    <nav>
+        <ul>
+            <li>
+                <a href="/about/" title="about me">about</a>
+            </li><li>
+                <a href="/contact/" title="contact me">contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>“Hello world” in CSS?</h1>
+            <div>
+                <share title="Share this article" class="share">Share this article</share><time>November 6, 2021</time>
+                </div>
+    </header><p>Yes, you can! Thanks to this <a href="https://css-tricks.com/is-css-a-programming-language/">insightful article</a> by Chris Coyier over at CSS-Tricks—athough this is more of an edge case. Here’s what he says:</p>
+<p><smcp>CSS</smcp> can’t do that! Um, well, unless you write <code>body::after { content: &quot;Hello, World!&quot;; }</code> in <code>style.css</code> file and open a web page that loads that <smcp>CSS</smcp> file. So <smcp>CSS</smcp> does execute, in its own special way. It’s a domain-specific language (<smcp>DSL</smcp>) rather than a general-purpose language (<smcp>GPL</smcp>). In that browser context, the way <smcp>CSS</smcp> is told to run (<code>&lt;link&gt;</code>, usually) isn’t even that different from how JavaScript is told to run (<code>&lt;script&gt;</code>, usually).</p>
+<p>So, to sum up:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="nt">body</span><span class="p">::</span><span class="nd">after</span> <span class="p">{</span>
+    <span class="k">content</span><span class="p">:</span> <span class="s2">&#34;Hello World!&#34;</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><p>can produce something like this:</p>
+<iframe height="300" style="width: 100%;" scrolling="no" title="CSS Hello World" src="https://codepen.io/ThomasRettig/embed/QWMmEGQ?default-tab=css%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<p>This is pretty obvious, but it just goes to show that&hellip; <smcp>CSS</smcp> <em>can</em> in fact print <code>Hello World</code>. Of course, <smcp>CSS</smcp> But the larger argument that Chris makes, is that, while CSS might not be the first candidate for Turing completeness, it does in fact contain some programming concepts inside.</p>
+<h2 id="css-is-a-programming-language">CSS is a programming language!</h2>
+<p>His main points:</p>
+<ul>
+<li><smcp>CSS</smcp> selectors are simply <code>if</code> statements running over loops of matches</li>
+<li><code>calc()</code> is a direct implementation of math (<a href="https://medium.com/buildit/hardcore-css-calc-bdfb0162993c">check this!</a>)</li>
+<li>Media queries are switches</li>
+<li>Custom properties are a place to store states</li>
+<li><code>:checked</code> is a boolean</li>
+</ul>
+<p>And, my own contribution: Aren’t <code>!important</code> and <code>@supports</code> both proof that <smcp>CSS</smcp> is a programming language, in its own, albeit special, way?</p>
+<p>Chris asserts that the bigger picture is about pay. His concern: If <smcp>CSS</smcp> is not regarded as a true programming language, would <smcp>CSS</smcp> specialists get lower pay than their counterparts?</p>
+<h2 id="direct-link">Direct link</h2>
+<p><a href="https://css-tricks.com/is-css-a-programming-language/">https://css-tricks.com/is-css-a-programming-language/</a></p>
+</article>
+
+        <hr>
+        </main><footer id="footer">
+    Copyright © 2021 Thomas
+</footer>
+<script>
+        const shareButton = document.querySelector('share')
+        const shareByline = ' by Thomas Rettig'
+        const title = window.document.title
+        const url = window.document.location.href
+    
+    shareButton.addEventListener('click', event => {
+
+    if (navigator.share) {
+        navigator.share({
+            title: `“${title}”` + `${shareByline}`,
+            url: `${url}`,
+        })
+        } else {
+                overlay.classList.add('show-share')
+                shareModal.classList.add('show-share')
+        }
+        
+    });
+</script></body>
+</html>

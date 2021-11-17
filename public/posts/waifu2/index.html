@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html><head>
+    <html lang="en">
+    <meta charset="utf-8">
+    <meta name="author" content="Thomas Rettig">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The personal blog of Thomas Rettig.">
+    
+    <link rel="shortcut icon" href="https://thms.netlify.app/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>The genius of Waifu2x</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body><header id="banner">
+    <a title="homepage" href="https://thms.netlify.app/">th[o]m[a]s</a>
+    <nav>
+        <ul>
+            <li>
+                <a href="/about/" title="about me">about</a>
+            </li><li>
+                <a href="/contact/" title="contact me">contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>The genius of Waifu2x</h1>
+            <div>
+                <share title="Share this article" class="share">Share this article</share><time>November 11, 2021</time>
+                </div>
+    </header><link rel="stylesheet" href="https://unpkg.com/beerslider/dist/BeerSlider.css">
+<p>Yes, it’s an ungainly name. It has a gigantic file size of 3.5GB. It’s <a href="https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636614022/Waifu_Screenshot_q3o3xe.jpg">user interface</a> is a big mess. But <a href="https://github.com/AaronFeng753/Waifu2x-Extension-GUI">Waifu2x</a>, developed by Aaron Feng, is just genius—it uses artificial intelligence to “upscale” images. This idea isn’t the first of its kind, but it is easily the very best. And, it’s open-source! Take a look:</p>
+<figure><img src="https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636615025/Waifu_Tree_Sample_gnjh3a.png"
+         alt="A before-after comparison."/><figcaption>
+            <h4>Sample Image—Nature</h4><p>A before-after comparison.</p>
+        </figcaption>
+</figure>
+
+<p>Isn’t that amazing? Just to note:</p>
+<ul>
+<li>The first frame is the original unprocessed version</li>
+<li>The second frame is processed with the <code>3D Real-life - Enlarge only - Fast</code> preset</li>
+<li>The third frame is processed with the <code>3D Real-life - Enlarge only - Highest Quality </code> preset</li>
+</ul>
+<p>Waifu2x also scores excellently with 2D images, such as this Tom and Jerry photo. The lines are crisp, contour is accurate, and there are hardly any visual artifacts present!</p>
+<figure><img src="https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636615996/Waifu_Anime_Sample_nieukq.png"
+         alt="A before-after comparison."/><figcaption>
+            <h4>Sample Image—Anime</h4><p>A before-after comparison.</p>
+        </figcaption>
+</figure>
+
+<p>A side note though—Waifu2x does <em>not</em> score terribly well when it comes to us earthlings. After shoving a 150px×150px Hide the Pain Harold picture into the app (sorry), this is what I got:</p>
+<figure><img src="https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636616856/Waifu_Face_Test_cbe8ij.png"
+         alt="A before-after comparison."/><figcaption>
+            <h4>Sample Image—Human</h4><p>A before-after comparison.</p>
+        </figcaption>
+</figure>
+
+<p>A bit unflattering, right? (Not that he was in the first place.) Just look at those eyes! Surprisingly, the “fast” preset (second frame) looks better than the “highest quality” preset (third frame). My hunch is that the presets were trained based on different datasets which led to such a big difference in output. However, there is still too much denoising present in both images. In fact, I would even argue that the original image looks even better despite being scaled up 5 times.</p>
+<p>Either way, Waifu2x still manages to impress. It’s main advantages are:</p>
+<ul>
+<li>It’s offline (you get to ditch the upload process on online websites)</li>
+<li>It’s open-source</li>
+<li>It has advanced customisation options</li>
+</ul>
+<p>I’ve just discovered it, and can’t wait to try it out in real-world settings. I haven’t even touched on its video upscaling abilities yet! In the future, I imagine a day when artificial intelligence gets so advanced that such upscaling software could be built into video conferencing apps on our everyday devices (though it will probably kill the entire webcam industry). Waifu2x is also built in <a href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a>, so it would be interesting to see if similar software could be written in a different language. Maybe even a web app that upscales without server uploading with <a href="https://www.rust-lang.org/">Rust</a> and <smcp><a href="https://webassembly.org/">WASM</a></smcp>?</p>
+</article>
+
+        <hr>
+        </main><footer id="footer">
+    Copyright © 2021 Thomas
+</footer>
+<script>
+        const shareButton = document.querySelector('share')
+        const shareByline = ' by Thomas Rettig'
+        const title = window.document.title
+        const url = window.document.location.href
+    
+    shareButton.addEventListener('click', event => {
+
+    if (navigator.share) {
+        navigator.share({
+            title: `“${title}”` + `${shareByline}`,
+            url: `${url}`,
+        })
+        } else {
+                overlay.classList.add('show-share')
+                shareModal.classList.add('show-share')
+        }
+        
+    });
+</script></body>
+</html>

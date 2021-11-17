@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html><head>
+    <html lang="en">
+    <meta charset="utf-8">
+    <meta name="author" content="Thomas Rettig">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The personal blog of Thomas Rettig.">
+    
+    <link rel="shortcut icon" href="https://thms.netlify.app/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>Online spot healing — better than I thought</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body><header id="banner">
+    <a title="homepage" href="https://thms.netlify.app/">th[o]m[a]s</a>
+    <nav>
+        <ul>
+            <li>
+                <a href="/about/" title="about me">about</a>
+            </li><li>
+                <a href="/contact/" title="contact me">contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Online spot healing — better than I thought</h1>
+            <div>
+                <share title="Share this article" class="share">Share this article</share><time>November 12, 2021</time>
+                </div>
+    </header><p><a href="https://cleanup.pictures/">Cleanup.pictures</a> does exactly what it does: It cleans up pictures. You draw over areas of an image and it automagically removes that part. Yes, it’s like Photoshop’s spot healing brush tool, except that it’s a website and it’s free. And unlike primitive spot healing tools which rely on surroundings to “import” textures, Cleanup.pictures uses artificial intelligence. The science is complex; AFAIK, its network architecture uses Fourier convolutions. But of course, I don’t really know what that is, and no one really cares about that.</p>
+<p>Here’s a before-after example from their <a href="https://saic-mdal.github.io/lama-project/">Github repo</a>:</p>
+<figure><img src="https://raw.githubusercontent.com/senya-ashukha/senya-ashukha.github.io/master/projects/lama_21/ezgif-4-0db51df695a8.gif"/>
+</figure>
+
+<p>That was spooky, wasn’t it? I was a bit sceptical, so I tried it out myself just for good measure:</p>
+<figure><img src="https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636704470/cleanup-test.webp"/><figcaption>
+            <h4>Before and after comparison</h4>
+        </figcaption>
+</figure>
+
+<p>Amazing. It also finished processing faster than I thought, considering how</p>
+<ul>
+<li><a href="https://cleanup.pictures/">Cleanup.pictures</a> is a web app</li>
+<li>I was using a high-resolution image</li>
+<li>I had selected a big area to heal</li>
+</ul>
+<p>Admittedly, <a href="https://cleanup.pictures/">Cleanup.pictures</a> is a trifle slower than Photoshop and <a href="https://en.wikipedia.org/wiki/Snapseed">Snapseed</a>, but considering how this is based on a highly developed neural network, I am not too terribly bothered—accuracy is more important than speed. Another downside is that the website partially resizes my image to speed up processing on their servers. I suppose if I built the entire thing from the Github server I could ditch the resizing part, but I don’t run a supercomputer and my humble PC could possibly crash.</p>
+<p>I’m sure the technology still has many flaws, especially in very specific use cases. So, while my experience trying out the app could be positive, it may not be for everyone else, in particular those who rely on it on a daily basis.</p>
+<p>That said, just like Waifu2x-Extension-GUI, the photo/video upscaling software I <a href="../waifu2">recently reviewed</a>, I really look forward to using this in the future. Photobombers, beware! It would also be super interesting to have some sort of “who-heals-the-best” software competition. Not to mention, <a href="https://cleanup.pictures/">Cleanup.pictures</a> has a really nice how-did-they-snag-that-url domain, just like <a href="https://remove.bg/">remove.bg</a> and <a href="https://clipdrop.co/">clipdrop.co</a>. Top find of the week!</p>
+<p>Note: The website is created by <a href="https://twitter.com/cyrildiagne">Cyril Diagne</a>, and is a direct implementation of this <a href="https://arxiv.org/pdf/2109.07161.pdf">scientific paper</a>.</p>
+</article>
+
+        <hr>
+        </main><footer id="footer">
+    Copyright © 2021 Thomas
+</footer>
+<script>
+        const shareButton = document.querySelector('share')
+        const shareByline = ' by Thomas Rettig'
+        const title = window.document.title
+        const url = window.document.location.href
+    
+    shareButton.addEventListener('click', event => {
+
+    if (navigator.share) {
+        navigator.share({
+            title: `“${title}”` + `${shareByline}`,
+            url: `${url}`,
+        })
+        } else {
+                overlay.classList.add('show-share')
+                shareModal.classList.add('show-share')
+        }
+        
+    });
+</script></body>
+</html>
