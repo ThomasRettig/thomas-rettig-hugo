@@ -12,11 +12,16 @@ draft: false
   	font-family: var(--body-font);
   }
 
+  label {
+    font-family: var(--code-font);
+  }
+
   .about-slider {
   	  -webkit-appearance: none;
-      background: #ddd;
+      background: #afedcd;
+      border-radius: 10px;
       width: 100%;
-      height: 2.5px;
+      height: 3.5px;
       outline: none;
   }
 
@@ -50,20 +55,21 @@ draft: false
   	display: block;
   }
 
-  label {
-  	user-select: none;
-  	font-family: var(--code-font);
+  .infobox, .background-box {
+      background: radial-gradient(#ffffff 0%, #e5fff1 85%);
+      padding: 2ch;
+      border-radius: 10px;
+      box-shadow: 0px 4px 15px 3px #c2edd785;
+      margin-bottom: 5vh;
   }
 
-  .background-box {
-  	border-radius: 10px;
-  	padding: 15px;
-  	background: #ececec;
+  .text-center {
+    text-align: center;
   }
 
 </style>
 
-<p class="background-box">Use the slider below to determine how much you would like to know about me.</p>
+<p class="text-center">↓ Use the slider below to determine how much you would like to know about me ↓</p>
 
 <div class="about-slider-container">
   <input type="range" min="1" max="5" value="3" step="1" class="about-slider" id="aboutRange" role="slider" title="Slide horizontally!">
@@ -95,32 +101,17 @@ draft: false
   </section>
 </div>
 
-<details>
-<summary title="Click to expand or close">Accessibility <span role="note">Accessibility issues?</span></summary>
-<p>I take accessibility seriously, and have tried my best to make this site as accessible as I can. Images come with descriptive titles and focus states are clearly highlighted. Please refer to the table below if you want to feedback on specific aspects of accessibility.</p>
+<div class="infobox">
+<h2>Colophon<span role="note">A note on the type</span></h2>
+<p>The body text is set in the default system font. On MacOS, this is San Francisco; on Windows, this is Segoe UI. If you are seeing Comic Sans, please contact me urgently.
+<p>Article headings are set in <a href="https://www.nan.xyz/fonts/nan-jaune/" target="blank">NaN Jaune Maxi</a>, a lively sans-serif by Jérémy Landes of <a href="https://studiotriple.fr/" target="blank">Studio Triple</a>. Visit the <a href="http://www.sanssheriff.wtf/" target="blank">excellent microsite</a> to learn more!</p>
+</div>
 
-| Conditions                                | Common symptoms                                              |
-| ----------------------------------------- | ------------------------------------------------------------ |
-| Assistive technology (such as voice over) | Trouble viewing a particular part of this website, like video, audio and embedded ```iframes```. |
-| Colour-blind and/or sight-impaired        | Colour contrast or font legibility issues.
-| Caret browsing users                      | An interactive element is unintendedly uninteractive. |
-
-If what you are experiencing matches the above, please <a href="..\contact">contact me</a>.
-</details>
-
-<details>
-  <summary title="Click to expand or close">Colophon<span role="note">A note on the type</span></summary>
-<p>The body text in this site is set in <smcp><a href="https://github.com/adobe-fonts/source-serif" target="blank">Source Serif 4</a></smcp>. Inspired by the types of <a href="https://en.wikipedia.org/wiki/Pierre_Simon_Fournier" target="blank">Pierre Simon Fournier</a>, it is designed by Frank Grießhammer of Adobe.</p>
-
-Article headings are set in [NaN Jaune Maxi](https://www.nan.xyz/fonts/nan-jaune/), a lively sans-serif by Jérémy Landes of [Studio Triple](https://studiotriple.fr/). Visit the [excellent microsite](http://www.sanssheriff.wtf/) to learn more!
-</details>
-
-<details>
-  <summary title="Click to expand or close">License<span role="note">Can I reproduce parts of this blog?</span></summary>
+<div class="infobox">
+<h2>License<span role="note">Can I reproduce parts of this blog?</span></h2>
   <p>Unless otherwise stated, all <em>source code</em> is licensed under <a href="https://www.gnu.org/licenses/agpl-3.0.en.html" target="blank">GNU AGPL version 3.0</a>. The <b>main thing you cannot do</b> is to publish your modified work under a different license.</p>
-  <h3>What about everything else?</h3>
   <p>All other blog content is licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="blank">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a> license.</p>
-</details>
+</div>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script>

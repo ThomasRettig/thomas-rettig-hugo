@@ -5,7 +5,7 @@
     font-display: swap;
     src: url('/fonts/NaNJaune-Maxi-Extrabold.woff2') format('woff2')
 }
-
+/*
 @font-face {
     font-family: 'Beatrice';
     font-style: normal;
@@ -36,12 +36,12 @@
     font-weight: 700;
     font-display: swap;
     src: url('/fonts/Beatrice-Bold-Italic.otf') format('opentype');
-}
+}*/
 
 :root {
-    --body-font: 'Beatrice', 'Helvetica', 'Arial', system-ui, sans-serif;
+    --body-font: -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --accent-font: 'NaN Jaune Maxi', sans-serif;
-    --code-font: Consolas, monospace;
+    --code-font: ui-monospace, "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace", "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --dark-text-color: #ddd;
     --selection-background: #363636;
     --selection-color: white;
@@ -56,7 +56,7 @@
     color: var(--selection-color);
 }
 
-:not(button[type="submit"], input[type="text"], input[type="email"], textarea):focus {
+:not(button[type="submit"], input[type="text"], input[type="email"], textarea, .about-slider):focus {
     border-color: #0060df;
     box-shadow: 0 0 0 2px rgb(0 144 237 / 50%);
     outline: none;
@@ -66,6 +66,7 @@
 ::placeholder {
     color: #113341;;
     opacity: 0.5;
+    font-weight: 500;
     font-size: initial;
 }
 
@@ -87,6 +88,7 @@ body {
     margin: 0 auto;
     padding: 0 16px;
     line-height: 1.6;
+    background: hsl(149deg 100% 91%);
 }
 
 /*
@@ -135,11 +137,14 @@ main#content a {
     text-decoration: underline;
     text-decoration-thickness: 1.5px;
     text-underline-offset: 2px;
-    text-decoration-color: #64797e;
+    text-decoration-color: #99dbb9;
 }
 
-main#content a:hover {
-    color: #64797e;
+main#content a:focus {
+    background: #afedcd;
+    color: black;
+    box-shadow: none;
+    border-radius: 0;
 }
 
 main#content h1,
@@ -200,13 +205,13 @@ main#content hr {
     display: none;
 }
 
-main#content summary {
+/*main#content summary {
     font-family: var(--accent-font);
     cursor: pointer;
     font-feature-settings: "ss01";
     font-weight: 700;
     font-size: 24px;
-}
+}*/
 
 /* index.html styles */
 main#content ul#posts {
@@ -408,9 +413,9 @@ main#content iframe {
     content-visibility: auto;
 }
 
-main#content details {
+/*main#content details {
     margin-bottom: 10px;
-}
+}*/
 
 main#content share {
     cursor: pointer;
@@ -420,32 +425,52 @@ main#content share:hover{
     color: #64797e;
 }
 
-summary::before {
+main#content span[role="note"] {
+    display: block;
+    font-size: 80%;
+    font-family: var(--body-font);
+    font-weight: 600;
+    margin-top: 2px;
+    opacity: 0.75;
+}
+
+/*main#content span[role="note"]::after {
+    content: '';
+    height: 1.5px;
+    background: #80dbac;
+    width: 8rem;
+    display: block;
+    margin-top: 10px;
+}
+*/
+/*summary::before {
     content: '';
 }
 
 summary > span {
     display: none;
-}
+}*/
 
 footer#footer {
-    font-size: 12px;
-    font-family: var(--body-font);
-    font-feature-settings: "tnum";
-    letter-spacing: 0.4px;
-    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: var(--code-font);
+    margin-bottom: 25px;
 
 }
 
-footer#footer .footer-img {
-    width: 14px;
-    height: auto;
-    display: block;
-    margin-top: 5px;
+footer#footer .icon {
+    margin-bottom: -2px;
+    margin-right: 5px;
+    opacity: 0.75;
+}
+
+footer#footer a {
+    color: inherit;
+    text-decoration: none;
 }
 
 input[type="text"], input[type="email"], textarea {
-    background: #eee;
+    background: #e5fff1;
     padding: 10px;
     border-radius: 10px;
     border: none;
@@ -468,15 +493,13 @@ button {
     border: none;
     padding: 12px;
     border-radius: 10px;
-    background: #eee;
+    background: #e5fff1;
     cursor: pointer;
+    font-family: var(--body-font);
 }
 
 button[type="submit"] {
-    font-family: var(--accent-font);
-    font-feature-settings: "ss01", "ss02";
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    font-weight: bold;
     font-size: 18px;
 }
 
@@ -486,7 +509,7 @@ select {
     border: none;
     padding: 8px;
     border-radius: 10px;
-    background: #EEEEEE;
+    background: #e5fff1;
     cursor: pointer;
     display: block;
     margin-top: 10px;

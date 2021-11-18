@@ -1,7 +1,5 @@
 @media (min-width: 770px) {
-    body
-    {
-        line-height: 1.5;
+    body {
         width: 700px;
     }
 
@@ -49,7 +47,7 @@
         font-size:18px;
         font-size:1.8rem;
     }
-
+/*
     summary {
         display: flex;
         align-items: center;
@@ -80,7 +78,7 @@
         font-weight: normal;
         opacity: 0.8;
         display: block;
-    }
+    }*/
 
     main#content ul#posts li::before {
         content: '➡️';
