@@ -1,4 +1,4 @@
-{{ if not (eq .Site.Params.dark "on") -}}
+/*{{ if not (eq .Site.Params.dark "on") -}}
 @media (prefers-color-scheme: dark) {
 {{ end -}}
 
@@ -103,3 +103,4 @@ main#content share:hover {
 {{- if not (eq .Site.Params.dark "on") -}}
 }
 {{- end -}}
+*/

@@ -47,7 +47,7 @@
     --selection-color: white;
     --dark-selection-background: white;
     --dark-selection-color: #363636;
-    --rainbow-gradient: linear-gradient(-90deg,#adfbda 0,#35c3ff 30%,#fda399 50%,#76d880 70%,#ebf38b 90%,#adfbda 100%);
+    --rainbow-gradient: linear-gradient(-90deg,#adfbda 0,#35c3ff 30%,#fda399 50%,#ebf38b 90%,#adfbda 100%);
     --rainbow-gradient-short: linear-gradient(-90deg,#adfbda 0,#35c3ff 30%,#ebf38b 90%,#adfbda 100%);
 }
 
@@ -196,14 +196,8 @@ main#content li, main#content p, main#content blockquote {
     font-feature-settings: "ss02", "onum";
 }
 
-main#content dfn {
-    font-style: normal;
-}
-
 main#content hr {
-    height: 0;
-    border: 0;
-    margin: 0;
+    display: none;
 }
 
 main#content summary {
@@ -439,7 +433,7 @@ footer#footer {
     font-family: var(--body-font);
     font-feature-settings: "tnum";
     letter-spacing: 0.4px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 
 }
 

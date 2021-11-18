@@ -61,20 +61,6 @@ draft: false
   	background: #ececec;
   }
 
-  @media (prefers-color-scheme: dark) {
-  	.about-slider::-webkit-slider-thumb {
-  		background: white;
-  	}
-
-    .about-slider {
-      background: var(--rainbow-gradient-short);
-    }
-
-  	.background-box {
-  		background: #113341;
-  	}
-  }
-
 </style>
 
 <p class="background-box">Use the slider below to determine how much you would like to know about me.</p>
