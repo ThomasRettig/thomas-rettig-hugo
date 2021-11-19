@@ -72,18 +72,11 @@
     color: black;
 }
 
-:not(button[type="submit"], input[type="text"], input[type="email"], textarea, .about-slider):focus {
+:not(button[type="submit"], input[type="text"], input[type="email"], textarea, .about-slider, select):focus {
     border-color: #0060df;
     box-shadow: 0 0 0 2px rgb(0 144 237 / 50%);
     outline: none;
     border-radius: 2px;
-}
-
-::placeholder {
-    color: #113341;
-    opacity: 0.5;
-    font-weight: 500;
-    font-size: initial;
 }
 
 @media (prefers-reduced-motion) {
@@ -557,11 +550,11 @@ input[type="text"], input[type="email"], textarea {
     font-size: inherit;
     width: calc(100% / 1.8);
     background: transparent;
-    border: 2px solid #aadbc1;
+    border: 1.5px solid black;
 }
 
 input[type=text]:focus, input[type=email]:focus, textarea:focus, select:focus {
-    background: #e5fff0;
+    background: #f4e5ff;
 }
 
 form#form > label {
@@ -572,11 +565,10 @@ label {
     cursor: text;
 }
 
-.infobox, .background-box {
+.infobox {
     background: #fffafa;
     padding: calc(3% * 1.1);
     border-radius: 10px;
-    box-shadow: 0px 4px 15px 3px #eee;
     margin-bottom: 5vh;
     margin-top: 3vh;
 }
@@ -585,8 +577,9 @@ button {
     border: none;
     padding: 8px;
     border-radius: 10px;
-    background: #e5fff1;
+    background: black;
     cursor: pointer;
+    color: white;
     font-family: var(--body-font);
 }
 
@@ -594,12 +587,6 @@ button[type="submit"] {
     font-weight: bold;
     font-size: 18px;
     border: none;
-    background: #6bb78f;
-    color: white;
-}
-
-button[type=submit]:hover {
-    background: #569373;
 }
 
 select {
@@ -614,9 +601,13 @@ select {
     background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='4'%3E%3Cpath d='M4 0h6L7 4'/%3E%3C/svg%3E") no-repeat right center / 1em;
     appearance: none;
     padding-right: 10px;
-    border: 2px solid #aadbc1;
+    border: 1.5px solid black;
 }
 
-button[type="submit"]:focus-within, input[type="text"]:focus-within, input[type="email"]:focus-within, textarea:focus-within {
+select:focus {
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='4'%3E%3Cpath d='M4 0h6L7 4'/%3E%3C/svg%3E") no-repeat right center / 1em, #f4e5ff;
+}
+
+button[type="submit"]:focus-within, input[type="text"]:focus-within, input[type="email"]:focus-within, textarea:focus-within, select:focus-within {
     outline: none;
 }

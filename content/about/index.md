@@ -3,7 +3,9 @@ title: "About me"
 draft: false
 ---
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap');
+  body {
+    background: #d1ffe7;
+  }
 
   .about-slider-container {
   	display: flex;
@@ -20,7 +22,7 @@ draft: false
 
   .about-slider {
   	  -webkit-appearance: none;
-      background: #ddd;
+      background: #AFEDCD;
       border-radius: 10px;
       width: 100%;
       height: 3.5px;
@@ -79,6 +81,10 @@ draft: false
   .whatever {
     display: flex;
     justify-content: space-between;
+  }
+
+  .infobox {
+    background: #E5FFF1;
   }
 
 </style>
