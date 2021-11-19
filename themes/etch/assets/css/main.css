@@ -68,7 +68,7 @@
 }
 
 ::selection {
-    background: #afedcd;
+    background: gold;
     color: black;
 }
 
@@ -446,7 +446,7 @@ main#content pre {
 main#content code {
     font-size: inherit;
     padding: 0 5px;
-    background: #ddd;
+    background: #eee;
     border-radius: 5px;
 }
 

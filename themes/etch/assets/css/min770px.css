@@ -80,7 +80,7 @@
         display: block;
     }*/
 
-    main#content ul#posts li::before {
+/*    main#content ul#posts li::before {
         content: '➡️';
         margin-left: -29px;
         visibility: hidden;
@@ -89,7 +89,7 @@
 
     main#content ul#posts li:hover::before {
         visibility: visible;
-    }
+    }*/
 }
 
 @media (min-width: 500px) {
