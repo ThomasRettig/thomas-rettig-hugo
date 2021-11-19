@@ -1,21 +1,33 @@
 ---
-title: YouTube
+title: YouTube’s unintended impact
 draft: false
 date: 2021-11-18
 ---
+<style>
+	.emoji {
+	  margin-top: -10px;
+	  user-select: none;
+	  font-size: 35px;
+	  font-weight: normal;
+	}
 
+	.whatever {
+	  display: flex;
+	  justify-content: space-between;
+	}
+</style>
 <div class="infobox">
-    <h3>Just a note</h3>
-	<p>This was previously written for a school project. What you are seeing here is a revised version. It’s not perfect—I will continue updating it.</p>
+    <h3 class="whatever">Just a note<span class="emoji">🏫</span></h3>
+	<p>This was previously written for a school project. The essay prompt was about the <em>“unintended effects of a certain technology”</em>. What you are seeing here is a revised version. It’s not perfect—I will continue updating it.</p>
 </div>
 
 ## Introduction <span>Social media’s power</span>
-There is no denying that social media has changed the way we communicate. For example, Facebook, Instagram and YouTube are now an integral part of our lives. The focus of this essay is on YouTube. Founded in 2005, YouTube was originally created as an ecosystem for self-expression or for them to showcase their talents through home-made videos, with the possibility of content monetisation. In fact, being a “YouTuber” is now a glorified career that symbolises the 21st century dream of achieving internet stardom. Today, YouTube has 2 billion users worldwide and 500 hours of video are uploaded per minute.
+There is no denying that social media has changed the way we communicate. For example, Facebook, Instagram and YouTube are now an integral part of our lives. The focus of this essay is on YouTube. Founded in 2005, YouTube was originally created as an ecosystem for self-expression. It allowed ordinary people to showcase their talents through home-made videos, with the possibility of content monetisation. It also attracted large media companies to let their content reach a wider audience. That was the dawn of the video-sharing internet age. More than a decade later, the word “YouTuber” is now as a mainstream a word as “Googling”, and has turned into a glorified career that symbolises the 21st century dream of achieving internet stardom. Today, YouTube has [2 billion users](https://backlinko.com/youtube-users) worldwide and [500 hours of video](https://www.brandwatch.com/blog/youtube-stats/) are uploaded per minute (according to a 2020 report).
 
-YouTube has the power to create impact, whether it is to rally supporters for a social cause, or to reach out to global audiences for businesses. Its success and popularity boils down to its authenticity, inclusiveness and accessibility. Anyone can be part of its community and the content is not only entertaining but educational. For instance, high quality educational content, such as TedEd, brings education to the masses. Despite YouTube being a great resource, there are unprecedented consequences as well.
+Put simply, YouTube has the power to create impact, whether it is to rally supporters for a social cause, or to reach out to global audiences for businesses. Its success and popularity boils down to its authenticity, inclusiveness and accessibility. Anyone can be part of its community and the content is not only entertaining but educational. For instance, high quality educational content, such as TedEd, brings education to the masses. Despite YouTube being a great resource, there are unprecedented consequences as well.
 
 ## Unintended Impact <span>A threat to children?</span>
-YouTube is a threat to the mental health of children. As a free and open platform that relies on moderators to police content, quality control is dubious and there is much potential for abuse. Disturbing videos have made their way to unsuspecting young viewers, and raised the alarm bells of mental health experts. As children are less discerning in their media consumption, exposure to age-inappropriate content has increased the rates of anxiety and depression amongst children over the past decade. YouTube addiction is also a growing phenomenon as its rapidly generated content is extremely gratifying and addictive. Children who are unable to self-regulate are drawn deeper and deeper into its pixelated underworld, putting their mental health at risk. 
+YouTube is a threat to the mental health of children. As a _free_ and open platform that relies on moderators to police content, quality control is dubious and there is much potential for abuse. Disturbing videos have made their way to unsuspecting young viewers, and [raised the alarm bells of mental health experts](https://www.cnbc.com/2018/02/13/youtube-is-causing-stress-and-sexualization-in-young-children.html). As children are less discerning in their media consumption, exposure to age-inappropriate content has increased the rates of anxiety and depression amongst children over the past decade. YouTube addiction is also a growing phenomenon as its rapidly generated content is extremely gratifying and addictive. Children who are unable to self-regulate are drawn deeper and deeper into its pixelated underworld, putting their mental health at risk. 
 
 Adding to the declining mental health of children is the increasingly toxic environment caused by YouTube. The YouTube community has its fair share of trolls lurking in cyberspace who promote unhealthy online competition, by giving the impression that views and subscribers are all that matter. Shrouded in anonymity, these cyber-bullies would also post hateful comments online aimed to denounce or threaten their enemies. This stems from moderators on such platforms having not stringent enough community guidelines to flag such behaviour as violations. In addition, YouTube—and its consumers—can be unforgiving towards content creators who spark controversy and are “cancelled” as a result. While those with more privileged positions are able to withstand the cancelling with their large fanbase, smaller content creators struggle to cope with the cancelling. After posting apology videos to regain their subscriber base, issues often remain unresolved and the cyber-bullying by rival camps intensifies, creating an even more polarised and toxic social environment.
 
