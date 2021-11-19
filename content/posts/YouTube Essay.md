@@ -17,8 +17,8 @@ date: 2021-11-18
 	}
 </style>
 <div class="infobox">
-    <h3 class="whatever">Just a note<span class="emoji">🏫</span></h3>
-	<p>This was previously written for a school project. The essay prompt was about the <em>“unintended effects of a certain technology”</em>. What you are seeing here is a revised version. It’s not perfect—I will continue updating it.</p>
+    <h3 class="whatever">Just a note<span class="emoji" title="school building emoji">🏫</span></h3>
+	<p>This was previously written for a school project. The essay prompt was about the <em>“unintended effects of a certain technology”</em>. What you are seeing here is a revised version.</p>
 </div>
 
 ## Introduction <span>Social media’s power</span>

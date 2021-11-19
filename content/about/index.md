@@ -3,6 +3,14 @@ title: "About me"
 draft: false
 ---
 <style>
+  ::-webkit-scrollbar-thumb {
+    background: #AFEDCD;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #64B78C;
+  }
+
   body {
     background: #d1ffe7;
   }
