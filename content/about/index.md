@@ -7,6 +7,10 @@ draft: false
     background: #d1ffe7;
   }
 
+  main#content code {
+    background: #cbeddb;
+  }
+
   .about-slider-container {
   	display: flex;
   	flex-wrap: wrap;
@@ -18,6 +22,10 @@ draft: false
 
   label {
     font-family: var(--code-font);
+  }
+
+  main#content a {
+    text-decoration-color: #64b78c;
   }
 
   .about-slider {
@@ -35,7 +43,7 @@ draft: false
       border-radius: 100%;
       width: 22px;
       height: 22px;
-      background: black;
+      background: #64b78c;
       cursor: ew-resize;
       transition: 0.2s;
   }
@@ -44,7 +52,6 @@ draft: false
   	width: 30px;
   	height: 30px;
   }
-
 
   .about-slider-container input {
   	margin-bottom: 1rem;
@@ -122,10 +129,10 @@ draft: false
 </div>
 
 <div class="infobox">
-<h2 class="whatever">Colophon<span class="emoji" title="latin uppercase emoji">🔠</span></h2>
-<span role="note">A note on the type</span>
+<h2 class="whatever">Typography<span class="emoji" title="latin uppercase emoji">🔠</span></h2>
+<span role="note">The text you’re reading now</span>
 <p>The body text is set in the default system font. On MacOS, this is San Francisco; on Windows, this is Segoe UI. If you are seeing Comic Sans, please contact me urgently.
-<p>Article headings are set in <a href="https://www.nan.xyz/fonts/nan-jaune/" target="blank">NaN Jaune Maxi</a>, a lively sans-serif by Jérémy Landes of <a href="https://studiotriple.fr/" target="blank">Studio Triple</a>. Visit the <a href="http://www.sanssheriff.wtf/" target="blank">excellent microsite</a> to learn more!</p>
+<p>Article headings are set in <a href="https://recursive.design/" target="blank">Recursive</a>, a versatile multi-axis variable font designed by Stephen Nixon of <a href="https://www.arrowtype.com/" target="blank">Arrow Type</a>. Visit the <a href="http://www.sanssheriff.wtf/" target="blank">excellent microsite</a> to learn more!</p>
 </div>
 
 <div class="infobox">
@@ -135,37 +142,47 @@ draft: false
   <p>All other blog content is licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="blank">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a> license.</p>
 </div>
 
+<div class="infobox">
+<h2 class="whatever">Code<span class="emoji" title="technologist emoji">🧑‍💻</span></h2>
+<span role="note">“I code-nt have done it without you”</span>
+  <p>A big shoutout to everyone who influenced the code in one way or the other. This is a brief list:</p>
+  <ol>
+    <li>The about-page slider above is solen from <a href="https://matthewsmith.website/about">Matthew Smith</a>; it’s written in jQuery but I’m using jQuery for other parts of the blog too, so no big deal.</li>
+    <li>The dotted background pattern you see on all pages except for the <a href="../about">about</a> and <a href="../contact">contact</a> pages are courtesy of <a href="https://dominikbraun.io/">Dominik Braun</a>.</li>
+    <li>The share button you find on all posts are a slight modification of some Javascript code I came across on a StackOverflow question.</li>
+  </ol>
+</div>
+
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script>
+  var rangeSlider = function(){
+    var slider = $('.about-slider-container'),
+        range = $('.about-slider'),
+        value = $('.about-slider__value');
 
-var rangeSlider = function(){
-  var slider = $('.about-slider-container'),
-      range = $('.about-slider'),
-      value = $('.about-slider__value');
+    slider.each(function(){
 
-  slider.each(function(){
+      value.each(function(){
+        var value = $(this).prev().attr('value');
+        $(this).html(value);
+      });
 
-    value.each(function(){
-      var value = $(this).prev().attr('value');
-      $(this).html(value);
+      range.on('input', function(){
+        var currentValue = $(this).val()
+        // var previousValue = parseInt($(this).val()) - 1
+        // var nextValue = parseInt($(this).val()) + 1
+
+        var currentSection = $("section[value='" + currentValue + "']")
+        // var previousSection = $("section[value='" + previousValue + "']")
+        // var nextSection = $("section[value='" + nextValue + "']")
+
+        currentSection.addClass("visible");
+        $("section").not(currentSection).removeClass("visible");
+        // nextSection.removeClass("visible");
+        // previousSection.removeClass("visible");
+      });
     });
+  };
 
-    range.on('input', function(){
-      var currentValue = $(this).val()
-      // var previousValue = parseInt($(this).val()) - 1
-      // var nextValue = parseInt($(this).val()) + 1
-
-      var currentSection = $("section[value='" + currentValue + "']")
-      // var previousSection = $("section[value='" + previousValue + "']")
-      // var nextSection = $("section[value='" + nextValue + "']")
-
-      currentSection.addClass("visible");
-      $("section").not(currentSection).removeClass("visible");
-      // nextSection.removeClass("visible");
-      // previousSection.removeClass("visible");
-    });
-  });
-};
-
-rangeSlider();
+  rangeSlider();
 </script>

@@ -79,13 +79,6 @@
     border-radius: 2px;
 }
 
-@media (prefers-reduced-motion) {
-    * {
-        animation: none;
-        transition: 0;
-    }
-}
-
 @keyframes morph {
   from {font-variation-settings: "wght" 300, "CASL" 0;}
   to {font-variation-settings: "wght" 900, "CASL" 1;}
@@ -118,7 +111,10 @@ body {
     margin: 0 auto;
     padding: 0 16px;
     line-height: 1.6;
-    background: #F8F6F5;
+    background-image: radial-gradient(#e7ecf3 8%, #ffffff 7%);
+    background-position: 0 0;
+    background-size: 30px 30px;
+    background-attachment: fixed;
 }
 
 /*

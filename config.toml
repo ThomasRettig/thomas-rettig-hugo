@@ -23,7 +23,7 @@ pygmentsCodeFences = true  # enable GitHub style code snippets
 
 [params]
   description = "The personal blog of Thomas Rettig."
-  copyright = "Copyright © 2021 Thomas"
+  copyright = "Copyright © 2021 Thomas Rettig"
   dark = "auto"
   highlight = true
 
