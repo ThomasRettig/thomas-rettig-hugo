@@ -33,5 +33,4 @@ This made H&Co synonymous, almost exclusively so, with desktop publishing and pr
 
 ## “Smoke and mirrors”
 
-Luc Devroye opines in his [Carleen Borsella page](http://luc.devroye.org/fonts-73731.html) that “[t]he motto at H&FJ [now known as Hoefler&Co] has always been smoke and mirrors", and that “they do not list any designers with their typefaces.” Which could turn out to be partially true. Designers are not credited on their work, which is of course are smart marketing ploy to impress on people that H&Co is a single studio.  
-
+Luc Devroye opines in his [Carleen Borsella page](http://luc.devroye.org/fonts-73731.html) that “[t]he motto at H&FJ [now known as Hoefler&Co] has always been smoke and mirrors", and that “they do not list any designers with their typefaces.” Which could turn out to be partially true. Designers are not credited on their work, which is of course is a smart marketing ploy to reinforce the idea of H&Co being a commercial type studio — to be seen as a forest instead of a group of trees. 

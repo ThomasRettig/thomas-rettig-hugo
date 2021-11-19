@@ -43,17 +43,13 @@
     --accent-font: 'NaN Jaune Maxi', sans-serif;
     --code-font: ui-monospace, "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace", "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --dark-text-color: #ddd;
-    --selection-background: #363636;
-    --selection-color: white;
-    --dark-selection-background: white;
-    --dark-selection-color: #363636;
     --rainbow-gradient: linear-gradient(-90deg,#adfbda 0,#35c3ff 30%,#fda399 50%,#ebf38b 90%,#adfbda 100%);
     --rainbow-gradient-short: linear-gradient(-90deg,#adfbda 0,#35c3ff 30%,#ebf38b 90%,#adfbda 100%);
 }
 
 ::selection {
-    background: var(--selection-background);
-    color: var(--selection-color);
+    background: #afedcd;
+    color: black;
 }
 
 :not(button[type="submit"], input[type="text"], input[type="email"], textarea, .about-slider):focus {
@@ -64,7 +60,7 @@
 }
 
 ::placeholder {
-    color: #113341;;
+    color: #113341;
     opacity: 0.5;
     font-weight: 500;
     font-size: initial;
@@ -381,7 +377,7 @@ main#content pre {
 main#content code {
     font-size: inherit;
     padding: 0 5px;
-    background: #e0e0e0;
+    background: #b9edd2;
     border-radius: 5px;
 }
 
@@ -470,15 +466,20 @@ footer#footer a {
 }
 
 input[type="text"], input[type="email"], textarea {
-    background: #e5fff1;
     padding: 10px;
     border-radius: 10px;
-    border: none;
     font-family: var(--body-font);
     font-feature-settings: "ss08";
     display: block;
     margin-top: 10px;
-    min-width: 80%;
+    font-size: inherit;
+    width: calc(100% / 1.8);
+    background: transparent;
+    border: 2px solid #aadbc1;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus, select:focus {
+    background: #e5fff0;
 }
 
 form#form > label {
@@ -489,9 +490,24 @@ label {
     cursor: text;
 }
 
+.infobox, .background-box {
+    background: radial-gradient(#ffffff 0%, #e5fff1 85%);
+    padding: calc(3% * 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 3px #c2edd785;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+}
+
+.infobox > h2::before {
+    content: '📝';
+    font-weight: normal;
+    margin-right: 2px;
+}
+
 button {
     border: none;
-    padding: 12px;
+    padding: 8px;
     border-radius: 10px;
     background: #e5fff1;
     cursor: pointer;
@@ -501,19 +517,28 @@ button {
 button[type="submit"] {
     font-weight: bold;
     font-size: 18px;
+    border: none;
+    background: #6bb78f;
+    color: white;
+}
+
+button[type=submit]:hover {
+    background: #569373;
 }
 
 select {
     font-family: var(--body-font);
     font-size: initial;
-    border: none;
     padding: 8px;
     border-radius: 10px;
-    background: #e5fff1;
     cursor: pointer;
     display: block;
     margin-top: 10px;
     color: initial;
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='4'%3E%3Cpath d='M4 0h6L7 4'/%3E%3C/svg%3E") no-repeat right center / 1em;
+    appearance: none;
+    padding-right: 10px;
+    border: 2px solid #aadbc1;
 }
 
 button[type="submit"]:focus-within, input[type="text"]:focus-within, input[type="email"]:focus-within, textarea:focus-within {

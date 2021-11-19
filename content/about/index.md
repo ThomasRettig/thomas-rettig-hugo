@@ -57,7 +57,7 @@ draft: false
 
   .infobox, .background-box {
       background: radial-gradient(#ffffff 0%, #e5fff1 85%);
-      padding: 2ch;
+      padding: 5%;
       border-radius: 10px;
       box-shadow: 0px 4px 15px 3px #c2edd785;
       margin-bottom: 5vh;

@@ -1,8 +1,7 @@
-/*{{ if not (eq .Site.Params.dark "on") -}}
+{{ if not (eq .Site.Params.dark "on") -}}
 @media (prefers-color-scheme: dark) {
 {{ end -}}
-
-::selection
+/*::selection
 {
     background:var(--dark-selection-background);
     color:var(--dark-selection-color);
@@ -98,9 +97,8 @@ select {
 
 main#content share:hover {
     color: white;
-}
+}*/
 
 {{- if not (eq .Site.Params.dark "on") -}}
 }
 {{- end -}}
-*/
