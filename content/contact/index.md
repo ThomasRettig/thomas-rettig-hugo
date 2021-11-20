@@ -3,12 +3,19 @@ title: Contact Me
 draft: false
 ---
 <style>
-  body {
-    background: #ebd1ff;
+   ::-webkit-scrollbar-thumb {
+    background: #d2afed;
   }
 
-  button[type=submit]:hover {
-      background: rebeccapurple;
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9972b7;
+  }
+
+  body {
+  background-image: radial-gradient(#deb3ff 8%, #ebd1ff 7%);
+  background-position: 0 0;
+  background-size: 30px 30px;
+  background-attachment: fixed;
   }
 
   ::selection {

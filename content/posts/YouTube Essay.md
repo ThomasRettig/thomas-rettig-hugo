@@ -16,12 +16,15 @@ date: 2021-11-18
 	  justify-content: space-between;
 	}
 </style>
-<div class="infobox">
+<section class="infobox">
     <h3 class="whatever">Just a note<span class="emoji" title="school building emoji">🏫</span></h3>
 	<p>This was previously written for a school project. The essay prompt was about the <em>“unintended effects of a certain technology”</em>. What you are seeing here is a revised version.</p>
-</div>
+</section>
 
 ## Introduction <span>Social media’s power</span>
+
+<img src="/youtube-featured-image.jpg" alt="youtube icon">
+
 There is no denying that social media has changed the way we communicate. For example, Facebook, Instagram and YouTube are now an integral part of our lives. The focus of this essay is on YouTube. Founded in 2005, YouTube was originally created as an ecosystem for self-expression. It allowed ordinary people to showcase their talents through home-made videos, with the possibility of content monetisation. It also attracted large media companies to let their content reach a wider audience. That was the dawn of the video-sharing internet age. More than a decade later, the word “YouTuber” is now as a mainstream a word as “Googling”, and has turned into a glorified career that symbolises the 21st century dream of achieving internet stardom. Today, YouTube has [2 billion users](https://backlinko.com/youtube-users) worldwide and [500 hours of video](https://www.brandwatch.com/blog/youtube-stats/) are uploaded per minute (according to a 2020 report).
 
 Put simply, YouTube has the power to create impact, whether it is to rally supporters for a social cause, or to reach out to global audiences for businesses. Its success and popularity boils down to its authenticity, inclusiveness and accessibility. Anyone can be part of its community and the content is not only entertaining but educational. For instance, high quality educational content, such as TedEd, brings education to the masses. Despite YouTube being a great resource, there are unprecedented consequences as well.

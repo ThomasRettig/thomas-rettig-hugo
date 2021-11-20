@@ -59,7 +59,7 @@
 }
 
 :root {
-    --body-font: -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --body-font: 'Recursive', -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --accent-font: 'Recursive', sans-serif;
     --code-font: 'Recursive', ui-monospace, "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace", "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --dark-text-color: #ddd;
@@ -77,11 +77,6 @@
     box-shadow: 0 0 0 2px rgb(0 144 237 / 50%);
     outline: none;
     border-radius: 2px;
-}
-
-@keyframes morph {
-  from {font-variation-settings: "wght" 300, "CASL" 0;}
-  to {font-variation-settings: "wght" 900, "CASL" 1;}
 }
 
 html {
@@ -111,10 +106,6 @@ body {
     margin: 0 auto;
     padding: 0 16px;
     line-height: 1.6;
-    background-image: radial-gradient(#e7ecf3 8%, #ffffff 7%);
-    background-position: 0 0;
-    background-size: 30px 30px;
-    background-attachment: fixed;
 }
 
 /*
@@ -196,8 +187,6 @@ main#content h2 {
 
 main#content h1 {
     font-variation-settings: "wght" 900, "CASL" 1;
-    animation-name: morph;
-    animation-duration: 0.2s;
 }
 
 main#content h2 {
@@ -221,6 +210,7 @@ main#content h6 {
 
 main#content h3 {
     font-size: 1.9rem;
+    font-variation-settings: "wght" 700, "CASL" 1;
 }
 
 main#content h2 > span:not(.emoji) {
@@ -251,7 +241,6 @@ main#content h6 + p {
 }
 
 main#content p {
-    font-size: 110%;
     color: #394548;
     margin: 16px 0;
 }
@@ -275,8 +264,6 @@ main#content hr {
 /* index.html styles */
 main#content ul#posts {
     list-style-type: none;
-    font-size: 16px;
-    font-size: 1.6rem;
     margin-top: 0;
     padding: 0;
 }
@@ -295,7 +282,12 @@ main#content ul#posts small {
 
 main#content ul#posts li a {
     text-decoration: none;
-    font-feature-settings: "ss02", "pnum";
+    font-variation-settings: "wght" 400, "CASL" 0;
+    transition: 0.2s;
+}
+
+main#content ul#posts li a:hover {
+    font-variation-settings: "wght" 700, "CASL" 1;
 }
 
 main#content ul#posts li a:hover small {
@@ -304,7 +296,6 @@ main#content ul#posts li a:hover small {
 
 /* single.html styles */
 main#content header#post-header h1 {
-    font-feature-settings: "ss02";
     font-weight: normal;
     font-size: 3.8rem;
     margin-top: 0;
@@ -322,11 +313,10 @@ main#content header#post-header > div {
 }
 
 main#content #toc {
-    border: 1px solid #b1b1b1;
-    border-radius: 1px;
+    border-radius: 10px;
     line-height: 26px;
     margin: 16px 0;
-    padding: 9px 14px;
+    font-variation-settings: "MONO" 0.5, "slnt" -10, "CRSV" 1, "CASL" 0.5;
 }
 
 main#content #toc h4 {
@@ -367,9 +357,9 @@ main#content #toc ol li:before {
 }
 
 main#content img {
-    border-radius: 5px;
+    border-radius: 10px;
     max-width: 100%;
-    margin: 0 auto;
+    margin-top: 3vh;
 }
 
 main#content figure {
@@ -418,13 +408,11 @@ main#content blockquote {
 
 main#content figcaption {
     font-family: var(--body-font);
-    font-feature-settings: "ss08";
     margin-bottom: 10px;
 }
 
 main#content table {
     font-family: var(--body-font);
-    font-feature-settings: "ss08";
     text-align: left;
     border-spacing: inherit;
 }
@@ -562,27 +550,40 @@ label {
 }
 
 .infobox {
-    background: #fffafa;
+    background: #eee;
     padding: calc(3% * 1.1);
     border-radius: 10px;
     margin-bottom: 5vh;
     margin-top: 3vh;
 }
 
-button {
+div > button {
+    font-size: initial;
     border: none;
+    background: transparent;
+    padding: 0;
+}
+
+button[type="submit"] {
     padding: 8px;
     border-radius: 10px;
     background: black;
     cursor: pointer;
     color: white;
-    font-family: var(--body-font);
-}
-
-button[type="submit"] {
-    font-weight: bold;
+    font-family: var(--code-font);
+    font-variation-settings: "wght" 600, "CASL" 1, "slnt" 0;
     font-size: 18px;
     border: none;
+    transition: 0.2s;
+}
+
+button[type="submit"]:hover {
+    font-variation-settings: "wght" 800, "CASL" 1, "slnt" -5;
+}
+
+button[type="submit"]:focus {
+    background: white;
+    color: black;
 }
 
 select {

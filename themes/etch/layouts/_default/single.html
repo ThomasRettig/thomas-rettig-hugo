@@ -5,7 +5,7 @@
             <div>
             {{- if isset .Params "date" -}}
                 {{ if eq .Lastmod .Date }}
-                <share title="Share this article" class="share">Share this article</share><time>{{ .Date.Format "January 2, 2006" }}</time>
+                <button><share title="Share this article" class="share">Share this article</share></button><time>{{ .Date.Format "January 2, 2006" }}</time>
                 {{ else }}
                 Updated <time>{{ .Lastmod.Format "January 2, 2006" }}</time>
                 {{ end }}

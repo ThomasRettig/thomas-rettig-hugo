@@ -12,7 +12,10 @@ draft: false
   }
 
   body {
-    background: #d1ffe7;
+  background-image: radial-gradient(#AFEDCD 8%, #d1ffe7 7%);
+  background-position: 0 0;
+  background-size: 30px 30px;
+  background-attachment: fixed;
   }
 
   main#content code {
@@ -138,9 +141,8 @@ draft: false
 
 <div class="infobox">
 <h2 class="whatever">Typography<span class="emoji" title="latin uppercase emoji">🔠</span></h2>
-<span role="note">The text you’re reading now</span>
-<p>The body text is set in the default system font. On MacOS, this is San Francisco; on Windows, this is Segoe UI. If you are seeing Comic Sans, please contact me urgently.
-<p>Article headings are set in <a href="https://recursive.design/" target="blank">Recursive</a>, a versatile multi-axis variable font designed by Stephen Nixon of <a href="https://www.arrowtype.com/" target="blank">Arrow Type</a>. Visit the <a href="http://www.sanssheriff.wtf/" target="blank">excellent microsite</a> to learn more!</p>
+<span role="note">What you’re reading now</span>
+<p>All text is set in a self-hosted version of <a href="https://recursive.design/" target="blank">Recursive</a>, a versatile multi-axis variable font designed by Stephen Nixon of <a href="https://www.arrowtype.com/" target="blank">Arrow Type</a>. There is also an <a href="https://recursive.design/" target="blank"> accompanying microsite</a> which contains useful specimens and type testers.</p>
 </div>
 
 <div class="infobox">
@@ -152,12 +154,14 @@ draft: false
 
 <div class="infobox">
 <h2 class="whatever">Code<span class="emoji" title="technologist emoji">🧑‍💻</span></h2>
-<span role="note">“I code-nt have done it without you”</span>
+<span role="note">A big thank you!</span>
   <p>A big shoutout to everyone who influenced the code in one way or the other. This is a brief list:</p>
   <ol>
     <li>The about-page slider above is solen from <a href="https://matthewsmith.website/about">Matthew Smith</a>; it’s written in jQuery but I’m using jQuery for other parts of the blog too, so no big deal.</li>
     <li>The dotted background pattern you see on all pages except for the <a href="../about">about</a> and <a href="../contact">contact</a> pages are courtesy of <a href="https://dominikbraun.io/">Dominik Braun</a>.</li>
-    <li>The share button you find on all posts are a slight modification of some Javascript code I came across on a StackOverflow question.</li>
+    <li>The share button on all posts are a slight modification of some Javascript code I came across on a StackOverflow.</li>
+    <li>The font stack and <a href="../contact">contact</a> form styling are adapted from <a href="https://csstools.github.io/sanitize.css/" target="blank">Sanitise.css</a>.</li>
+
   </ol>
 </div>
 
