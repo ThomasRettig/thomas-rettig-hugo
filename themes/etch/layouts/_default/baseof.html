@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
-    <body data-barba="wrapper">
+    <body>
         {{- partial "header.html" . -}}
-        <main id="content" data-barba="container" data-barba-namespace="home">
+        <main id="content">
         {{- block "main" . }}{{- end }}
         </main>
         {{- partial "footer.html" . -}}
