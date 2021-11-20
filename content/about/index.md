@@ -158,7 +158,7 @@ draft: false
   <p>A big shoutout to everyone who influenced the code in one way or the other. This is a brief list:</p>
   <ol>
     <li>The about-page slider above is solen from <a href="https://matthewsmith.website/about">Matthew Smith</a>; it’s written in jQuery but I’m using jQuery for other parts of the blog too, so no big deal.</li>
-    <li>The dotted background pattern you see on all pages except for the <a href="../about">about</a> and <a href="../contact">contact</a> pages are courtesy of <a href="https://dominikbraun.io/">Dominik Braun</a>.</li>
+    <li>The dotted background pattern on all pages except for the <a href="../about">about</a> and <a href="../contact">contact</a> pages are courtesy of <a href="https://dominikbraun.io/">Dominik Braun</a>.</li>
     <li>The share button on all posts are a slight modification of some Javascript code I came across on a StackOverflow.</li>
     <li>The font stack and <a href="../contact">contact</a> form styling are adapted from <a href="https://csstools.github.io/sanitize.css/" target="blank">Sanitise.css</a>.</li>
 

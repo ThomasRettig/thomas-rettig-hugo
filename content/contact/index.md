@@ -40,10 +40,10 @@ For longer messages, consider sending me an email instead. This form is mainly f
       </select>
     </p>
     <p>
-      <label>What’s your name?<input type="text" name="name" placeholder="eg Donald Trump" required /></label>
+      <label>What’s your name?<input type="text" name="name" placeholder="eg Smart Cookie" required /></label>
     </p>
     <p>
-      <label>Email <small>(optional)</small><input type="email" name="email" placeholder="eg trump@gmail.com" /></label>
+      <label>Email <small>(optional)</small><input type="email" name="email" placeholder="eg smart.cookie@gmail.com" /></label>
     </p>
     <p>
       <label>Your message<textarea type="text" name="message" required placeholder="Your message…" /></textarea>
