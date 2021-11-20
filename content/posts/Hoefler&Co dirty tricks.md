@@ -4,7 +4,7 @@ draft: false
 date: 2021-11-16
 ---
 
-It is hard to say this is exactly a downfall, but [Hoefler&Co](https://en.wikipedia.org/wiki/Hoefler_%26_Co.) has seen a decrease in reputation; first after the [Hoefler vs Frere-Jones](https://www.scribd.com/document/200243509/Tobias-Frere-Jones-v-Jonathan-Hoefler) lawsuit, and second after H&Co’s recent acquisition by Monotype which is said to have [shaken the design industry](https://qz.com/2068310/what-monotypes-purchase-of-hoeflerco-means-to-font-designers/). This is not an accurate analysis of H&Co’s history. It is also partially opiniated.
+It is hard to say this is exactly a downfall, but [Hoefler&Co](https://en.wikipedia.org/wiki/Hoefler_%26_Co.) has seen a decrease in reputation; first after the [Hoefler vs Frere-Jones](https://www.scribd.com/document/200243509/Tobias-Frere-Jones-v-Jonathan-Hoefler) lawsuit, and second after H&Co’s recent acquisition by Monotype which is said to have [shaken the design industry](https://qz.com/2068310/what-monotypes-purchase-of-hoeflerco-means-to-font-designers/). This is not an accurate analysis of H&Co’s history; it is partially opiniated.
 
 ## 3. The lawsuit <span>A PR disaster?</span>
 
@@ -23,7 +23,7 @@ They lead clueless companies into purchasing both the SSm and non-SSm versions o
 
 One could even argue that there is little value in buying Ssm fonts since a) the visual difference is tiny b) you have to pay the same amount of money if you were to buy the two versions.
 
-There is also talk about how the ScreenSmart strategy of H&Co has somewhat led to them losing popularity amongst designers. For one, while ScreenSmart fonts could potentially be attractive to large companies, it simply is too big of a money gamble for smaller organisations or individuals. But then again, perhaps H&Co just runs in different circles than smaller foundries.
+There is also talk about how the ScreenSmart licensing of H&Co had somewhat led to them losing popularity amongst designers. For one, while ScreenSmart fonts could potentially be attractive to large companies who are able to splurge out a bit more money, it simply is too big of a money gamble for smaller organisations or individuals. Buying an entire family is expensive enough; why double that? Then again, maybe H&Co just runs in different circles. Maybe they just target larger clients.
 
 ## 3. In the wrong era <span>A destined fate</span>
 

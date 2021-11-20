@@ -160,7 +160,8 @@ draft: false
     <li>The about-page slider above is solen from <a href="https://matthewsmith.website/about">Matthew Smith</a>; it’s written in jQuery but I’m using jQuery for other parts of the blog too, so no big deal.</li>
     <li>The dotted background pattern on all pages except for the <a href="../about">about</a> and <a href="../contact">contact</a> pages are courtesy of <a href="https://dominikbraun.io/">Dominik Braun</a>.</li>
     <li>The share button on all posts are a slight modification of some Javascript code I came across on a StackOverflow.</li>
-    <li>The font stack and <a href="../contact">contact</a> form styling are adapted from <a href="https://csstools.github.io/sanitize.css/" target="blank">Sanitise.css</a>.</li>
+    <li>The font stack and contact form styling are adapted from <a href="https://csstools.github.io/sanitize.css/" target="blank">Sanitise.css</a>.</li>
+    <li>Page transitions are handled using <a href="https://barba.js.org/">Barba.js</a> and a dash of <a href="https://greensock.com/gsap/"><abbr title="GreenSock Animation Platform">GSAP</abbr></a>. This is neither performant nor elegant. It’s here for the fun. </li>
 
   </ol>
 </div>

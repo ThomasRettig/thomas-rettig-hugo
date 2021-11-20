@@ -1,5 +1,5 @@
 ---
-title: YouTube’s unintended impact
+title: YouTube’s unintended impact on us
 draft: false
 date: 2021-11-18
 ---
@@ -17,7 +17,7 @@ date: 2021-11-18
 	}
 </style>
 <section class="infobox">
-    <h3 class="whatever">Just a note<span class="emoji" title="school building emoji">🏫</span></h3>
+    <h2 class="whatever">Just a note<span class="emoji" title="school building emoji">🏫</span></h2>
 	<p>This was previously written for a school project. The essay prompt was about the <em>“unintended effects of a certain technology”</em>. This is a revised version.</p>
 </section>
 

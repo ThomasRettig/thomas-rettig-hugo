@@ -6,9 +6,9 @@ draft: false
 
 Recently, I’ve asked myself this question: _Is there a better way to calculate essay length than word count?_ Just wonderin’. While word count might work fine for a single-page documents, word count becomes less accurate for hundred-page documents, like, um, a PhD thesis.
 
-## The problem
+## The problem<span>Long vs short</span>
 
-So, here’s the thing. In linguistics, [agglutinative languages](https://en.wikipedia.org/wiki/Agglutinative_language) exist. In other words:
+As someone who’s a big fan of languags, here’s the thing. In linguistics, [agglutinative languages](https://en.wikipedia.org/wiki/Agglutinative_language) exist. In other words:
 
 <blockquote>(of a language, e.g. Hungarian, Turkish, Korean, and Swahili) tending to express concepts in complex words consisting of many elements, rather than by inflection or by using isolated elements.
 </blockquote>
@@ -21,9 +21,9 @@ What this basically means is that some languages have _longer_ words, while othe
 
 A single word in Turkish could make for an entire sentence in English, because each word has, well, more “words” in it. Thus, I feel that it’s rather inaccurate to judge document length just like that. Yes, in technical terms, word count _does_ equal to the byte size of a digital document, but from the aspect of “how much is this person really saying”, word count scores poorly.
 
-## Existing solutions
+## Existing solutions<span>It’s complicated</span>
 
-An interesting point of research is linguist Joseph Greenberg’s work in measuring the “agglutinativeness” of a language. In his [academic paper](https://www.jstor.org/stable/1264155?read-now=1&refreqid=excelsior%3A5f06e207ebd245aaf83c24e72c55976c), written in 1960 (though it’s still relevant), the degree of agglutinativeness is based on a ratio: The number of agglutinative junctures to the number of morph junctures. It’s a bit over my head, but the evidence is in the table below, extracted from Luschützky (2003):
+An interesting point of research is linguist Joseph Greenberg’s work in measuring the “agglutinativeness” of a language. In his [academic paper](https://www.jstor.org/stable/1264155?read-now=1&refreqid=excelsior%3A5f06e207ebd245aaf83c24e72c55976c), written in 1960 (it’s still relevant), the degree of agglutinativeness is based on a ratio: The number of agglutinative junctures to the number of morph junctures. It’s a bit over my head, but the evidence is in the table below, extracted from Luschützky (2003):
 
 <table>
 

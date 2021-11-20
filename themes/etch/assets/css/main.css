@@ -227,7 +227,7 @@ main#content h2 > span:not(.emoji) {
     font-size: 80%;
     font-family: var(--body-font);
     opacity: 0.75;
-    font-weight: 600;
+    font-variation-settings: "wght" 600, "CASL" 1, "slnt" -15;
 }
 
 main#content h2>span:not(.emoji)::after {
@@ -486,6 +486,10 @@ main#content share {
 
 main#content share:hover{
     font-variation-settings: "wght" 700, "MONO" 1, "CASL" 1;
+}
+
+main#content abbr {
+    cursor: help;
 }
 
 main#content span[role="note"] {

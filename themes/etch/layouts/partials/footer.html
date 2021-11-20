@@ -1,23 +1,28 @@
-<footer id="footer">{{ .Site.Params.copyright }} // <a href="https://github.com/ThomasRettig/thomas-rettig-hugo" target="blank">Edit on Github</a>
+<footer id="footer">Copyright © 2021 <a href="/../">Thomas Rettig</a> // <a href="https://github.com/ThomasRettig/thomas-rettig-hugo" target="blank">Edit on Github</a>
 </footer>
 <script>
-        const shareButton = document.querySelector('share')
-        const shareByline = ' by Thomas Rettig'
-        const title = window.document.title
-        const url = window.document.location.href
-    
-    shareButton.addEventListener('click', event => {
-
-    if (navigator.share) {
-        navigator.share({
-            title: `“${title}”` + `${shareByline}`,
-            url: `${url}`,
-        })
-        } else {
-                overlay.classList.add('show-share')
-                shareModal.classList.add('show-share')
-        }
-        
+    const shareButton = document.querySelector("share"),
+        shareByline = " by Thomas Rettig",
+        title = window.document.title,
+        url = window.document.location.href;
+    shareButton.addEventListener("click", (e) => {
+        navigator.share ? navigator.share({ title: `“${title}”` + `${shareByline}`, url: `${url}` }) : (overlay.classList.add("show-share"), shareModal.classList.add("show-share"));
     });
 </script>
-<script async src="//static.getclicky.com/101342368.js"></script>
+<script>
+barba.init({
+  transitions: [{
+    name: 'opacity-transition',
+    leave(data) {
+      return gsap.to(data.current.container, {
+        opacity: 0
+      });
+    },
+    enter(data) {
+      return gsap.from(data.next.container, {
+        opacity: 0
+      });
+    }
+  }]
+});
+</script>
