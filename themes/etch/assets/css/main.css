@@ -63,8 +63,8 @@
     --accent-font: 'Recursive', sans-serif;
     --code-font: 'Recursive', ui-monospace, "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace", "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --dark-text-color: #ddd;
-    --rainbow-gradient: linear-gradient(-90deg,#adfbda 0,#35c3ff 30%,#fda399 50%,#ebf38b 90%,#adfbda 100%);
-    --rainbow-gradient-short: linear-gradient(-90deg,#adfbda 0,#35c3ff 30%,#ebf38b 90%,#adfbda 100%);
+    /*--rainbow-gradient: linear-gradient(-90deg,#adfbda 0,#35c3ff 30%,#fda399 50%,#ebf38b 90%,#adfbda 100%);
+    --rainbow-gradient-short: linear-gradient(-90deg,#adfbda 0,#35c3ff 30%,#ebf38b 90%,#adfbda 100%);*/
 }
 
 ::selection {
