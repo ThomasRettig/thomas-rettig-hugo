@@ -153,15 +153,15 @@ draft: false
 </div>
 
 <div class="infobox">
-<h2 class="whatever">Code<span class="emoji" title="technologist emoji">🧑‍💻</span></h2>
+<h2 class="whatever">Tech<span class="emoji" title="technologist emoji">🧑‍💻</span></h2>
 <span role="note">A big thank you!</span>
-  <p>I deeply appreciate everyone who influenced the code in one way or the other. A brief list:</p>
+  <p>Here are some notable libraries I am using to power this website:</p>
   <ol>
+    <li>I am using <a href="https://gohugo.io/" target="blank">Hugo</a> to generate my website. Hugo is a static site generator written in Go. I love its architecture and blazingly fast speed.</li>
     <li>The about-page slider above is solen from <a href="https://matthewsmith.website/about">Matthew Smith</a>; it’s written in jQuery but I’m using jQuery for other parts of the blog too, so no big deal.</li>
     <li>The dotted background pattern on all pages except for the <a href="../about">about</a> and <a href="../contact">contact</a> pages are courtesy of <a href="https://dominikbraun.io/">Dominik Braun</a>.</li>
     <li>The share button on the posts are a modification of jQuery code I came across on StackOverflow.</li>
-    <li>The font stack and contact form styling are adapted from <a href="https://csstools.github.io/sanitize.css/" target="blank">Sanitise.css</a>.</li>
-    <li>Page transitions are handled using <a href="https://barba.js.org/">Barba.js</a> and a dash of <a href="https://greensock.com/gsap/"><abbr title="GreenSock Animation Platform">GSAP</abbr></a>. This is neither performant nor elegant. It’s here for the fun. </li>
+    <li>The font stack and contact form styling are adapted from <a href="https://csstools.github.io/sanitize.css/" target="blank">Sanitize.css</a>.</li>
 
   </ol>
 </div>
