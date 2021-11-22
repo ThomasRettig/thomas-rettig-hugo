@@ -22,9 +22,7 @@ can produce something like this:
 
 This is pretty obvious, but it just goes to show that... <smcp>CSS</smcp> _can_ in fact print ```Hello World```. Of course, <smcp>CSS</smcp> But the larger argument that Chris makes, is that, while CSS might not be the first candidate for Turing completeness, it does in fact contain some programming concepts inside.
 
-## CSS is a programming language!
-
-His main points:
+## CSS is a programming language! <span>Here’s why</span>
 
 - <smcp>CSS</smcp> selectors are simply ```if``` statements running over loops of matches
 - ```calc()``` is a direct implementation of math ([check this!](https://medium.com/buildit/hardcore-css-calc-bdfb0162993c))
