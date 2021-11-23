@@ -19,7 +19,8 @@ Chris Coyier agrees, too:
 <blockquote>
 I don’t like all the classes. I like to express my styles in CSS because I find CSS… good.    
 </blockquote>
-<cite>[Chris Coyier](https://css-tricks.com/reimagine-atomic-css/) on Atomic CSS</cite>
+
+<cite>—[Chris Coyier](https://css-tricks.com/reimagine-atomic-css) on Atomic CSS</cite>
 
 ## 2. There are more efficient ways to write CSS <span>SASS, Less, Stylus</span>
 
@@ -29,7 +30,7 @@ If you are looking for an efficient way to write CSS, stop using Tailwind and st
 
 ## 3. Tailwind is unreadable <span>Nightmarishly complex syntax</span>
 
-No one can understand what you’re doing in Tailwind. That’s because the syntax is nightmarishly complex and incomprehensible. It adds unnecessary bulk. If I pass you an HTML file with Tailwind CSS inside, would you be able to immediately modify it? Probably not.
+No one can understand what you’re doing in Tailwind. That’s because the syntax is nightmarishly complex and incomprehensible. It adds unnecessary bulk. If I pass you an HTML file with Tailwind CSS jargon inside, would you be able to immediately modify and understand it? Probably not. Tailwind’s syntax is vague and quirky, requiring a lot of time spent in understanding it. And even if you master it, chances are, Tailwind is still not the smartest option around. Yes, you can purge it or generate it just-in-time, but is it worth all the hassle? I still prefer working with plain CSS files. Therefore, if you are concerned about the ease of reading, Tailwind just isn’t right.
 
 ## Conclusion
 
