@@ -3,6 +3,10 @@ title: Contact Me
 draft: false
 ---
 <style>
+  ::-webkit-scrollbar-track  {
+    background: #EBD1FF;
+  }
+
    ::-webkit-scrollbar-thumb {
     background: #d2afed;
   }
@@ -50,6 +54,6 @@ For longer messages, consider sending me an email instead. This form is mainly f
     </p>
   </section>
   <p>
-    <button type="submit">Submit</button>
+    <button type="submit">Submit →</button>
   </p>
 </form>

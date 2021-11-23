@@ -3,6 +3,11 @@ title: "About me"
 draft: false
 ---
 <style>
+
+  ::-webkit-scrollbar-track  {
+    background: #d1ffe7;
+  }
+  
   ::-webkit-scrollbar-thumb {
     background: #AFEDCD;
   }
@@ -162,40 +167,8 @@ draft: false
     <li>The dotted background pattern on all pages except for the <a href="../about">about</a> and <a href="../contact">contact</a> pages are courtesy of <a href="https://dominikbraun.io/">Dominik Braun</a>.</li>
     <li>The share button on the posts are a modification of jQuery code I came across on StackOverflow.</li>
     <li>The font stack and contact form styling are adapted from <a href="https://csstools.github.io/sanitize.css/" target="blank">Sanitize.css</a>.</li>
-
   </ol>
 </div>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-  var rangeSlider = function(){
-    var slider = $('.about-slider-container'),
-        range = $('.about-slider'),
-        value = $('.about-slider__value');
-
-    slider.each(function(){
-
-      value.each(function(){
-        var value = $(this).prev().attr('value');
-        $(this).html(value);
-      });
-
-      range.on('input', function(){
-        var currentValue = $(this).val()
-        // var previousValue = parseInt($(this).val()) - 1
-        // var nextValue = parseInt($(this).val()) + 1
-
-        var currentSection = $("section[value='" + currentValue + "']")
-        // var previousSection = $("section[value='" + previousValue + "']")
-        // var nextSection = $("section[value='" + nextValue + "']")
-
-        currentSection.addClass("visible");
-        $("section").not(currentSection).removeClass("visible");
-        // nextSection.removeClass("visible");
-        // previousSection.removeClass("visible");
-      });
-    });
-  };
-
-  rangeSlider();
-</script>
+  <script>var rangeSlider=function(){var a=$(".about-slider-container"),e=$(".about-slider"),i=$(".about-slider__value");a.each(function(){i.each(function(){var a=$(this).prev().attr("value");$(this).html(a)}),e.on("input",function(){var a=$(this).val(),e=$("section[value='"+a+"']");e.addClass("visible"),$("section").not(e).removeClass("visible")})})};rangeSlider();</script>
