@@ -8,7 +8,7 @@ Stop using [Tailwind CSS](https://tailwindcss.com/). Or [Bulma.io](https://bulma
 
 ## 1. HTML is HTML <span>it’s not CSS</span>
 
-Directly adding CSS into HTML sounds awful, looks awful, and _is_ awful. HTML is a markup language for semantically structuring documents, not a dumping ground for obscure utility classes attached to elements ad nauseum. It prevents readability. It’s bad for you, the user, and the search engine—it sucks.
+Directly adding CSS into HTML sounds awful, looks awful, and _is_ awful. HTML is a markup language for semantically structuring documents, not a dumping ground for obscure utility classes attached to elements. It prevents readability. It’s bad for you, the user, and the search engine—it sucks. Some front-end designers share my same distaste:
 
 <blockquote>Indeed, the ultimate reason for the invention of CSS, the whole point of the entire enterprise of CSS... was specifically so that you could seperate content from presentation.</blockquote>
 
@@ -24,7 +24,7 @@ I don’t like all the classes. I like to express my styles in CSS because I fin
 
 ## 2. There are more efficient ways to write CSS <span>SASS, Less, Stylus</span>
 
-If you are looking for an efficient way to write CSS, stop using Tailwind and start using preprocessors. These include <abbr title="Syntactically Awesome Style Sheets">SASS</abbr>, [Less](https://lesscss.org/), and [Stylus](https://stylus-lang.com/). They are effective because they readable, as compared to bulky Tailwind. And they also have much more functionality. Just look at this image below showing the amount of Tailwind syntax needed to style a button:
+If you are looking for an efficient way to write CSS, stop using Tailwind and start using preprocessors. These include <abbr title="Syntactically Awesome Style Sheets">SASS</abbr>, [Less](https://lesscss.org/), and [Stylus](https://stylus-lang.com/). They are effective because they readable, as compared to bulky Tailwind. And they also have much more functionality. The best part is that they are seperated from the HTML, ensuring high readability. Just look at this image below showing the amount of Tailwind syntax needed to style a button:
 
 {{< figure src="/tailwind-netlify.webp" caption="Image by [Aleksandr Hovhannisyan](https://www.aleksandrhovhannisyan.com/)" alt="Alt text" >}}
 
