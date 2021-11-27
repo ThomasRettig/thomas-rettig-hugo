@@ -1,0 +1,16 @@
+{
+  "short_name": "thms",
+  "name": "Thomas Rettig",
+  "icons": [
+    {
+      "src": "/app-favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "aliceblue",
+  "display": "minimal-ui",
+  "scope": "/",
+  "theme_color": "blue"
+}

@@ -1,6 +1,6 @@
 <head>
-    <html lang="en">
     <meta charset="utf-8">
+    <html lang="en">
     <meta name="author" content="Thomas Rettig">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {{ with .Site.Params.description -}}
@@ -10,6 +10,7 @@
     <meta name='twitter:title' content="{{.}}">
     <meta name='twitter:description' content='Thomas Rettig’s Blog'>
     <meta name="google-site-verification" content="putN8PYn0urMJcjA6xItv5GSPbZ0X_R2Remw_oom4_Q" />
+    <link rel="manifest" href="/manifest.json">
     {{ end }}
     {{ printf `<link rel="shortcut icon" href="%s">` ("favicon.png" | absURL) | safeHTML }}
     
