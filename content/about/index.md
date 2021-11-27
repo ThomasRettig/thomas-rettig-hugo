@@ -8,19 +8,6 @@ draft: false
     color: black;
   }
 
-/*  ::-webkit-scrollbar-track  {
-    background: #d1ffe7;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: #AFEDCD;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: #64B78C;
-  }*/
-
-
   ::-webkit-scrollbar {
       background: #d1ffe7;
       border-radius: 10px;
@@ -35,13 +22,6 @@ draft: false
 
   ::-webkit-scrollbar-thumb:hover {
       background: #64B78C;
-      border: 4px solid transparent;
-      border-radius: 150px;
-      background-clip: content-box;
-  }
-
-  ::-webkit-scrollbar-thumb:focus {
-      background: black;
       border: 4px solid transparent;
       border-radius: 150px;
       background-clip: content-box;

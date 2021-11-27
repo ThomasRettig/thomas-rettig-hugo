@@ -3,16 +3,23 @@ title: Contact Me
 draft: false
 ---
 <style>
-  ::-webkit-scrollbar-track  {
-    background: #EBD1FF;
+  ::-webkit-scrollbar {
+      background: #EBD1FF;
+      border-radius: 10px;
   }
 
-   ::-webkit-scrollbar-thumb {
-    background: #d2afed;
+  ::-webkit-scrollbar-thumb {
+      background: #DEB3FF;
+      border: 4px solid transparent;
+      border-radius: 100px;
+      background-clip: content-box;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #9972b7;
+      background: #ac6fdb;
+      border: 4px solid transparent;
+      border-radius: 150px;
+      background-clip: content-box;
   }
 
   body {
