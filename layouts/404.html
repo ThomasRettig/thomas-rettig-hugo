@@ -7,19 +7,23 @@
         background-position-y: center;
         background-size: 80%;
     }
-    
-    @media (min-width: 770px) {
-      img {
-        mix-blend-mode: color-dodge;
-      }
-    }
 
   </style>
     <main id="main">
       <div>
-        <img src="/404-image.svg" alt="404 Icon">
+        <!-- <img src="/404-image.svg" alt="404 Icon"> -->
         <p>My sincere apologies for the 404 error. <em>That sucks.</em> If you were in fact searching for something specific of mine that I possibly moved or deleted, please <a href="../contact" title="contact form">send me a message</a>. I’ll do my best to hunt it down for you. If you’re a new visitor, why not <a href="{{ .Site.BaseURL }}" title="homepage">check out my blog</a> in the meantime? :)</p>
        <p id="title"><a href="{{ "/" | relURL }}">← go home</a></p>
       </div>
     </main>
+<!--     <script>
+      var DEBUG = false;
+      if(!DEBUG){
+          if(!window.console) window.console = {};
+          var methods = ["log", "debug", "warn", "info"];
+          for(var i=0;i<methods.length;i++){
+              console[methods[i]] = function(){};
+          }
+      }
+    </script> -->
 {{ end }}
