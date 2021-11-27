@@ -92,12 +92,12 @@
     }*/
 }
 
-@media (min-width: 500px) {
+/*@media (min-width: 500px) {
     main#content ul#posts small {
         margin-left: 5px;
         display: revert;
     }
-}
+}*/
 
 @media (max-width: 500px) {
     main#content header#post-header>div {

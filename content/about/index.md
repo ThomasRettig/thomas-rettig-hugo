@@ -3,8 +3,12 @@ title: "About me"
 draft: false
 ---
 <style>
+  ::selection {
+    background: #AFEDCD;
+    color: black;
+  }
 
-  ::-webkit-scrollbar-track  {
+/*  ::-webkit-scrollbar-track  {
     background: #d1ffe7;
   }
   
@@ -14,6 +18,33 @@ draft: false
 
   ::-webkit-scrollbar-thumb:hover {
     background: #64B78C;
+  }*/
+
+
+  ::-webkit-scrollbar {
+      background: #d1ffe7;
+      border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background: #AFEDCD;
+      border: 4px solid transparent;
+      border-radius: 100px;
+      background-clip: content-box;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+      background: #64B78C;
+      border: 4px solid transparent;
+      border-radius: 150px;
+      background-clip: content-box;
+  }
+
+  ::-webkit-scrollbar-thumb:focus {
+      background: black;
+      border: 4px solid transparent;
+      border-radius: 150px;
+      background-clip: content-box;
   }
 
   body {
@@ -62,6 +93,7 @@ draft: false
       background: #64b78c;
       cursor: ew-resize;
       transition: 0.2s;
+      box-shadow: none;
   }
 
   .about-slider::-webkit-slider-thumb:hover {
