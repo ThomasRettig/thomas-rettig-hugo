@@ -1,6 +1,6 @@
 ---
 title: An open letter to a teacher
-draft: false
+draft: true
 date: 2021-11-08
 ---
 <hr>
