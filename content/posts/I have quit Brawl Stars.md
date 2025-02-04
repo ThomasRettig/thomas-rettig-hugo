@@ -36,15 +36,15 @@ See the difference? Then we have another flaw: Total trophy count does not neces
 
 I feel that I’ve grown out the age group of Brawl Stars. A game should be universal, not just in location, but also in age. The problem really isn’t that Brawl Stars is preventing me from playing—it’s the players, the community—which is preventing me from doing so. Take a look at a small sampling of so-called toxic pins in the game:
 
-{{< figure src="https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636295852/brawl-stars-toxic-pins.webp" title="Toxic Pins" caption="by u/Spicy_chickenugget" alt="Toxic Pins" >}}
+{{< figure src="https://res.cloudinary.com/thms-rttg/image/upload/v1636295852/brawl-stars-toxic-pins.webp" title="Toxic Pins" caption="by u/Spicy_chickenugget" alt="Toxic Pins" >}}
 
 Now, imagine seeing this in every game you play. Isn’t that humiliating? Seeing this once or twice is fine, but that constant abuse and their associated connotations. It’s annoying at best, and abusive at worst. This also happens in the chat:
 
-{{< figure src="https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636296094/brawl-stars-toxic-chat.webp" title="Toxic Chat" caption="by u/--TechHead--" alt="Toxic Chat" >}}
+{{< figure src="https://res.cloudinary.com/thms-rttg/image/upload/v1636296094/brawl-stars-toxic-chat.webp" title="Toxic Chat" caption="by u/--TechHead--" alt="Toxic Chat" >}}
 
 Oh, and this:
 
-{{< figure src="https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/image/upload/v1636296097/brawl-stars-inappropriate-map.webp" title="Inappropriate Maps" caption="by u/TheForestSaphire" alt="Toxic Chat" >}}
+{{< figure src="https://res.cloudinary.com/thms-rttg/image/upload/v1636296097/brawl-stars-inappropriate-map.webp" title="Inappropriate Maps" caption="by u/TheForestSaphire" alt="Toxic Chat" >}}
 
 _Ugh._ Seriously? I could give a few dozen more examples from the community, including my own, but that’s enough evidence. Think: How would a first-time player react to something like this? In my opnion, I feel like I simply don’t belong to the community; I don’t want to voluntarily suffer from a bunch of 9-year-olds. I know Brawl Stars isn’t the only one suffering from this problem. League of Legends has also suffered something similar. Yes, the Brawl Stars developers can implement strict censorship software, but it can only go so far. There are many loopholes in the game, particularly in inappropriate mapmaker content. There’s virtually no way you can detect inappropriate words in a map. It’s like a _bot_ trying to solve a <smcp>Captcha</smcp> test. At the end of the day, it depends on the community. Sure, the community is passionate and vibrant on platforms (namely [Reddit](https://reddit.com/r/brawlstars)), but the bad eggs ruin the experience. I’m not here to be victimised, I just want to play.
 
